@@ -87,7 +87,6 @@ public class ButtonActions {
     }
 
     public static void speak(String text, JToggleButton textToSpeechToggleButton) {
-        // Your existing speak method code goes here...
         if (!textToSpeechToggleButton.isSelected()) {
             return;
         }
