@@ -130,7 +130,6 @@ public class EasyTakeChallenge extends javax.swing.JFrame {
                 iconT5 = new javax.swing.JLabel();
 
                 setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-                getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
                 TCtabbedPane1.setBackground(new java.awt.Color(204, 204, 204));
                 TCtabbedPane1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -718,7 +717,18 @@ public class EasyTakeChallenge extends javax.swing.JFrame {
 
                 takeChallengeJTabbedPane.addTab("tab5", TCtabbedPane5);
 
-                getContentPane().add(takeChallengeJTabbedPane, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, -30, 780, 590));
+                javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
+                getContentPane().setLayout(layout);
+                layout.setHorizontalGroup(
+                        layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(layout.createSequentialGroup()
+                                .addGap(12, 12, 12)
+                                .addComponent(takeChallengeJTabbedPane, javax.swing.GroupLayout.PREFERRED_SIZE, 780, javax.swing.GroupLayout.PREFERRED_SIZE))
+                );
+                layout.setVerticalGroup(
+                        layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(takeChallengeJTabbedPane, javax.swing.GroupLayout.PREFERRED_SIZE, 590, javax.swing.GroupLayout.PREFERRED_SIZE)
+                );
 
                 pack();
                 setLocationRelativeTo(null);
