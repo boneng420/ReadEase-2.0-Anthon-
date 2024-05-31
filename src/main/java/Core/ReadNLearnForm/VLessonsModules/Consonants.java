@@ -452,7 +452,7 @@ public class Consonants extends javax.swing.JPanel {
 
     private void HhLabelMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_HhLabelMouseClicked
         // TODO add your handling code here:
-            ButtonActions.playVideoLesson(consonantsDurationInSeconds[5], consonants[5], false);
+            ButtonActions.playVideoLesson(consonantsDurationInSeconds[5], consonants[5], false);;
     }//GEN-LAST:event_HhLabelMouseClicked
 
 
