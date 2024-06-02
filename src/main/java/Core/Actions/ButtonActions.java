@@ -230,4 +230,10 @@ public class ButtonActions {
             }
         });
     }
+
+    public static void setCursorForButtons(Cursor cursor, JLabel... buttons) {
+        for (JLabel button : buttons) {
+            button.setCursor(cursor);
+        }
+    }
 }

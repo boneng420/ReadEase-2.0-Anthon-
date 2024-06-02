@@ -8,6 +8,7 @@ import Core.Actions.ButtonActions;
 import Core.AssessmentPage.TakeChallengeAssessment;
 
 import javax.swing.*;
+import java.awt.*;
 
 /**
  * @author Marc
@@ -39,6 +40,14 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
         ImageIcon originalIcon5 = new ImageIcon(getClass().getResource("/Assessment/Take Challenge/GUITAR.png"));
         ImageIcon icon5 = new ImageIcon(originalIcon5.getImage().getScaledInstance(iconT5.getWidth(), iconT5.getHeight(), java.awt.Image.SCALE_SMOOTH));
         iconT5.setIcon(icon5);
+
+        ButtonActions.setCursorForButtons(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR),
+                WButtonI1, AButtonI1, TButtonI1, CButtonI1, HButtonI1, returnButtonI1, nextButtonI1,
+                SButtonI2, QButtonI2, UButtonI2, IButtonI2, R1ButtonI2, R2ButtonI2, EButtonI2, LButtonI2, nextButtonI2,
+                CButtonI3, AButtonI3, SButtonI3, TButtonI3, EButtonI3, LButtonI3, nextButtonI3,
+                DButtonI4, RButtonI4, AButtonI4, GButtonI4, OButtonI4, NButtonI4, nextButtonI4,
+                RButtonI5, AButtonI5, TButtonI5, IButtonI5, UButtonI5, GButtonI5, returnButtonI5, nextButtonI5
+        );
     }
 
     /**
@@ -110,7 +119,7 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
         readButtonI4 = new javax.swing.JButton();
         clearButtonI4 = new javax.swing.JButton();
         hintButtonI4 = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
+        nextButtonI4 = new javax.swing.JLabel();
         textAreaI4 = new javax.swing.JTextArea();
         soundToggleButtonI4 = new javax.swing.JToggleButton();
         NButtonI4 = new javax.swing.JLabel();
@@ -155,12 +164,12 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+                jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 0, Short.MAX_VALUE)
         );
         jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+                jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 0, Short.MAX_VALUE)
         );
 
         TCtabbedPane1I.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 129, -1, -1));
@@ -275,12 +284,12 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+                jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 0, Short.MAX_VALUE)
         );
         jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+                jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 0, Short.MAX_VALUE)
         );
 
         TCtabbedPane2I.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 129, -1, -1));
@@ -411,12 +420,12 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel11Layout = new javax.swing.GroupLayout(jPanel11);
         jPanel11.setLayout(jPanel11Layout);
         jPanel11Layout.setHorizontalGroup(
-            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+                jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 0, Short.MAX_VALUE)
         );
         jPanel11Layout.setVerticalGroup(
-            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+                jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 0, Short.MAX_VALUE)
         );
 
         TCtabbedPane3I.add(jPanel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 129, -1, -1));
@@ -531,12 +540,12 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel13Layout = new javax.swing.GroupLayout(jPanel13);
         jPanel13.setLayout(jPanel13Layout);
         jPanel13Layout.setHorizontalGroup(
-            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+                jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 0, Short.MAX_VALUE)
         );
         jPanel13Layout.setVerticalGroup(
-            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+                jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 0, Short.MAX_VALUE)
         );
 
         TCtabbedPane4I.add(jPanel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 129, -1, -1));
@@ -560,13 +569,13 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
         hintButtonI4.setText("Hint");
         TCtabbedPane4I.add(hintButtonI4, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 435, 73, -1));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Button_Letters/next button.png"))); // NOI18N
-        jLabel1.addMouseListener(new java.awt.event.MouseAdapter() {
+        nextButtonI4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Button_Letters/next button.png"))); // NOI18N
+        nextButtonI4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel1MouseClicked(evt);
+                nextButtonI4MouseClicked(evt);
             }
         });
-        TCtabbedPane4I.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 480, -1, -1));
+        TCtabbedPane4I.add(nextButtonI4, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 480, -1, -1));
 
         textAreaI4.setEditable(false);
         textAreaI4.setColumns(20);
@@ -651,12 +660,12 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel15Layout = new javax.swing.GroupLayout(jPanel15);
         jPanel15.setLayout(jPanel15Layout);
         jPanel15Layout.setHorizontalGroup(
-            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+                jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 0, Short.MAX_VALUE)
         );
         jPanel15Layout.setVerticalGroup(
-            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+                jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 0, Short.MAX_VALUE)
         );
 
         TCtabbedPane5I.add(jPanel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 129, -1, -1));
@@ -1028,11 +1037,11 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
         ButtonActions.speak(wordI4[5], soundToggleButtonI4);
     }//GEN-LAST:event_NButtonI4MouseClicked
 
-    private void jLabel1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel1MouseClicked
+    private void nextButtonI4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_nextButtonI4MouseClicked
         // TODO add your handling code here:
         String userAnswer = textAreaI4.getText().trim();
         ButtonActions.checkAnswerAndNext(wordI4, userAnswer, ITakeChallengeJTabbedPane, textAreaI4, false);
-    }//GEN-LAST:event_jLabel1MouseClicked
+    }//GEN-LAST:event_nextButtonI4MouseClicked
 
     private void GButtonI5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_GButtonI5MouseClicked
         // TODO add your handling code here:
@@ -1181,7 +1190,6 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
     private javax.swing.JLabel instructionLabelTC6;
     private javax.swing.JLabel instructionLabelTC7;
     private javax.swing.JLabel instructionLabelTC8;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel11;
     private javax.swing.JPanel jPanel13;
@@ -1190,6 +1198,7 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
     private javax.swing.JLabel nextButtonI1;
     private javax.swing.JLabel nextButtonI2;
     private javax.swing.JLabel nextButtonI3;
+    private javax.swing.JLabel nextButtonI4;
     private javax.swing.JLabel nextButtonI5;
     private javax.swing.JButton readButtonI1;
     private javax.swing.JButton readButtonI2;

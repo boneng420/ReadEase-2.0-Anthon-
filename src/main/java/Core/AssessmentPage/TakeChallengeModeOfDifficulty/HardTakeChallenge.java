@@ -8,6 +8,7 @@ import Core.Actions.ButtonActions;
 import Core.AssessmentPage.TakeChallengeAssessment;
 
 import javax.swing.*;
+import java.awt.*;
 
 /**
  * @author Marc
@@ -20,25 +21,33 @@ public class HardTakeChallenge extends javax.swing.JFrame {
     public HardTakeChallenge() {
         initComponents();
 
-            ImageIcon originalIcon = new ImageIcon(getClass().getResource("/Assessment/Take Challenge/ELEPHANT.png"));
-            ImageIcon icon = new ImageIcon(originalIcon.getImage().getScaledInstance(iconT1.getWidth(), iconT1.getHeight(), java.awt.Image.SCALE_SMOOTH));
-            iconT1.setIcon(icon);
+        ImageIcon originalIcon = new ImageIcon(getClass().getResource("/Assessment/Take Challenge/ELEPHANT.png"));
+        ImageIcon icon = new ImageIcon(originalIcon.getImage().getScaledInstance(iconT1.getWidth(), iconT1.getHeight(), java.awt.Image.SCALE_SMOOTH));
+        iconT1.setIcon(icon);
 
-            ImageIcon originalIcon2 = new ImageIcon(getClass().getResource("/Assessment/Take Challenge/GIRAFFE.png"));
-            ImageIcon icon2 = new ImageIcon(originalIcon2.getImage().getScaledInstance(iconT2.getWidth(), iconT2.getHeight(), java.awt.Image.SCALE_SMOOTH));
-            iconT2.setIcon(icon2);
+        ImageIcon originalIcon2 = new ImageIcon(getClass().getResource("/Assessment/Take Challenge/GIRAFFE.png"));
+        ImageIcon icon2 = new ImageIcon(originalIcon2.getImage().getScaledInstance(iconT2.getWidth(), iconT2.getHeight(), java.awt.Image.SCALE_SMOOTH));
+        iconT2.setIcon(icon2);
 
-            ImageIcon originalIcon3 = new ImageIcon(getClass().getResource("/Assessment/Take Challenge/GLASSES.png"));
-            ImageIcon icon3 = new ImageIcon(originalIcon3.getImage().getScaledInstance(iconT3.getWidth(), iconT3.getHeight(), java.awt.Image.SCALE_SMOOTH));
-            iconT3.setIcon(icon3);
+        ImageIcon originalIcon3 = new ImageIcon(getClass().getResource("/Assessment/Take Challenge/GLASSES.png"));
+        ImageIcon icon3 = new ImageIcon(originalIcon3.getImage().getScaledInstance(iconT3.getWidth(), iconT3.getHeight(), java.awt.Image.SCALE_SMOOTH));
+        iconT3.setIcon(icon3);
 
-            ImageIcon originalIcon4 = new ImageIcon(getClass().getResource("/Assessment/Take Challenge/CAMERA.png"));
-            ImageIcon icon4 = new ImageIcon(originalIcon4.getImage().getScaledInstance(iconT4.getWidth(), iconT4.getHeight(), java.awt.Image.SCALE_SMOOTH));
-            iconT4.setIcon(icon4);
+        ImageIcon originalIcon4 = new ImageIcon(getClass().getResource("/Assessment/Take Challenge/CAMERA.png"));
+        ImageIcon icon4 = new ImageIcon(originalIcon4.getImage().getScaledInstance(iconT4.getWidth(), iconT4.getHeight(), java.awt.Image.SCALE_SMOOTH));
+        iconT4.setIcon(icon4);
 
-            ImageIcon originalIcon5 = new ImageIcon(getClass().getResource("/Assessment/Take Challenge/PENGUIN.png"));
-            ImageIcon icon5 = new ImageIcon(originalIcon5.getImage().getScaledInstance(iconT5.getWidth(), iconT5.getHeight(), java.awt.Image.SCALE_SMOOTH));
-            iconT5.setIcon(icon5);
+        ImageIcon originalIcon5 = new ImageIcon(getClass().getResource("/Assessment/Take Challenge/PENGUIN.png"));
+        ImageIcon icon5 = new ImageIcon(originalIcon5.getImage().getScaledInstance(iconT5.getWidth(), iconT5.getHeight(), java.awt.Image.SCALE_SMOOTH));
+        iconT5.setIcon(icon5);
+
+        ButtonActions.setCursorForButtons(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR),
+                EButtonH1, LButtonH1, E2ButtonH1, PButtonH1, HButtonH1, AButtonH1, NButtonH1, TButtonH1, returnButtonH1, nextButtonH1,
+                GButtonH2, IButtonH2, RButtonH2, AButtonH2, F1ButtonH2, F2ButtonH2, EButtonH2, nextButtonH2,
+                S1ButtonH3, S2ButtonH3, EButtonH3, GButtonH3, AButtonH3, LButtonH3, S3ButtonH3, nextButtonH3,
+                A1ButtonH4, MButtonH4, EButtonH4, RButtonH4, A2ButtonH4, CButtonH4, nextButtonH4,
+                N1ButtonH5, EButtonH5, UButtonH5, GButtonH5, IButtonH5, N2ButtonH5, PButtonH5, returnButtonH5, nextButtonH5
+        );
     }
 
     /**
@@ -159,12 +168,12 @@ public class HardTakeChallenge extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+                jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 0, Short.MAX_VALUE)
         );
         jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+                jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 0, Short.MAX_VALUE)
         );
 
         TCtabbedPane1H.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 129, -1, -1));
@@ -303,12 +312,12 @@ public class HardTakeChallenge extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+                jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 0, Short.MAX_VALUE)
         );
         jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+                jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 0, Short.MAX_VALUE)
         );
 
         TCtabbedPane2H.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 129, -1, -1));
@@ -431,12 +440,12 @@ public class HardTakeChallenge extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
         jPanel5Layout.setHorizontalGroup(
-            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+                jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 0, Short.MAX_VALUE)
         );
         jPanel5Layout.setVerticalGroup(
-            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+                jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 0, Short.MAX_VALUE)
         );
 
         TCtabbedPane3H.add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 129, -1, -1));
@@ -559,12 +568,12 @@ public class HardTakeChallenge extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
         jPanel7Layout.setHorizontalGroup(
-            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+                jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 0, Short.MAX_VALUE)
         );
         jPanel7Layout.setVerticalGroup(
-            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+                jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 0, Short.MAX_VALUE)
         );
 
         TCtabbedPane4H.add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 129, -1, -1));
@@ -679,12 +688,12 @@ public class HardTakeChallenge extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
         jPanel9.setLayout(jPanel9Layout);
         jPanel9Layout.setHorizontalGroup(
-            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+                jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 0, Short.MAX_VALUE)
         );
         jPanel9Layout.setVerticalGroup(
-            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+                jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 0, Short.MAX_VALUE)
         );
 
         TCtabbedPane5H.add(jPanel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 129, -1, -1));
@@ -1103,8 +1112,8 @@ public class HardTakeChallenge extends javax.swing.JFrame {
     private void returnButtonH5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_returnButtonH5MouseClicked
         // TODO add your handling code here:
         TakeChallengeAssessment takeChallengeAssessment = new TakeChallengeAssessment();
-		takeChallengeAssessment.setVisible(true);
-		this.dispose();
+        takeChallengeAssessment.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_returnButtonH5MouseClicked
 
     private void PButtonH5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_PButtonH5MouseClicked
@@ -1115,7 +1124,7 @@ public class HardTakeChallenge extends javax.swing.JFrame {
 
     private void EButtonH5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_EButtonH5MouseClicked
         // TODO add your handling code here:
-         textAreaH5.append(wordH5[1]);
+        textAreaH5.append(wordH5[1]);
         ButtonActions.speak(wordH5[1], soundToggleButtonH5);
     }//GEN-LAST:event_EButtonH5MouseClicked
 

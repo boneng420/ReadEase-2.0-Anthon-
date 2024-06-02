@@ -15,7 +15,6 @@ import java.awt.*;
  */
 public class OralAssessment extends javax.swing.JFrame {
 
-
     public OralAssessment() {
         initComponents();
 

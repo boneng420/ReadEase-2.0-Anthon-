@@ -8,6 +8,7 @@ import Core.Actions.ButtonActions;
 import Core.AssessmentPage.TakeChallengeAssessment;
 
 import javax.swing.*;
+import java.awt.*;
 
 /**
  * @author Marc
@@ -20,25 +21,33 @@ public class EasyTakeChallenge extends javax.swing.JFrame {
     public EasyTakeChallenge() {
         initComponents();
 
-            ImageIcon originalIcon = new ImageIcon(getClass().getResource("/Assessment/Take Challenge/TIGER.png"));
-            ImageIcon icon = new ImageIcon(originalIcon.getImage().getScaledInstance(iconT1.getWidth(), iconT1.getHeight(), java.awt.Image.SCALE_SMOOTH));
-            iconT1.setIcon(icon);
+        ImageIcon originalIcon = new ImageIcon(getClass().getResource("/Assessment/Take Challenge/TIGER.png"));
+        ImageIcon icon = new ImageIcon(originalIcon.getImage().getScaledInstance(iconT1.getWidth(), iconT1.getHeight(), java.awt.Image.SCALE_SMOOTH));
+        iconT1.setIcon(icon);
 
-            originalIcon = new ImageIcon(getClass().getResource("/Assessment/Take Challenge/CHAIR.png"));
-            icon = new ImageIcon(originalIcon.getImage().getScaledInstance(iconT2.getWidth(), iconT2.getHeight(), java.awt.Image.SCALE_SMOOTH));
-            iconT2.setIcon(icon);
+        originalIcon = new ImageIcon(getClass().getResource("/Assessment/Take Challenge/CHAIR.png"));
+        icon = new ImageIcon(originalIcon.getImage().getScaledInstance(iconT2.getWidth(), iconT2.getHeight(), java.awt.Image.SCALE_SMOOTH));
+        iconT2.setIcon(icon);
 
-            originalIcon = new ImageIcon(getClass().getResource("/Assessment/Take Challenge/PHONE.png"));
-            icon = new ImageIcon(originalIcon.getImage().getScaledInstance(iconT3.getWidth(), iconT3.getHeight(), java.awt.Image.SCALE_SMOOTH));
-            iconT3.setIcon(icon);
+        originalIcon = new ImageIcon(getClass().getResource("/Assessment/Take Challenge/PHONE.png"));
+        icon = new ImageIcon(originalIcon.getImage().getScaledInstance(iconT3.getWidth(), iconT3.getHeight(), java.awt.Image.SCALE_SMOOTH));
+        iconT3.setIcon(icon);
 
-            originalIcon = new ImageIcon(getClass().getResource("/Assessment/Take Challenge/ZEBRA.png"));
-            icon = new ImageIcon(originalIcon.getImage().getScaledInstance(iconT4.getWidth(), iconT4.getHeight(), java.awt.Image.SCALE_SMOOTH));
-            iconT4.setIcon(icon);
+        originalIcon = new ImageIcon(getClass().getResource("/Assessment/Take Challenge/ZEBRA.png"));
+        icon = new ImageIcon(originalIcon.getImage().getScaledInstance(iconT4.getWidth(), iconT4.getHeight(), java.awt.Image.SCALE_SMOOTH));
+        iconT4.setIcon(icon);
 
-            originalIcon = new ImageIcon(getClass().getResource("/Assessment/Take Challenge/TABLE.png"));
-            icon = new ImageIcon(originalIcon.getImage().getScaledInstance(iconT5.getWidth(), iconT5.getHeight(), java.awt.Image.SCALE_SMOOTH));
-            iconT5.setIcon(icon);
+        originalIcon = new ImageIcon(getClass().getResource("/Assessment/Take Challenge/TABLE.png"));
+        icon = new ImageIcon(originalIcon.getImage().getScaledInstance(iconT5.getWidth(), iconT5.getHeight(), java.awt.Image.SCALE_SMOOTH));
+        iconT5.setIcon(icon);
+
+        ButtonActions.setCursorForButtons(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR),
+                TButtonTC1, IButtonTC1, GButtonTC1, EButtonTC1, RButtonTC1, nextButtonTC1, returnButtonTC1,
+                CButtonTC2, HButtonTC2, AButtonTC2, IButtonTC2, RButtonTC2, nextButtonTC2,
+                PButtonTC3, HButtonTC3, OButtonTC3, NButtonTC3, EButtonTC3, nextButtonTC3,
+                ZButtonTC4, EButtonTC4, BButtonTC4, RButtonTC4, AButtonTC4, nextButtonTC4,
+                TButtonTC5, AButtonTC5, BButtonTC5, LButtonTC5, EButtonTC5, nextButtonTC5, returnButtonTC5
+        );
     }
 
     /**
@@ -148,12 +157,12 @@ public class EasyTakeChallenge extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+                jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 0, Short.MAX_VALUE)
         );
         jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+                jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 0, Short.MAX_VALUE)
         );
 
         TCtabbedPane1.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 129, -1, -1));
@@ -268,12 +277,12 @@ public class EasyTakeChallenge extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+                jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 0, Short.MAX_VALUE)
         );
         jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+                jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 0, Short.MAX_VALUE)
         );
 
         TCtabbedPane2.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 129, -1, -1));
@@ -380,12 +389,12 @@ public class EasyTakeChallenge extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
         jPanel4Layout.setHorizontalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+                jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 0, Short.MAX_VALUE)
         );
         jPanel4Layout.setVerticalGroup(
-            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+                jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 0, Short.MAX_VALUE)
         );
 
         TCtabbedPane3.add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 129, -1, -1));
@@ -492,12 +501,12 @@ public class EasyTakeChallenge extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
         jPanel7Layout.setHorizontalGroup(
-            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+                jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 0, Short.MAX_VALUE)
         );
         jPanel7Layout.setVerticalGroup(
-            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+                jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 0, Short.MAX_VALUE)
         );
 
         TCtabbedPane4.add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 129, -1, -1));
@@ -604,12 +613,12 @@ public class EasyTakeChallenge extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
         jPanel9.setLayout(jPanel9Layout);
         jPanel9Layout.setHorizontalGroup(
-            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+                jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 0, Short.MAX_VALUE)
         );
         jPanel9Layout.setVerticalGroup(
-            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+                jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 0, Short.MAX_VALUE)
         );
 
         TCtabbedPane5.add(jPanel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 129, -1, -1));
@@ -715,14 +724,14 @@ public class EasyTakeChallenge extends javax.swing.JFrame {
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(12, 12, 12)
-                .addComponent(takeChallengeJTabbedPane, javax.swing.GroupLayout.PREFERRED_SIZE, 780, javax.swing.GroupLayout.PREFERRED_SIZE))
+                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(layout.createSequentialGroup()
+                                .addGap(12, 12, 12)
+                                .addComponent(takeChallengeJTabbedPane, javax.swing.GroupLayout.PREFERRED_SIZE, 780, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(takeChallengeJTabbedPane, javax.swing.GroupLayout.PREFERRED_SIZE, 590, javax.swing.GroupLayout.PREFERRED_SIZE)
+                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(takeChallengeJTabbedPane, javax.swing.GroupLayout.PREFERRED_SIZE, 590, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
         pack();
@@ -996,15 +1005,15 @@ public class EasyTakeChallenge extends javax.swing.JFrame {
 
     private void nextButtonTC5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_nextButtonTC5MouseClicked
         // TODO add your handling code here:
-         String userAnswer = textAreaTC5.getText().trim();
+        String userAnswer = textAreaTC5.getText().trim();
         ButtonActions.checkAnswerAndNext(word5, userAnswer, takeChallengeJTabbedPane, textAreaTC5, false);
     }//GEN-LAST:event_nextButtonTC5MouseClicked
 
     private void returnButtonTC5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_returnButtonTC5MouseClicked
         // TODO add your handling code here:
         TakeChallengeAssessment takeChallengeAssessment = new TakeChallengeAssessment();
-		takeChallengeAssessment.setVisible(true);
-		this.dispose();
+        takeChallengeAssessment.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_returnButtonTC5MouseClicked
 
     /**
