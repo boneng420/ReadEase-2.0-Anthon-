@@ -14,6 +14,8 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -209,26 +211,31 @@ public class ButtonActions {
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
 
-        String currentDirectory = System.getProperty("user.dir");
-        String videoFilePath = currentDirectory + File.separator + "src" + File.separator + "main" + File.separator + "resources" + File.separator + "Video_Lessons" + File.separator + (isVowel ? "Vowels" : "Consonants") + File.separator + lessonFileName + ".mp4";
-        mediaPlayerComponent.mediaPlayer().media().play(videoFilePath);
+        try {
+            Path currentDirectory = Paths.get(System.getProperty("user.dir"));
+            Path videoFilePath = currentDirectory.resolve(Paths.get("src", "main", "resources", "Video_Lessons", (isVowel ? "Vowels" : "Consonants"), lessonFileName + ".mp4"));
+            mediaPlayerComponent.mediaPlayer().media().play(videoFilePath.toString());
 
-        // Schedule a task to stop the video after the durationInSeconds of the video
-        new Timer().schedule(new TimerTask() {
-            @Override
-            public void run() {
-                mediaPlayerComponent.mediaPlayer().controls().stop();  // Stop the video
-                frame.dispose();  // Close the window
-            }
-        }, durationInSeconds * 1000);
+            // Schedule a task to stop the video after the durationInSeconds of the video
+            new Timer().schedule(new TimerTask() {
+                @Override
+                public void run() {
+                    mediaPlayerComponent.mediaPlayer().controls().stop();  // Stop the video
+                    frame.dispose();  // Close the window
+                }
+            }, durationInSeconds * 1000L);
 
-        // Add a window listener to release the media player when the JFrame is closed
-        frame.addWindowListener(new WindowAdapter() {
-            @Override
-            public void windowClosing(WindowEvent e) {
-                mediaPlayerComponent.mediaPlayer().release();
-            }
-        });
+            // Add a window listener to release the media player when the JFrame is closed
+            frame.addWindowListener(new WindowAdapter() {
+                @Override
+                public void windowClosing(WindowEvent e) {
+                    mediaPlayerComponent.mediaPlayer().release();
+                }
+            });
+        } catch (Exception e) {
+            // Handle or throw the exception
+            e.printStackTrace();
+        }
     }
 
     public static void setCursorForButtons(Cursor cursor, JLabel... buttons) {

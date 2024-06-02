@@ -12,19 +12,16 @@
             <artifactId>AbsoluteLayout</artifactId>
             <version>RELEASE210</version>
         </dependency>
-        <!-- Add this dependency for FreeTTS -->
         <dependency>
             <groupId>com.google.cloud</groupId>
             <artifactId>google-cloud-texttospeech</artifactId>
             <version>1.2.1</version>
         </dependency>
-
         <dependency>
             <groupId>uk.co.caprica</groupId>
             <artifactId>vlcj</artifactId>
             <version>4.7.1</version>
         </dependency>
-
     </dependencies>
     <build>
         <plugins>
