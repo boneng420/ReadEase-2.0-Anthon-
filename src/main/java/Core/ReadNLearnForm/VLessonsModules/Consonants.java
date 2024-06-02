@@ -5,6 +5,7 @@
 package Core.ReadNLearnForm.VLessonsModules;
 
 import Core.Actions.ButtonActions;
+import Utilities.MusicPlayer;
 
 import javax.swing.*;
 import java.awt.*;
@@ -21,6 +22,8 @@ public class Consonants extends javax.swing.JPanel {
         }
     }
 
+    private MusicPlayer musicPlayer;
+
     /**
      * Creates new form Vowel
      */
@@ -28,6 +31,10 @@ public class Consonants extends javax.swing.JPanel {
         initComponents();
 
         setHandCursor(BbLabel, CcLabel, DdLabel, FfLabel, GgLabel, HhLabel, JjLabel, KkLabel, LlLabel, MmLabel, NnLabel, PpLabel, QqLabel, RrLabel, SsLabel, TtLabel, VvLabel, WwLabel, XxLabel, YyLabel, ZzLabel);
+    }
+
+    public void setMusicPlayer(MusicPlayer musicPlayer) {
+        this.musicPlayer = musicPlayer;
     }
 
     /**
@@ -397,108 +404,108 @@ public class Consonants extends javax.swing.JPanel {
 
     private void BbLabelMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_BbLabelMouseClicked
         // TODO add your handling code here:
-        ButtonActions.playVideoLesson(consonantsDurationInSeconds[0], consonants[0], false);
+        ButtonActions.playVideoLesson(consonantsDurationInSeconds[0], consonants[0], false, musicPlayer);
     }//GEN-LAST:event_BbLabelMouseClicked
 
 
     private void DdLabelMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_DdLabelMouseClicked
         // TODO add your handling code here:
-        ButtonActions.playVideoLesson(consonantsDurationInSeconds[2], consonants[2], false);
+        ButtonActions.playVideoLesson(consonantsDurationInSeconds[2], consonants[2], false, musicPlayer);
     }//GEN-LAST:event_DdLabelMouseClicked
 
     private void FfLabelMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_FfLabelMouseClicked
         // TODO add your handling code here:
-        ButtonActions.playVideoLesson(consonantsDurationInSeconds[3], consonants[3], false);
+        ButtonActions.playVideoLesson(consonantsDurationInSeconds[3], consonants[3], false, musicPlayer);
     }//GEN-LAST:event_FfLabelMouseClicked
 
     private void GgLabelMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_GgLabelMouseClicked
         // TODO add your handling code here:
-        ButtonActions.playVideoLesson(consonantsDurationInSeconds[4], consonants[4], false);
+        ButtonActions.playVideoLesson(consonantsDurationInSeconds[4], consonants[4], false, musicPlayer);
     }//GEN-LAST:event_GgLabelMouseClicked
 
     private void JjLabelMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_JjLabelMouseClicked
         // TODO add your handling code here:
-        ButtonActions.playVideoLesson(consonantsDurationInSeconds[6], consonants[6], false);
+        ButtonActions.playVideoLesson(consonantsDurationInSeconds[6], consonants[6], false, musicPlayer);
     }//GEN-LAST:event_JjLabelMouseClicked
 
     private void LlLabelMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_LlLabelMouseClicked
         // TODO add your handling code here:
-        ButtonActions.playVideoLesson(consonantsDurationInSeconds[8], consonants[8], false);
+        ButtonActions.playVideoLesson(consonantsDurationInSeconds[8], consonants[8], false, musicPlayer);
     }//GEN-LAST:event_LlLabelMouseClicked
 
     private void KkLabelMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_KkLabelMouseClicked
         // TODO add your handling code here:
-        ButtonActions.playVideoLesson(consonantsDurationInSeconds[7], consonants[7], false);
+        ButtonActions.playVideoLesson(consonantsDurationInSeconds[7], consonants[7], false, musicPlayer);
     }//GEN-LAST:event_KkLabelMouseClicked
 
     private void MmLabelMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_MmLabelMouseClicked
         // TODO add your handling code here:
-        ButtonActions.playVideoLesson(consonantsDurationInSeconds[9], consonants[9], false);
+        ButtonActions.playVideoLesson(consonantsDurationInSeconds[9], consonants[9], false, musicPlayer);
     }//GEN-LAST:event_MmLabelMouseClicked
 
     private void NnLabelMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_NnLabelMouseClicked
         // TODO add your handling code here:
-        ButtonActions.playVideoLesson(consonantsDurationInSeconds[10], consonants[10], false);
+        ButtonActions.playVideoLesson(consonantsDurationInSeconds[10], consonants[10], false, musicPlayer);
     }//GEN-LAST:event_NnLabelMouseClicked
 
     private void PpLabelMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_PpLabelMouseClicked
         // TODO add your handling code here:
-        ButtonActions.playVideoLesson(consonantsDurationInSeconds[11], consonants[11], false);
+        ButtonActions.playVideoLesson(consonantsDurationInSeconds[11], consonants[11], false, musicPlayer);
     }//GEN-LAST:event_PpLabelMouseClicked
 
     private void QqLabelMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_QqLabelMouseClicked
         // TODO add your handling code here:
-        ButtonActions.playVideoLesson(consonantsDurationInSeconds[12], consonants[12], false);
+        ButtonActions.playVideoLesson(consonantsDurationInSeconds[12], consonants[12], false, musicPlayer);
     }//GEN-LAST:event_QqLabelMouseClicked
 
     private void RrLabelMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_RrLabelMouseClicked
         // TODO add your handling code here:
-        ButtonActions.playVideoLesson(consonantsDurationInSeconds[13], consonants[13], false);
+        ButtonActions.playVideoLesson(consonantsDurationInSeconds[13], consonants[13], false, musicPlayer);
     }//GEN-LAST:event_RrLabelMouseClicked
 
     private void SsLabelMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_SsLabelMouseClicked
         // TODO add your handling code here:
-        ButtonActions.playVideoLesson(consonantsDurationInSeconds[14], consonants[14], false);
+        ButtonActions.playVideoLesson(consonantsDurationInSeconds[14], consonants[14], false, musicPlayer);
     }//GEN-LAST:event_SsLabelMouseClicked
 
     private void TtLabelMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_TtLabelMouseClicked
         // TODO add your handling code here:
-        ButtonActions.playVideoLesson(consonantsDurationInSeconds[15], consonants[15], false);
+        ButtonActions.playVideoLesson(consonantsDurationInSeconds[15], consonants[15], false, musicPlayer);
     }//GEN-LAST:event_TtLabelMouseClicked
 
     private void VvLabelMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_VvLabelMouseClicked
         // TODO add your handling code here:
-        ButtonActions.playVideoLesson(consonantsDurationInSeconds[16], consonants[16], false);
+        ButtonActions.playVideoLesson(consonantsDurationInSeconds[16], consonants[16], false, musicPlayer);
     }//GEN-LAST:event_VvLabelMouseClicked
 
     private void WwLabelMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_WwLabelMouseClicked
         // TODO add your handling code here:
-        ButtonActions.playVideoLesson(consonantsDurationInSeconds[17], consonants[17], false);
+        ButtonActions.playVideoLesson(consonantsDurationInSeconds[17], consonants[17], false, musicPlayer);
     }//GEN-LAST:event_WwLabelMouseClicked
 
     private void XxLabelMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_XxLabelMouseClicked
         // TODO add your handling code here:
-        ButtonActions.playVideoLesson(consonantsDurationInSeconds[18], consonants[18], false);
+        ButtonActions.playVideoLesson(consonantsDurationInSeconds[18], consonants[18], false, musicPlayer);
     }//GEN-LAST:event_XxLabelMouseClicked
 
     private void YyLabelMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_YyLabelMouseClicked
         // TODO add your handling code here:
-        ButtonActions.playVideoLesson(consonantsDurationInSeconds[19], consonants[19], false);
+        ButtonActions.playVideoLesson(consonantsDurationInSeconds[19], consonants[19], false, musicPlayer);
     }//GEN-LAST:event_YyLabelMouseClicked
 
     private void ZzLabelMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_ZzLabelMouseClicked
         // TODO add your handling code here:
-        ButtonActions.playVideoLesson(consonantsDurationInSeconds[20], consonants[20], false);
+        ButtonActions.playVideoLesson(consonantsDurationInSeconds[20], consonants[20], false, musicPlayer);
     }//GEN-LAST:event_ZzLabelMouseClicked
 
     private void HhLabelMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_HhLabelMouseClicked
         // TODO add your handling code here:
-            ButtonActions.playVideoLesson(consonantsDurationInSeconds[5], consonants[5], false);
+        ButtonActions.playVideoLesson(consonantsDurationInSeconds[5], consonants[5], false, musicPlayer);
     }//GEN-LAST:event_HhLabelMouseClicked
 
     private void CcLabelMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_CcLabelMouseClicked
         // TODO add your handling code here:
-        ButtonActions.playVideoLesson(consonantsDurationInSeconds[1], consonants[1], false);
+        ButtonActions.playVideoLesson(consonantsDurationInSeconds[1], consonants[1], false, musicPlayer);
     }//GEN-LAST:event_CcLabelMouseClicked
 
 

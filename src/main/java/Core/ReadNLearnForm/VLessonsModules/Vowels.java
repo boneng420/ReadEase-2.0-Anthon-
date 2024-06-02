@@ -5,10 +5,10 @@
 package Core.ReadNLearnForm.VLessonsModules;
 
 import Core.Actions.ButtonActions;
+import Utilities.MusicPlayer;
 
 import javax.swing.*;
 import java.awt.*;
-import static java.awt.Frame.MAXIMIZED_BOTH;
 
 /**
  * @author Marc
@@ -22,13 +22,19 @@ public class Vowels extends javax.swing.JPanel {
         }
     }
 
+    private MusicPlayer musicPlayer;
+
     /**
      * Creates new form Vowel
      */
     public Vowels() {
         initComponents();
-        
-        setHandCursor(AaLabel, EeLabel, IiLabel, OoLabel);
+
+        setHandCursor(AaLabel, EeLabel, IiLabel, OoLabel, UuLabel);
+    }
+
+    public void setMusicPlayer(MusicPlayer musicPlayer) {
+        this.musicPlayer = musicPlayer;
     }
 
     /**
@@ -142,28 +148,28 @@ public class Vowels extends javax.swing.JPanel {
 
     private void AaLabelMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_AaLabelMouseClicked
         // TODO add your handling code here:
-        ButtonActions.playVideoLesson(vowelsDurationInSeconds[0], vowels[0], true);
+        ButtonActions.playVideoLesson(vowelsDurationInSeconds[0], vowels[0], true, musicPlayer);
     }//GEN-LAST:event_AaLabelMouseClicked
 
 
     private void EeLabelMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_EeLabelMouseClicked
         // TODO add your handling code here:
-        ButtonActions.playVideoLesson(vowelsDurationInSeconds[1], vowels[1], true);
+        ButtonActions.playVideoLesson(vowelsDurationInSeconds[1], vowels[1], true, musicPlayer);
     }//GEN-LAST:event_EeLabelMouseClicked
 
     private void IiLabelMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_IiLabelMouseClicked
         // TODO add your handling code here:
-        ButtonActions.playVideoLesson(vowelsDurationInSeconds[2], vowels[2], true);
+        ButtonActions.playVideoLesson(vowelsDurationInSeconds[2], vowels[2], true, musicPlayer);
     }//GEN-LAST:event_IiLabelMouseClicked
 
     private void OoLabelMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_OoLabelMouseClicked
         // TODO add your handling code here:
-        ButtonActions.playVideoLesson(vowelsDurationInSeconds[3], vowels[3], true);
+        ButtonActions.playVideoLesson(vowelsDurationInSeconds[3], vowels[3], true, musicPlayer);
     }//GEN-LAST:event_OoLabelMouseClicked
 
     private void UuLabelMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_UuLabelMouseClicked
         // TODO add your handling code here:
-        ButtonActions.playVideoLesson(vowelsDurationInSeconds[4], vowels[4], true);
+        ButtonActions.playVideoLesson(vowelsDurationInSeconds[4], vowels[4], true, musicPlayer);
     }//GEN-LAST:event_UuLabelMouseClicked
 
 

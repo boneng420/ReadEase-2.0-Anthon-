@@ -205,7 +205,9 @@ public class ButtonActions {
         }
     }
 
-    public static void playVideoLesson(int durationInSeconds, String lessonFileName, boolean isVowel) {
+    public static void playVideoLesson(int durationInSeconds, String lessonFileName, boolean isVowel, MusicPlayer musicPlayer) {
+        musicPlayer.pauseMusic();
+
         JFrame frame = new JFrame("Video Player");
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         frame.setSize(800, 600);
@@ -227,6 +229,7 @@ public class ButtonActions {
                 public void run() {
                     mediaPlayerComponent.mediaPlayer().controls().stop();  // Stop the video
                     frame.dispose();  // Close the window
+                    musicPlayer.resumeMusic();
                 }
             }, durationInSeconds * 1000L);
 
@@ -235,6 +238,7 @@ public class ButtonActions {
                 @Override
                 public void windowClosing(WindowEvent e) {
                     mediaPlayerComponent.mediaPlayer().release();
+                    musicPlayer.resumeMusic();
                 }
             });
         } catch (Exception e) {
