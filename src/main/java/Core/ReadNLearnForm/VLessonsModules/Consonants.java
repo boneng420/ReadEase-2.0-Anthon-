@@ -61,7 +61,7 @@ public class Consonants extends javax.swing.JPanel {
         YyLabel = new javax.swing.JLabel();
         ZzLabel = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
 
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -73,7 +73,7 @@ public class Consonants extends javax.swing.JPanel {
                 BbLabelMouseClicked(evt);
             }
         });
-        add(BbLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(36, 241, -1, -1));
+        add(BbLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(36, 241, 480, -1));
 
         CcLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         CcLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Cc.png"))); // NOI18N
@@ -143,7 +143,7 @@ public class Consonants extends javax.swing.JPanel {
                 KkLabelMouseClicked(evt);
             }
         });
-        add(KkLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(555, 784, -1, -1));
+        add(KkLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 780, -1, -1));
 
         LlLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         LlLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Ll.png"))); // NOI18N
@@ -280,8 +280,10 @@ public class Consonants extends javax.swing.JPanel {
         jLabel1.setText("CONSONANTS");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(353, 62, 398, 140));
 
-        jLabel2.setText("jLabel2");
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1200, 1790));
+        jLabel3.setBackground(new java.awt.Color(255, 51, 51));
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Plain Background.png"))); // NOI18N
+        jLabel3.setText("jLabel3");
+        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1240, 2370));
     }// </editor-fold>//GEN-END:initComponents
 
     String[] consonants = {"Bb", "Cc", "Dd", "Ff", "Gg", "Hh", "Jj", "Kk", "Ll", "Mm", "Nn", "Pp", "Qq", "Rr", "Ss", "Tt", "Vv", "Ww", "Xx", "Yy", "Zz"};
@@ -292,11 +294,6 @@ public class Consonants extends javax.swing.JPanel {
         ButtonActions.playVideoLesson(consonantsDurationInSeconds[0], consonants[0], false);
     }//GEN-LAST:event_BbLabelMouseClicked
 
-
-    private void CcLabelMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_CcLabelMouseClicked
-        // TODO add your handling code here:
-        ButtonActions.playVideoLesson(consonantsDurationInSeconds[1], consonants[1], false);
-    }//GEN-LAST:event_CcLabelMouseClicked
 
     private void DdLabelMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_DdLabelMouseClicked
         // TODO add your handling code here:
@@ -393,6 +390,11 @@ public class Consonants extends javax.swing.JPanel {
             ButtonActions.playVideoLesson(consonantsDurationInSeconds[5], consonants[5], false);
     }//GEN-LAST:event_HhLabelMouseClicked
 
+    private void CcLabelMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_CcLabelMouseClicked
+        // TODO add your handling code here:
+        ButtonActions.playVideoLesson(consonantsDurationInSeconds[1], consonants[1], false);
+    }//GEN-LAST:event_CcLabelMouseClicked
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel BbLabel;
@@ -417,6 +419,6 @@ public class Consonants extends javax.swing.JPanel {
     private javax.swing.JLabel YyLabel;
     private javax.swing.JLabel ZzLabel;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
     // End of variables declaration//GEN-END:variables
 }
