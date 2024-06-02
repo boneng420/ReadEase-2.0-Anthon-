@@ -14,10 +14,223 @@ import java.awt.*;
  * @author Marc
  */
 public class OralAssessment extends javax.swing.JFrame {
-
+   
+    
     public OralAssessment() {
         initComponents();
-
+        
+        clearButton5.setOpaque(false);
+        clearButton5.setContentAreaFilled(false);
+        clearButton5.setBorderPainted(false);
+        clearButton5.setBackground(new Color(0, 0, 0, 0));
+        
+        ReadButton5.setOpaque(false);
+        ReadButton5.setContentAreaFilled(false);
+        ReadButton5.setBorderPainted(false);
+        ReadButton5.setBackground(new Color(0, 0, 0, 0));
+        
+        isWordButton5.setOpaque(false);
+        isWordButton5.setContentAreaFilled(false);
+        isWordButton5.setBorderPainted(false);
+        isWordButton5.setBackground(new Color(0, 0, 0, 0));
+        
+        TheWordButton5.setOpaque(false);
+        TheWordButton5.setContentAreaFilled(false);
+        TheWordButton5.setBorderPainted(false);
+        TheWordButton5.setBackground(new Color(0, 0, 0, 0));
+        
+        onWordButton5.setOpaque(false);
+        onWordButton5.setContentAreaFilled(false);
+        onWordButton5.setBorderPainted(false);
+        onWordButton5.setBackground(new Color(0, 0, 0, 0));
+        
+        theWordButton5.setOpaque(false);
+        theWordButton5.setContentAreaFilled(false);
+        theWordButton5.setBorderPainted(false);
+        theWordButton5.setBackground(new Color(0, 0, 0, 0));
+        
+        catWordButton5.setOpaque(false);
+        catWordButton5.setContentAreaFilled(false);
+        catWordButton5.setBorderPainted(false);
+        catWordButton5.setBackground(new Color(0, 0, 0, 0));
+        
+        boxWordButton5.setOpaque(false);
+        boxWordButton5.setContentAreaFilled(false);
+        boxWordButton5.setBorderPainted(false);
+        boxWordButton5.setBackground(new Color(0, 0, 0, 0));
+        
+        nextButton5.setOpaque(false);
+        nextButton5.setContentAreaFilled(false);
+        nextButton5.setBorderPainted(false);
+        nextButton5.setBackground(new Color(0, 0, 0, 0));
+        
+        returnButton1.setOpaque(false);
+        returnButton1.setContentAreaFilled(false);
+        returnButton1.setBorderPainted(false);
+        returnButton1.setBackground(new Color(0, 0, 0, 0));
+        
+        clearButton4.setOpaque(false);
+        clearButton4.setContentAreaFilled(false);
+        clearButton4.setBorderPainted(false);
+        clearButton4.setBackground(new Color(0, 0, 0, 0));
+        
+        ReadButton4.setOpaque(false);
+        ReadButton4.setContentAreaFilled(false);
+        ReadButton4.setBorderPainted(false);
+        ReadButton4.setBackground(new Color(0, 0, 0, 0));
+        
+        areWordButton4.setOpaque(false);
+        areWordButton4.setContentAreaFilled(false);
+        areWordButton4.setBorderPainted(false);
+        areWordButton4.setBackground(new Color(0, 0, 0, 0));
+        
+        applesWordButton4.setOpaque(false);
+        applesWordButton4.setContentAreaFilled(false);
+        applesWordButton4.setBorderPainted(false);
+        applesWordButton4.setBackground(new Color(0, 0, 0, 0));
+        
+        sixWordButton4.setOpaque(false);
+        sixWordButton4.setContentAreaFilled(false);
+        sixWordButton4.setBorderPainted(false);
+        sixWordButton4.setBackground(new Color(0, 0, 0, 0));
+           
+        ThereWordButton4.setOpaque(false);
+        ThereWordButton4.setContentAreaFilled(false);
+        ThereWordButton4.setBorderPainted(false);
+        ThereWordButton4.setBackground(new Color(0, 0, 0, 0));
+        
+        nextButton4.setOpaque(false);
+        nextButton4.setContentAreaFilled(false);
+        nextButton4.setBorderPainted(false);
+        nextButton4.setBackground(new Color(0, 0, 0, 0));
+        
+        TheWordButton2.setOpaque(false);
+        TheWordButton2.setContentAreaFilled(false);
+        TheWordButton2.setBorderPainted(false);
+        TheWordButton2.setBackground(new Color(0, 0, 0, 0));
+        
+        clearButton3.setOpaque(false);
+        clearButton3.setContentAreaFilled(false);
+        clearButton3.setBorderPainted(false);
+        clearButton3.setBackground(new Color(0, 0, 0, 0));
+        
+        ReadButton3.setOpaque(false);
+        ReadButton3.setContentAreaFilled(false);
+        ReadButton3.setBorderPainted(false);
+        ReadButton3.setBackground(new Color(0, 0, 0, 0));
+        
+        TheWordButton3.setOpaque(false);
+        TheWordButton3.setContentAreaFilled(false);
+        TheWordButton3.setBorderPainted(false);
+        TheWordButton3.setBackground(new Color(0, 0, 0, 0));
+        
+        fishWordButton3.setOpaque(false);
+        fishWordButton3.setContentAreaFilled(false);
+        fishWordButton3.setBorderPainted(false);
+        fishWordButton3.setBackground(new Color(0, 0, 0, 0));
+        
+        bigWordButton3.setOpaque(false);
+        bigWordButton3.setContentAreaFilled(false);
+        bigWordButton3.setBorderPainted(false);
+        bigWordButton3.setBackground(new Color(0, 0, 0, 0));
+        
+        hasWordButton3.setOpaque(false);
+        hasWordButton3.setContentAreaFilled(false);
+        hasWordButton3.setBorderPainted(false);
+        hasWordButton3.setBackground(new Color(0, 0, 0, 0));
+        
+        finsWordButton3.setOpaque(false);
+        finsWordButton3.setContentAreaFilled(false);
+        finsWordButton3.setBorderPainted(false);
+        finsWordButton3.setBackground(new Color(0, 0, 0, 0));
+        
+        nextButton3.setOpaque(false);
+        nextButton3.setContentAreaFilled(false);
+        nextButton3.setBorderPainted(false);
+        nextButton3.setBackground(new Color(0, 0, 0, 0));
+        
+        isWordButton2.setOpaque(false);
+        isWordButton2.setContentAreaFilled(false);
+        isWordButton2.setBorderPainted(false);
+        isWordButton2.setBackground(new Color(0, 0, 0, 0));
+       
+        theWordButton2.setOpaque(false);
+        theWordButton2.setContentAreaFilled(false);
+        theWordButton2.setBorderPainted(false);
+        theWordButton2.setBackground(new Color(0, 0, 0, 0));
+        
+        matWordButton2.setOpaque(false);
+        matWordButton2.setContentAreaFilled(false);
+        matWordButton2.setBorderPainted(false);
+        matWordButton2.setBackground(new Color(0, 0, 0, 0));
+        
+        onWordButton2.setOpaque(false);
+        onWordButton2.setContentAreaFilled(false);
+        onWordButton2.setBorderPainted(false);
+        onWordButton2.setBackground(new Color(0, 0, 0, 0));
+        
+        catWordButton2.setOpaque(false);
+        catWordButton2.setContentAreaFilled(false);
+        catWordButton2.setBorderPainted(false);
+        catWordButton2.setBackground(new Color(0, 0, 0, 0));
+     
+        clearButton2.setOpaque(false);
+        clearButton2.setContentAreaFilled(false);
+        clearButton2.setBorderPainted(false);
+        clearButton2.setBackground(new Color(0, 0, 0, 0));
+        
+        ReadButton2.setOpaque(false);
+        ReadButton2.setContentAreaFilled(false);
+        ReadButton2.setBorderPainted(false);
+        ReadButton2.setBackground(new Color(0, 0, 0, 0));
+        
+        nextButton2.setOpaque(false);
+        nextButton2.setContentAreaFilled(false);
+        nextButton2.setBorderPainted(false);
+        nextButton2.setBackground(new Color(0, 0, 0, 0));
+        
+        returnButton.setOpaque(false);
+        returnButton.setContentAreaFilled(false);
+        returnButton.setBorderPainted(false);
+        returnButton.setBackground(new Color(0, 0, 0, 0));
+        
+        nextButton1.setOpaque(false);
+        nextButton1.setContentAreaFilled(false);
+        nextButton1.setBorderPainted(false);
+        nextButton1.setBackground(new Color(0, 0, 0, 0));
+        
+        isWordButton1.setOpaque(false);
+        isWordButton1.setContentAreaFilled(false);
+        isWordButton1.setBorderPainted(false);
+        isWordButton1.setBackground(new Color(0, 0, 0, 0));
+        
+        wetWordButton1.setOpaque(false);
+        wetWordButton1.setContentAreaFilled(false);
+        wetWordButton1.setBorderPainted(false);
+        wetWordButton1.setBackground(new Color(0, 0, 0, 0));
+        
+        netWordButton1.setOpaque(false);
+        netWordButton1.setContentAreaFilled(false);
+        netWordButton1.setBorderPainted(false);
+        netWordButton1.setBackground(new Color(0, 0, 0, 0));
+        
+        TheWordButton1.setOpaque(false);
+        TheWordButton1.setContentAreaFilled(false);
+        TheWordButton1.setBorderPainted(false);
+        TheWordButton1.setBackground(new Color(0, 0, 0, 0));
+        
+        clearButton1.setOpaque(false);
+        clearButton1.setContentAreaFilled(false);
+        clearButton1.setBorderPainted(false);
+        clearButton1.setBackground(new Color(0, 0, 0, 0));
+        
+        readButton1.setOpaque(false);
+        readButton1.setContentAreaFilled(false);
+        readButton1.setBorderPainted(false);
+        readButton1.setBackground(new Color(0, 0, 0, 0));
+        
+        
+        
         ImageIcon originalIcon = new ImageIcon(getClass().getResource("/Assessment/Oral Assessment/WetNet.png"));
         Image originalImage = originalIcon.getImage();
         Image scaledImage = originalImage.getScaledInstance(iconT1.getWidth(), iconT1.getHeight(), Image.SCALE_SMOOTH);
@@ -71,9 +284,9 @@ public class OralAssessment extends javax.swing.JFrame {
         isWordButton1 = new javax.swing.JButton();
         nextButton1 = new javax.swing.JButton();
         textToSpeechToggleButton1 = new javax.swing.JToggleButton();
-        jLabel1 = new javax.swing.JLabel();
-        returnButton = new javax.swing.JButton();
         iconT1 = new javax.swing.JLabel();
+        returnButton = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
         q2Panel = new javax.swing.JPanel();
         q2Label = new javax.swing.JLabel();
         directionLabel2 = new javax.swing.JLabel();
@@ -89,6 +302,7 @@ public class OralAssessment extends javax.swing.JFrame {
         catWordButton2 = new javax.swing.JButton();
         theWordButton2 = new javax.swing.JButton();
         iconT2 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
         q3Panel = new javax.swing.JPanel();
         q3Label = new javax.swing.JLabel();
         directionLabel3 = new javax.swing.JLabel();
@@ -103,6 +317,7 @@ public class OralAssessment extends javax.swing.JFrame {
         textToSpeechToggleButton3 = new javax.swing.JToggleButton();
         finsWordButton3 = new javax.swing.JButton();
         iconT3 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
         q4Panel = new javax.swing.JPanel();
         q4Label = new javax.swing.JLabel();
         directionLabel4 = new javax.swing.JLabel();
@@ -116,6 +331,7 @@ public class OralAssessment extends javax.swing.JFrame {
         nextButton4 = new javax.swing.JButton();
         textToSpeechToggleButton4 = new javax.swing.JToggleButton();
         iconT4 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
         q5Panel = new javax.swing.JPanel();
         q4Label1 = new javax.swing.JLabel();
         directionLabel5 = new javax.swing.JLabel();
@@ -132,81 +348,94 @@ public class OralAssessment extends javax.swing.JFrame {
         onWordButton5 = new javax.swing.JButton();
         returnButton1 = new javax.swing.JButton();
         iconT5 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        getContentPane().setLayout(new java.awt.GridBagLayout());
+        getContentPane().setLayout(new javax.swing.OverlayLayout(getContentPane()));
 
         q1Panel.setBackground(new java.awt.Color(204, 204, 204));
+        q1Panel.setPreferredSize(new java.awt.Dimension(1280, 720));
+        q1Panel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         q1Label.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         q1Label.setForeground(new java.awt.Color(0, 0, 0));
         q1Label.setText("1. What can you say about the net?");
+        q1Panel.add(q1Label, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 100, -1, -1));
 
         directionLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         directionLabel.setForeground(new java.awt.Color(0, 0, 0));
         directionLabel.setText("Direction: Describe the picture using the word");
+        q1Panel.add(directionLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 50, 672, -1));
 
-        textArea1.setEditable(false);
-        textArea1.setBackground(new java.awt.Color(153, 153, 153));
+        textArea1.setBackground(new java.awt.Color(255, 255, 204));
         textArea1.setColumns(20);
-        textArea1.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
+        textArea1.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
         textArea1.setForeground(new java.awt.Color(0, 0, 0));
         textArea1.setRows(5);
+        q1Panel.add(textArea1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 144, 820, 100));
+        textArea1.setEditable(false);
 
-        clearButton1.setText("Clear");
+        clearButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CLEAR_Button__140_x_125___2_.png"))); // NOI18N
         clearButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 clearButton1ActionPerformed(evt);
             }
         });
+        q1Panel.add(clearButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 140, 150, 50));
 
-        readButton1.setText("Read");
+        readButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/READ_Button__140_x_125 (1).png"))); // NOI18N
         readButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 readButton1ActionPerformed(evt);
             }
         });
+        q1Panel.add(readButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 200, 150, 50));
 
         netWordButton1.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
-        netWordButton1.setText("net");
+        netWordButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/net__Button.png"))); // NOI18N
         netWordButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 netWordButton1ActionPerformed(evt);
             }
         });
+        q1Panel.add(netWordButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 430, 180, 60));
 
         TheWordButton1.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
-        TheWordButton1.setText("The");
+        TheWordButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/_The__Button.png"))); // NOI18N
         TheWordButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 TheWordButton1ActionPerformed(evt);
             }
         });
+        q1Panel.add(TheWordButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 430, 170, 60));
 
         wetWordButton1.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
-        wetWordButton1.setText("wet");
+        wetWordButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Wet Button.png"))); // NOI18N
         wetWordButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 wetWordButton1ActionPerformed(evt);
             }
         });
+        q1Panel.add(wetWordButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 320, 170, 50));
 
         isWordButton1.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
-        isWordButton1.setText("is");
+        isWordButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/is_Button.png"))); // NOI18N
         isWordButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 isWordButton1ActionPerformed(evt);
             }
         });
+        q1Panel.add(isWordButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 320, 160, 50));
 
         nextButton1.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
-        nextButton1.setText("Next");
+        nextButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Next Button (150x150).png"))); // NOI18N
         nextButton1.setPreferredSize(new java.awt.Dimension(65, 30));
         nextButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 nextButton1ActionPerformed(evt);
             }
         });
+        q1Panel.add(nextButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1040, 600, 160, 90));
 
         textToSpeechToggleButton1.setText("Sound");
         textToSpeechToggleButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -214,183 +443,110 @@ public class OralAssessment extends javax.swing.JFrame {
                 textToSpeechToggleButton1ActionPerformed(evt);
             }
         });
+        q1Panel.add(textToSpeechToggleButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 90, 40));
 
-        jLabel1.setText("jLabel1");
+        iconT1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Assessment/Oral Assessment/WetNet.png"))); // NOI18N
+        iconT1.setPreferredSize(new java.awt.Dimension(50, 15));
+        q1Panel.add(iconT1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 210, 480, 380));
 
         returnButton.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
-        returnButton.setText("Return");
+        returnButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Back_Button__150x150.png"))); // NOI18N
         returnButton.setPreferredSize(new java.awt.Dimension(65, 30));
         returnButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 returnButtonActionPerformed(evt);
             }
         });
+        q1Panel.add(returnButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 610, 160, 80));
 
-        iconT1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Assessment/Oral Assessment/WetNet.png"))); // NOI18N
-        iconT1.setPreferredSize(new java.awt.Dimension(50, 15));
-
-        javax.swing.GroupLayout q1PanelLayout = new javax.swing.GroupLayout(q1Panel);
-        q1Panel.setLayout(q1PanelLayout);
-        q1PanelLayout.setHorizontalGroup(
-                q1PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(q1PanelLayout.createSequentialGroup()
-                                .addGroup(q1PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addGroup(q1PanelLayout.createSequentialGroup()
-                                                .addGap(670, 670, 670)
-                                                .addComponent(textToSpeechToggleButton1))
-                                        .addGroup(q1PanelLayout.createSequentialGroup()
-                                                .addGap(28, 28, 28)
-                                                .addGroup(q1PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                        .addComponent(directionLabel, javax.swing.GroupLayout.PREFERRED_SIZE, 672, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                        .addGroup(q1PanelLayout.createSequentialGroup()
-                                                .addGap(28, 28, 28)
-                                                .addComponent(q1Label))
-                                        .addGroup(q1PanelLayout.createSequentialGroup()
-                                                .addGap(28, 28, 28)
-                                                .addGroup(q1PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                        .addComponent(returnButton, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                        .addGroup(q1PanelLayout.createSequentialGroup()
-                                                                .addGroup(q1PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                                                        .addComponent(iconT1, javax.swing.GroupLayout.PREFERRED_SIZE, 419, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                                        .addComponent(textArea1, javax.swing.GroupLayout.PREFERRED_SIZE, 417, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                                                .addGroup(q1PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                                        .addGroup(q1PanelLayout.createSequentialGroup()
-                                                                                .addGap(13, 13, 13)
-                                                                                .addGroup(q1PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                                                        .addComponent(clearButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                                                        .addComponent(readButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                                                        .addGroup(q1PanelLayout.createSequentialGroup()
-                                                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                                                .addGroup(q1PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                                                        .addGroup(q1PanelLayout.createSequentialGroup()
-                                                                                                .addGroup(q1PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                                                                        .addComponent(wetWordButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                                                                        .addComponent(netWordButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                                                                                .addGap(5, 5, 5)
-                                                                                                .addGroup(q1PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                                                                        .addComponent(isWordButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                                                                        .addComponent(TheWordButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                                                                        .addComponent(nextButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE))))))))
-                                .addGap(62, 62, 62))
-        );
-        q1PanelLayout.setVerticalGroup(
-                q1PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(q1PanelLayout.createSequentialGroup()
-                                .addGap(10, 10, 10)
-                                .addComponent(textToSpeechToggleButton1)
-                                .addGap(9, 9, 9)
-                                .addGroup(q1PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(directionLabel)
-                                        .addGroup(q1PanelLayout.createSequentialGroup()
-                                                .addGap(10, 10, 10)
-                                                .addComponent(jLabel1)))
-                                .addGap(12, 12, 12)
-                                .addComponent(q1Label)
-                                .addGap(20, 20, 20)
-                                .addGroup(q1PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(textArea1, javax.swing.GroupLayout.PREFERRED_SIZE, 74, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGroup(q1PanelLayout.createSequentialGroup()
-                                                .addGap(10, 10, 10)
-                                                .addComponent(clearButton1)
-                                                .addGap(5, 5, 5)
-                                                .addComponent(readButton1)))
-                                .addGroup(q1PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addGroup(q1PanelLayout.createSequentialGroup()
-                                                .addGap(16, 16, 16)
-                                                .addComponent(iconT1, javax.swing.GroupLayout.PREFERRED_SIZE, 185, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addGroup(q1PanelLayout.createSequentialGroup()
-                                                .addGap(49, 49, 49)
-                                                .addGroup(q1PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                        .addGroup(q1PanelLayout.createSequentialGroup()
-                                                                .addComponent(wetWordButton1)
-                                                                .addGap(11, 11, 11)
-                                                                .addComponent(netWordButton1))
-                                                        .addGroup(q1PanelLayout.createSequentialGroup()
-                                                                .addComponent(isWordButton1)
-                                                                .addGap(11, 11, 11)
-                                                                .addComponent(TheWordButton1)))))
-                                .addGap(53, 53, 53)
-                                .addGroup(q1PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                        .addComponent(returnButton, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(nextButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addContainerGap())
-        );
-
-        textArea1.setEditable(false);
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Background (1280 x 720 px).gif"))); // NOI18N
+        jLabel1.setText("jLabel1");
+        q1Panel.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -60, 1340, 830));
 
         assessmentTabbedPane.addTab("tab1", q1Panel);
 
         q2Panel.setBackground(new java.awt.Color(204, 204, 204));
+        q2Panel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         q2Label.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         q2Label.setForeground(new java.awt.Color(0, 0, 0));
         q2Label.setText("2. Where is the Cat?");
+        q2Panel.add(q2Label, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 100, -1, -1));
 
         directionLabel2.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         directionLabel2.setForeground(new java.awt.Color(0, 0, 0));
         directionLabel2.setText("Direction: Describe the picture using the word");
+        q2Panel.add(directionLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 60, 672, -1));
 
         textArea2.setEditable(false);
-        textArea2.setBackground(new java.awt.Color(153, 153, 153));
+        textArea2.setBackground(new java.awt.Color(255, 255, 204));
         textArea2.setColumns(20);
         textArea2.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
         textArea2.setForeground(new java.awt.Color(0, 0, 0));
         textArea2.setRows(5);
+        q2Panel.add(textArea2, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 130, 870, 120));
+        textArea1.setEditable(false);
 
-        clearButton2.setText("Clear");
+        clearButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CLEAR_Button__140_x_125___2_.png"))); // NOI18N
         clearButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 clearButton2ActionPerformed(evt);
             }
         });
+        q2Panel.add(clearButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 120, 150, 60));
 
-        ReadButton2.setText("Read");
+        ReadButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/READ_Button__140_x_125 (1).png"))); // NOI18N
         ReadButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ReadButton2ActionPerformed(evt);
             }
         });
+        q2Panel.add(ReadButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(950, 190, 140, 50));
 
         matWordButton2.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
-        matWordButton2.setText("mat");
+        matWordButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/mat_Button__250x250_-removebg-preview.png"))); // NOI18N
         matWordButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 matWordButton2ActionPerformed(evt);
             }
         });
+        q2Panel.add(matWordButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 490, 160, 60));
 
         TheWordButton2.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
-        TheWordButton2.setText("The");
+        TheWordButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/_The__Button.png"))); // NOI18N
         TheWordButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 TheWordButton2ActionPerformed(evt);
             }
         });
+        q2Panel.add(TheWordButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 410, 160, 60));
 
         isWordButton2.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
-        isWordButton2.setText("is");
+        isWordButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/is_Button.png"))); // NOI18N
         isWordButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 isWordButton2ActionPerformed(evt);
             }
         });
+        q2Panel.add(isWordButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 330, 160, 60));
 
         onWordButton2.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
-        onWordButton2.setText("on");
+        onWordButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/on_Button__250x250_-removebg-preview.png"))); // NOI18N
         onWordButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 onWordButton2ActionPerformed(evt);
             }
         });
+        q2Panel.add(onWordButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 330, 150, 60));
 
         nextButton2.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
-        nextButton2.setText("Next");
+        nextButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Next Button (150x150).png"))); // NOI18N
         nextButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 nextButton2ActionPerformed(evt);
             }
         });
+        q2Panel.add(nextButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(1090, 620, 160, 80));
 
         textToSpeechToggleButton2.setText("Sound");
         textToSpeechToggleButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -398,185 +554,121 @@ public class OralAssessment extends javax.swing.JFrame {
                 textToSpeechToggleButton2ActionPerformed(evt);
             }
         });
+        q2Panel.add(textToSpeechToggleButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, -1));
 
         catWordButton2.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
-        catWordButton2.setText("cat");
+        catWordButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cat_Button__250x250___1_-removebg-preview.png"))); // NOI18N
         catWordButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 catWordButton2ActionPerformed(evt);
             }
         });
+        q2Panel.add(catWordButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(810, 500, 170, 50));
 
         theWordButton2.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
-        theWordButton2.setText("the");
+        theWordButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/the_Button__smol___250x250_-removebg-preview.png"))); // NOI18N
         theWordButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 theWordButton2ActionPerformed(evt);
             }
         });
+        q2Panel.add(theWordButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 420, 160, 50));
 
         iconT2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Assessment/Oral Assessment/CatMat.png"))); // NOI18N
         iconT2.setPreferredSize(new java.awt.Dimension(50, 15));
+        q2Panel.add(iconT2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 250, 500, 440));
 
-        javax.swing.GroupLayout q2PanelLayout = new javax.swing.GroupLayout(q2Panel);
-        q2Panel.setLayout(q2PanelLayout);
-        q2PanelLayout.setHorizontalGroup(
-                q2PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(q2PanelLayout.createSequentialGroup()
-                                .addGroup(q2PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addGroup(q2PanelLayout.createSequentialGroup()
-                                                .addGap(28, 28, 28)
-                                                .addGroup(q2PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                        .addComponent(q2Label)
-                                                        .addComponent(directionLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 672, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                        .addGroup(q2PanelLayout.createSequentialGroup()
-                                                                .addGap(14, 14, 14)
-                                                                .addComponent(iconT2, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                                                .addGroup(q2PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                                                        .addGroup(q2PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                                                .addGroup(q2PanelLayout.createSequentialGroup()
-                                                                                        .addComponent(isWordButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                                                        .addComponent(onWordButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                                                                .addGroup(q2PanelLayout.createSequentialGroup()
-                                                                                        .addComponent(matWordButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                                                        .addComponent(TheWordButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                                                                .addComponent(clearButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                                                .addComponent(ReadButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                                                        .addGroup(q2PanelLayout.createSequentialGroup()
-                                                                                .addComponent(catWordButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                                                .addComponent(theWordButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                                                .addGap(0, 0, Short.MAX_VALUE))
-                                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, q2PanelLayout.createSequentialGroup()
-                                                .addGap(0, 721, Short.MAX_VALUE)
-                                                .addComponent(textToSpeechToggleButton2))
-                                        .addGroup(q2PanelLayout.createSequentialGroup()
-                                                .addContainerGap()
-                                                .addComponent(nextButton2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                                .addContainerGap())
-                        .addGroup(q2PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, q2PanelLayout.createSequentialGroup()
-                                        .addContainerGap(70, Short.MAX_VALUE)
-                                        .addComponent(textArea2, javax.swing.GroupLayout.PREFERRED_SIZE, 407, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addContainerGap(322, Short.MAX_VALUE)))
-        );
-        q2PanelLayout.setVerticalGroup(
-                q2PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(q2PanelLayout.createSequentialGroup()
-                                .addContainerGap()
-                                .addComponent(textToSpeechToggleButton2)
-                                .addGap(8, 8, 8)
-                                .addComponent(directionLabel2)
-                                .addGap(12, 12, 12)
-                                .addComponent(q2Label)
-                                .addGap(31, 31, 31)
-                                .addComponent(clearButton2)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(ReadButton2)
-                                .addGap(29, 29, 29)
-                                .addGroup(q2PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addGroup(q2PanelLayout.createSequentialGroup()
-                                                .addGroup(q2PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                                        .addComponent(matWordButton2)
-                                                        .addComponent(TheWordButton2))
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addGroup(q2PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                                        .addComponent(isWordButton2)
-                                                        .addComponent(onWordButton2))
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addGroup(q2PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                                        .addComponent(catWordButton2)
-                                                        .addComponent(theWordButton2))
-                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 122, Short.MAX_VALUE)
-                                                .addComponent(nextButton2))
-                                        .addGroup(q2PanelLayout.createSequentialGroup()
-                                                .addComponent(iconT2, javax.swing.GroupLayout.PREFERRED_SIZE, 167, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addGap(0, 0, Short.MAX_VALUE)))
-                                .addContainerGap())
-                        .addGroup(q2PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, q2PanelLayout.createSequentialGroup()
-                                        .addContainerGap(164, Short.MAX_VALUE)
-                                        .addComponent(textArea2, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addContainerGap(276, Short.MAX_VALUE)))
-        );
-
-        textArea1.setEditable(false);
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Background (1280 x 720 px).gif"))); // NOI18N
+        jLabel2.setText("jLabel2");
+        q2Panel.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1280, 720));
 
         assessmentTabbedPane.addTab("tab2", q2Panel);
 
         q3Panel.setBackground(new java.awt.Color(204, 204, 204));
+        q3Panel.setMaximumSize(new java.awt.Dimension(1280, 720));
+        q3Panel.setMinimumSize(new java.awt.Dimension(1280, 720));
+        q3Panel.setPreferredSize(new java.awt.Dimension(1280, 720));
+        q3Panel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         q3Label.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         q3Label.setForeground(new java.awt.Color(0, 0, 0));
         q3Label.setText("3. What does the fish have?");
+        q3Panel.add(q3Label, new org.netbeans.lib.awtextra.AbsoluteConstraints(28, 91, -1, -1));
 
         directionLabel3.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         directionLabel3.setForeground(new java.awt.Color(0, 0, 0));
         directionLabel3.setText("Direction: Describe the picture using the word");
+        q3Panel.add(directionLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(28, 47, 672, -1));
 
         textArea3.setEditable(false);
-        textArea3.setBackground(new java.awt.Color(153, 153, 153));
+        textArea3.setBackground(new java.awt.Color(255, 255, 204));
         textArea3.setColumns(20);
         textArea3.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
         textArea3.setForeground(new java.awt.Color(0, 0, 0));
         textArea3.setRows(5);
+        q3Panel.add(textArea3, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 140, 890, 170));
+        textArea1.setEditable(false);
 
-        clearButton3.setText("Clear");
+        clearButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CLEAR_Button__140_x_125___2_.png"))); // NOI18N
         clearButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 clearButton3ActionPerformed(evt);
             }
         });
+        q3Panel.add(clearButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(960, 170, 150, 50));
 
-        ReadButton3.setText("Read");
+        ReadButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/READ_Button__140_x_125 (1).png"))); // NOI18N
         ReadButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ReadButton3ActionPerformed(evt);
             }
         });
+        q3Panel.add(ReadButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 230, 140, 50));
 
         fishWordButton3.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
-        fishWordButton3.setText("fish");
+        fishWordButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/fish_Button__250x250_.png"))); // NOI18N
         fishWordButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 fishWordButton3ActionPerformed(evt);
             }
         });
+        q3Panel.add(fishWordButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 450, 170, 50));
 
         TheWordButton3.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
-        TheWordButton3.setText("The");
+        TheWordButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/_The__Button.png"))); // NOI18N
         TheWordButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 TheWordButton3ActionPerformed(evt);
             }
         });
+        q3Panel.add(TheWordButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 370, 160, 60));
 
         bigWordButton3.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
-        bigWordButton3.setText("big");
+        bigWordButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/big_Button__smol___250x250_-removebg-preview.png"))); // NOI18N
         bigWordButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 bigWordButton3ActionPerformed(evt);
             }
         });
+        q3Panel.add(bigWordButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 380, 160, 50));
 
         hasWordButton3.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
-        hasWordButton3.setText("has");
+        hasWordButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/has_Button__250x250___1_.png"))); // NOI18N
         hasWordButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 hasWordButton3ActionPerformed(evt);
             }
         });
+        q3Panel.add(hasWordButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 440, 140, 60));
 
         nextButton3.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
-        nextButton3.setText("Next");
+        nextButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Next Button (150x150).png"))); // NOI18N
         nextButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 nextButton3ActionPerformed(evt);
             }
         });
+        q3Panel.add(nextButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(1100, 600, 140, 100));
 
         textToSpeechToggleButton3.setText("Sound");
         textToSpeechToggleButton3.addActionListener(new java.awt.event.ActionListener() {
@@ -584,169 +676,112 @@ public class OralAssessment extends javax.swing.JFrame {
                 textToSpeechToggleButton3ActionPerformed(evt);
             }
         });
+        q3Panel.add(textToSpeechToggleButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 10, -1, -1));
 
         finsWordButton3.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
-        finsWordButton3.setText("fins");
+        finsWordButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/fins_Button__250x250___.png"))); // NOI18N
         finsWordButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 finsWordButton3ActionPerformed(evt);
             }
         });
+        q3Panel.add(finsWordButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 520, 180, 60));
 
         iconT3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Assessment/Oral Assessment/FishFins.png"))); // NOI18N
         iconT3.setPreferredSize(new java.awt.Dimension(50, 15));
+        q3Panel.add(iconT3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, 560, 550));
 
-        javax.swing.GroupLayout q3PanelLayout = new javax.swing.GroupLayout(q3Panel);
-        q3Panel.setLayout(q3PanelLayout);
-        q3PanelLayout.setHorizontalGroup(
-                q3PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(q3PanelLayout.createSequentialGroup()
-                                .addGap(667, 667, 667)
-                                .addComponent(textToSpeechToggleButton3))
-                        .addGroup(q3PanelLayout.createSequentialGroup()
-                                .addGap(28, 28, 28)
-                                .addComponent(directionLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 672, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(q3PanelLayout.createSequentialGroup()
-                                .addGap(28, 28, 28)
-                                .addComponent(q3Label))
-                        .addGroup(q3PanelLayout.createSequentialGroup()
-                                .addGap(45, 45, 45)
-                                .addComponent(textArea3, javax.swing.GroupLayout.PREFERRED_SIZE, 403, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(9, 9, 9)
-                                .addGroup(q3PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(clearButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(ReadButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGroup(q3PanelLayout.createSequentialGroup()
-                                .addGap(40, 40, 40)
-                                .addComponent(iconT3, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(20, 20, 20)
-                                .addGroup(q3PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addGroup(q3PanelLayout.createSequentialGroup()
-                                                .addComponent(fishWordButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addGap(5, 5, 5)
-                                                .addComponent(TheWordButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addGroup(q3PanelLayout.createSequentialGroup()
-                                                .addComponent(bigWordButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                .addGap(5, 5, 5)
-                                                .addComponent(hasWordButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addGroup(q3PanelLayout.createSequentialGroup()
-                                                .addGap(50, 50, 50)
-                                                .addComponent(finsWordButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                        .addGroup(q3PanelLayout.createSequentialGroup()
-                                .addGap(12, 12, 12)
-                                .addComponent(nextButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 722, javax.swing.GroupLayout.PREFERRED_SIZE))
-        );
-        q3PanelLayout.setVerticalGroup(
-                q3PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(q3PanelLayout.createSequentialGroup()
-                                .addGap(11, 11, 11)
-                                .addComponent(textToSpeechToggleButton3)
-                                .addGap(8, 8, 8)
-                                .addComponent(directionLabel3)
-                                .addGap(12, 12, 12)
-                                .addComponent(q3Label)
-                                .addGap(29, 29, 29)
-                                .addGroup(q3PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addGroup(q3PanelLayout.createSequentialGroup()
-                                                .addGap(1, 1, 1)
-                                                .addComponent(textArea3, javax.swing.GroupLayout.PREFERRED_SIZE, 59, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addGroup(q3PanelLayout.createSequentialGroup()
-                                                .addComponent(clearButton3)
-                                                .addGap(5, 5, 5)
-                                                .addComponent(ReadButton3)))
-                                .addGap(21, 21, 21)
-                                .addGroup(q3PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(iconT3, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGroup(q3PanelLayout.createSequentialGroup()
-                                                .addGap(40, 40, 40)
-                                                .addGroup(q3PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                        .addComponent(fishWordButton3)
-                                                        .addComponent(TheWordButton3))
-                                                .addGap(6, 6, 6)
-                                                .addGroup(q3PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                        .addComponent(bigWordButton3)
-                                                        .addComponent(hasWordButton3)
-                                                        .addGroup(q3PanelLayout.createSequentialGroup()
-                                                                .addGap(30, 30, 30)
-                                                                .addComponent(finsWordButton3)))))
-                                .addGap(23, 23, 23)
-                                .addComponent(nextButton3))
-        );
-
-        textArea1.setEditable(false);
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Background (1280 x 720 px).gif"))); // NOI18N
+        jLabel3.setText("jLabel3");
+        jLabel3.setMaximumSize(new java.awt.Dimension(1280, 720));
+        jLabel3.setMinimumSize(new java.awt.Dimension(1280, 720));
+        jLabel3.setPreferredSize(new java.awt.Dimension(1280, 720));
+        q3Panel.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -10, 1280, 740));
 
         assessmentTabbedPane.addTab("tab3", q3Panel);
 
         q4Panel.setBackground(new java.awt.Color(204, 204, 204));
+        q4Panel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         q4Label.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         q4Label.setForeground(new java.awt.Color(0, 0, 0));
         q4Label.setText("4. How many apples are there?");
+        q4Panel.add(q4Label, new org.netbeans.lib.awtextra.AbsoluteConstraints(28, 91, -1, -1));
 
         directionLabel4.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         directionLabel4.setForeground(new java.awt.Color(0, 0, 0));
         directionLabel4.setText("Direction: Describe the picture using the word");
+        q4Panel.add(directionLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(28, 47, 672, -1));
 
         textArea4.setEditable(false);
-        textArea4.setBackground(new java.awt.Color(153, 153, 153));
+        textArea4.setBackground(new java.awt.Color(255, 255, 204));
         textArea4.setColumns(20);
         textArea4.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
         textArea4.setForeground(new java.awt.Color(0, 0, 0));
         textArea4.setRows(5);
+        q4Panel.add(textArea4, new org.netbeans.lib.awtextra.AbsoluteConstraints(45, 142, 890, 130));
+        textArea1.setEditable(false);
 
-        clearButton4.setText("Clear");
+        clearButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CLEAR_Button__140_x_125___2_.png"))); // NOI18N
         clearButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 clearButton4ActionPerformed(evt);
             }
         });
+        q4Panel.add(clearButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(980, 150, 140, 50));
 
-        ReadButton4.setText("Read");
+        ReadButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/READ_Button__140_x_125 (1).png"))); // NOI18N
         ReadButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ReadButton4ActionPerformed(evt);
             }
         });
+        q4Panel.add(ReadButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(980, 220, 150, 50));
 
         areWordButton4.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
-        areWordButton4.setText("are");
+        areWordButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/are_Button__250x250_-.png"))); // NOI18N
         areWordButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 areWordButton4ActionPerformed(evt);
             }
         });
+        q4Panel.add(areWordButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 310, 160, 60));
 
         sixWordButton4.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
-        sixWordButton4.setText("six");
+        sixWordButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/six_Button__250x250_-.png"))); // NOI18N
         sixWordButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 sixWordButton4ActionPerformed(evt);
             }
         });
+        q4Panel.add(sixWordButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 370, 150, 70));
 
         applesWordButton4.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
-        applesWordButton4.setText("apples");
+        applesWordButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/apples_Button__250x250_-.png"))); // NOI18N
         applesWordButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 applesWordButton4ActionPerformed(evt);
             }
         });
+        q4Panel.add(applesWordButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(605, 370, 160, 60));
 
         ThereWordButton4.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
-        ThereWordButton4.setText("There");
+        ThereWordButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/There_Button__250x250___1_-.png"))); // NOI18N
         ThereWordButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ThereWordButton4ActionPerformed(evt);
             }
         });
+        q4Panel.add(ThereWordButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 450, 170, 60));
 
         nextButton4.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
-        nextButton4.setText("Next");
+        nextButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Next Button (150x150).png"))); // NOI18N
         nextButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 nextButton4ActionPerformed(evt);
             }
         });
+        q4Panel.add(nextButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(1070, 590, 160, 120));
 
         textToSpeechToggleButton4.setText("Sound");
         textToSpeechToggleButton4.addActionListener(new java.awt.event.ActionListener() {
@@ -754,154 +789,103 @@ public class OralAssessment extends javax.swing.JFrame {
                 textToSpeechToggleButton4ActionPerformed(evt);
             }
         });
+        q4Panel.add(textToSpeechToggleButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 10, -1, -1));
 
         iconT4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Assessment/Oral Assessment/Apple.png"))); // NOI18N
         iconT4.setPreferredSize(new java.awt.Dimension(50, 15));
+        q4Panel.add(iconT4, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 270, 520, 400));
 
-        javax.swing.GroupLayout q4PanelLayout = new javax.swing.GroupLayout(q4Panel);
-        q4Panel.setLayout(q4PanelLayout);
-        q4PanelLayout.setHorizontalGroup(
-                q4PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(q4PanelLayout.createSequentialGroup()
-                                .addGap(667, 667, 667)
-                                .addComponent(textToSpeechToggleButton4))
-                        .addGroup(q4PanelLayout.createSequentialGroup()
-                                .addGap(28, 28, 28)
-                                .addComponent(directionLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 672, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(q4PanelLayout.createSequentialGroup()
-                                .addGap(28, 28, 28)
-                                .addComponent(q4Label))
-                        .addGroup(q4PanelLayout.createSequentialGroup()
-                                .addGap(45, 45, 45)
-                                .addComponent(textArea4, javax.swing.GroupLayout.PREFERRED_SIZE, 405, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(7, 7, 7)
-                                .addGroup(q4PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(clearButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(ReadButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGroup(q4PanelLayout.createSequentialGroup()
-                                .addGap(50, 50, 50)
-                                .addComponent(iconT4, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(20, 20, 20)
-                                .addGroup(q4PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(areWordButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(applesWordButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGap(5, 5, 5)
-                                .addGroup(q4PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(sixWordButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(ThereWordButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGroup(q4PanelLayout.createSequentialGroup()
-                                .addGap(12, 12, 12)
-                                .addComponent(nextButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 722, javax.swing.GroupLayout.PREFERRED_SIZE))
-        );
-        q4PanelLayout.setVerticalGroup(
-                q4PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(q4PanelLayout.createSequentialGroup()
-                                .addGap(11, 11, 11)
-                                .addComponent(textToSpeechToggleButton4)
-                                .addGap(8, 8, 8)
-                                .addComponent(directionLabel4)
-                                .addGap(12, 12, 12)
-                                .addComponent(q4Label)
-                                .addGap(19, 19, 19)
-                                .addGroup(q4PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(textArea4, javax.swing.GroupLayout.PREFERRED_SIZE, 77, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGroup(q4PanelLayout.createSequentialGroup()
-                                                .addGap(10, 10, 10)
-                                                .addComponent(clearButton4)
-                                                .addGap(5, 5, 5)
-                                                .addComponent(ReadButton4)))
-                                .addGap(14, 14, 14)
-                                .addGroup(q4PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(iconT4, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGroup(q4PanelLayout.createSequentialGroup()
-                                                .addGap(40, 40, 40)
-                                                .addGroup(q4PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                        .addGroup(q4PanelLayout.createSequentialGroup()
-                                                                .addComponent(areWordButton4)
-                                                                .addGap(6, 6, 6)
-                                                                .addComponent(applesWordButton4))
-                                                        .addGroup(q4PanelLayout.createSequentialGroup()
-                                                                .addComponent(sixWordButton4)
-                                                                .addGap(6, 6, 6)
-                                                                .addComponent(ThereWordButton4)))))
-                                .addGap(23, 23, 23)
-                                .addComponent(nextButton4))
-        );
-
-        textArea1.setEditable(false);
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Background (1280 x 720 px).gif"))); // NOI18N
+        jLabel4.setText("jLabel4");
+        q4Panel.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, -30, 1280, 760));
 
         assessmentTabbedPane.addTab("tab4", q4Panel);
 
         q5Panel.setBackground(new java.awt.Color(204, 204, 204));
+        q5Panel.setMaximumSize(new java.awt.Dimension(1280, 720));
+        q5Panel.setMinimumSize(new java.awt.Dimension(1280, 720));
+        q5Panel.setPreferredSize(new java.awt.Dimension(1280, 720));
+        q5Panel.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         q4Label1.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         q4Label1.setForeground(new java.awt.Color(0, 0, 0));
         q4Label1.setText("5. What animal is on the box?");
+        q5Panel.add(q4Label1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 100, -1, -1));
 
         directionLabel5.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         directionLabel5.setForeground(new java.awt.Color(0, 0, 0));
         directionLabel5.setText("Direction: Describe the picture using the word");
+        q5Panel.add(directionLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 50, 672, -1));
 
         textArea5.setEditable(false);
-        textArea5.setBackground(new java.awt.Color(153, 153, 153));
+        textArea5.setBackground(new java.awt.Color(255, 255, 204));
         textArea5.setColumns(20);
         textArea5.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
         textArea5.setForeground(new java.awt.Color(0, 0, 0));
         textArea5.setRows(5);
+        q5Panel.add(textArea5, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 142, 970, 110));
+        textArea1.setEditable(false);
 
-        clearButton5.setText("Clear");
+        clearButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/CLEAR_Button__140_x_125___2_.png"))); // NOI18N
         clearButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 clearButton5ActionPerformed(evt);
             }
         });
+        q5Panel.add(clearButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(1030, 130, 150, 50));
 
-        ReadButton5.setText("Read");
+        ReadButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/READ_Button__140_x_125 (1).png"))); // NOI18N
         ReadButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ReadButton5ActionPerformed(evt);
             }
         });
+        q5Panel.add(ReadButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(1040, 200, 140, 50));
 
         boxWordButton5.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
-        boxWordButton5.setText("box");
+        boxWordButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Box_Button__250x250___1_.png"))); // NOI18N
         boxWordButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 boxWordButton5ActionPerformed(evt);
             }
         });
+        q5Panel.add(boxWordButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(890, 440, 160, 60));
 
         isWordButton5.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
-        isWordButton5.setText("is");
+        isWordButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/is_Button.png"))); // NOI18N
         isWordButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 isWordButton5ActionPerformed(evt);
             }
         });
+        q5Panel.add(isWordButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 360, 160, 60));
 
         TheWordButton5.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
-        TheWordButton5.setText("The");
+        TheWordButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/_The__Button.png"))); // NOI18N
         TheWordButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 TheWordButton5ActionPerformed(evt);
             }
         });
+        q5Panel.add(TheWordButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 280, 150, 60));
 
         theWordButton5.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
-        theWordButton5.setText("the");
+        theWordButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/the_Button__smol___250x250_.png"))); // NOI18N
         theWordButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 theWordButton5ActionPerformed(evt);
             }
         });
+        q5Panel.add(theWordButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(860, 280, 160, 60));
 
         nextButton5.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
-        nextButton5.setText("Next");
+        nextButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Next Button (150x150).png"))); // NOI18N
         nextButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 nextButton5ActionPerformed(evt);
             }
         });
+        q5Panel.add(nextButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(1070, 610, 160, 100));
 
         textToSpeechToggleButton5.setText("Sound");
         textToSpeechToggleButton5.addActionListener(new java.awt.event.ActionListener() {
@@ -909,119 +893,46 @@ public class OralAssessment extends javax.swing.JFrame {
                 textToSpeechToggleButton5ActionPerformed(evt);
             }
         });
+        q5Panel.add(textToSpeechToggleButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 10, -1, -1));
 
         catWordButton5.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
-        catWordButton5.setText("cat");
+        catWordButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cat_Button__250x250___1_-.png"))); // NOI18N
         catWordButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 catWordButton5ActionPerformed(evt);
             }
         });
+        q5Panel.add(catWordButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 440, 160, 60));
 
         onWordButton5.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
-        onWordButton5.setText("on");
+        onWordButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/on_Button__250x250_-.png"))); // NOI18N
         onWordButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 onWordButton5ActionPerformed(evt);
             }
         });
+        q5Panel.add(onWordButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 360, 140, 60));
 
         returnButton1.setFont(new java.awt.Font("Dialog", 0, 14)); // NOI18N
-        returnButton1.setText("Exit");
+        returnButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/exit_Button__250x250_.png"))); // NOI18N
         returnButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 returnButton1ActionPerformed(evt);
             }
         });
+        q5Panel.add(returnButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 600, 70, 90));
 
         iconT5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Assessment/Oral Assessment/CatBox.png"))); // NOI18N
         iconT5.setPreferredSize(new java.awt.Dimension(50, 15));
+        q5Panel.add(iconT5, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 250, 450, 450));
 
-        javax.swing.GroupLayout q5PanelLayout = new javax.swing.GroupLayout(q5Panel);
-        q5Panel.setLayout(q5PanelLayout);
-        q5PanelLayout.setHorizontalGroup(
-                q5PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(q5PanelLayout.createSequentialGroup()
-                                .addGap(667, 667, 667)
-                                .addComponent(textToSpeechToggleButton5))
-                        .addGroup(q5PanelLayout.createSequentialGroup()
-                                .addGap(28, 28, 28)
-                                .addComponent(directionLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 672, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGroup(q5PanelLayout.createSequentialGroup()
-                                .addGap(28, 28, 28)
-                                .addComponent(q4Label1))
-                        .addGroup(q5PanelLayout.createSequentialGroup()
-                                .addGap(33, 33, 33)
-                                .addComponent(textArea5, javax.swing.GroupLayout.PREFERRED_SIZE, 419, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(5, 5, 5)
-                                .addGroup(q5PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(clearButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(ReadButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGroup(q5PanelLayout.createSequentialGroup()
-                                .addGap(30, 30, 30)
-                                .addComponent(iconT5, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(20, 20, 20)
-                                .addGroup(q5PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(boxWordButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(TheWordButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(onWordButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGap(5, 5, 5)
-                                .addGroup(q5PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(isWordButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(theWordButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(catWordButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 85, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGroup(q5PanelLayout.createSequentialGroup()
-                                .addGap(12, 12, 12)
-                                .addComponent(returnButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 270, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(130, 130, 130)
-                                .addComponent(nextButton5, javax.swing.GroupLayout.PREFERRED_SIZE, 322, javax.swing.GroupLayout.PREFERRED_SIZE))
-        );
-        q5PanelLayout.setVerticalGroup(
-                q5PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(q5PanelLayout.createSequentialGroup()
-                                .addGap(11, 11, 11)
-                                .addComponent(textToSpeechToggleButton5)
-                                .addGap(8, 8, 8)
-                                .addComponent(directionLabel5)
-                                .addGap(12, 12, 12)
-                                .addComponent(q4Label1)
-                                .addGap(19, 19, 19)
-                                .addGroup(q5PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(textArea5, javax.swing.GroupLayout.PREFERRED_SIZE, 72, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGroup(q5PanelLayout.createSequentialGroup()
-                                                .addGap(10, 10, 10)
-                                                .addComponent(clearButton5)
-                                                .addGap(5, 5, 5)
-                                                .addComponent(ReadButton5)))
-                                .addGap(19, 19, 19)
-                                .addGroup(q5PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(iconT5, javax.swing.GroupLayout.PREFERRED_SIZE, 180, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGroup(q5PanelLayout.createSequentialGroup()
-                                                .addGap(40, 40, 40)
-                                                .addGroup(q5PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                        .addGroup(q5PanelLayout.createSequentialGroup()
-                                                                .addComponent(boxWordButton5)
-                                                                .addGap(6, 6, 6)
-                                                                .addComponent(TheWordButton5)
-                                                                .addGap(6, 6, 6)
-                                                                .addComponent(onWordButton5))
-                                                        .addGroup(q5PanelLayout.createSequentialGroup()
-                                                                .addComponent(isWordButton5)
-                                                                .addGap(6, 6, 6)
-                                                                .addComponent(theWordButton5)
-                                                                .addGap(6, 6, 6)
-                                                                .addComponent(catWordButton5)))))
-                                .addGap(23, 23, 23)
-                                .addGroup(q5PanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(returnButton1)
-                                        .addComponent(nextButton5)))
-        );
-
-        textArea1.setEditable(false);
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Background (1280 x 720 px).gif"))); // NOI18N
+        jLabel5.setText("jLabel5");
+        q5Panel.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -30, 1340, 770));
 
         assessmentTabbedPane.addTab("tab5", q5Panel);
 
-        getContentPane().add(assessmentTabbedPane, new java.awt.GridBagConstraints());
+        getContentPane().add(assessmentTabbedPane);
 
         pack();
         setLocationRelativeTo(null);
@@ -1267,6 +1178,7 @@ public class OralAssessment extends javax.swing.JFrame {
     private void textToSpeechToggleButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textToSpeechToggleButton1ActionPerformed
         // TODO add your handling code here:
         ButtonActions.toggleTextToSpeech(textToSpeechToggleButton1);
+    
     }//GEN-LAST:event_textToSpeechToggleButton1ActionPerformed
 
     private void nextButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nextButton1ActionPerformed
@@ -1380,6 +1292,10 @@ public class OralAssessment extends javax.swing.JFrame {
     private javax.swing.JButton isWordButton2;
     private javax.swing.JButton isWordButton5;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
     private javax.swing.JButton matWordButton2;
     private javax.swing.JButton netWordButton1;
     private javax.swing.JButton nextButton1;
