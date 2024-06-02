@@ -69,7 +69,7 @@
                     <Property name="editable" type="boolean" value="false"/>
                     <Property name="columns" type="int" value="20"/>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Dialog" size="18" style="0"/>
+                      <Font name="Comic Sans MS" size="18" style="0"/>
                     </Property>
                     <Property name="lineWrap" type="boolean" value="true"/>
                     <Property name="rows" type="int" value="5"/>
@@ -94,7 +94,7 @@
                 <Component class="javax.swing.JLabel" name="questionLabel">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Dialog" size="14" style="0"/>
+                      <Font name="Comic Sans MS" size="14" style="0"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="Questions"/>
                   </Properties>
@@ -107,7 +107,7 @@
                 <Component class="javax.swing.JLabel" name="q1Label">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Dialog" size="14" style="0"/>
+                      <Font name="Comic Sans MS" size="14" style="0"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="1. What Color is the Bicycle?"/>
                   </Properties>
@@ -120,7 +120,7 @@
                 <Component class="javax.swing.JLabel" name="q2Label">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Dialog" size="14" style="0"/>
+                      <Font name="Comic Sans MS" size="14" style="0"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="2. Who was it gift from?"/>
                   </Properties>
@@ -133,7 +133,7 @@
                 <Component class="javax.swing.JLabel" name="q3label">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Dialog" size="14" style="0"/>
+                      <Font name="Comic Sans MS" size="14" style="0"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="3. Where was it hidden?"/>
                   </Properties>
@@ -146,7 +146,7 @@
                 <Component class="javax.swing.JLabel" name="q4Label">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Dialog" size="14" style="0"/>
+                      <Font name="Comic Sans MS" size="14" style="0"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="4. When Emma saw the bicycle, what did she do?"/>
                   </Properties>
@@ -158,6 +158,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="DRadioButtonQ1T1">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Pink"/>
                   </Properties>
                   <Constraints>
@@ -168,6 +171,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="ARadioButtonQ1T1">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Red"/>
                   </Properties>
                   <Constraints>
@@ -178,6 +184,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="BRadioButtonQ1T1">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Green"/>
                   </Properties>
                   <Constraints>
@@ -188,6 +197,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="DRadioButtonQ2T1">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Aunt"/>
                   </Properties>
                   <Constraints>
@@ -198,6 +210,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="CRadioButtonQ1T1">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Black"/>
                   </Properties>
                   <Constraints>
@@ -208,6 +223,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="ARadioButtonQ2T1">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Uncle"/>
                   </Properties>
                   <Constraints>
@@ -218,6 +236,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="CRadioButtonQ3T1">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="On the table"/>
                   </Properties>
                   <Constraints>
@@ -228,6 +249,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="BRadioButtonQ2T1">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Father"/>
                   </Properties>
                   <Constraints>
@@ -238,6 +262,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="CRadioButtonQ2T1">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Mother"/>
                   </Properties>
                   <Constraints>
@@ -248,6 +275,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="DRadioButtonQ3T1">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="On the yard"/>
                   </Properties>
                   <Constraints>
@@ -258,6 +288,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="BRadioButtonQ3T1">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Behind the trunk"/>
                   </Properties>
                   <Constraints>
@@ -268,6 +301,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="ARadioButtonQ3T1">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Behind a bush"/>
                   </Properties>
                   <Constraints>
@@ -278,6 +314,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="CRadioButtonQ4T1">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Cry"/>
                   </Properties>
                   <Events>
@@ -291,6 +330,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="DRadioButtonQ4T1">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Run away"/>
                   </Properties>
                   <Events>
@@ -304,6 +346,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="ARadioButtonQ4T1">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Laugh"/>
                   </Properties>
                   <Constraints>
@@ -314,11 +359,14 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="BRadioButtonQ4T1">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Jump for Joy"/>
                   </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                      <AbsoluteConstraints x="90" y="330" width="90" height="-1"/>
+                      <AbsoluteConstraints x="90" y="330" width="130" height="-1"/>
                     </Constraint>
                   </Constraints>
                 </Component>
@@ -418,7 +466,7 @@
                     <Property name="editable" type="boolean" value="false"/>
                     <Property name="columns" type="int" value="20"/>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Dialog" size="18" style="0"/>
+                      <Font name="Comic Sans MS" size="18" style="0"/>
                     </Property>
                     <Property name="lineWrap" type="boolean" value="true"/>
                     <Property name="rows" type="int" value="5"/>
@@ -443,7 +491,7 @@
                 <Component class="javax.swing.JLabel" name="questionLabel1">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Dialog" size="14" style="0"/>
+                      <Font name="Comic Sans MS" size="14" style="0"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="Questions"/>
                   </Properties>
@@ -456,7 +504,7 @@
                 <Component class="javax.swing.JLabel" name="q1Label1">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Dialog" size="14" style="0"/>
+                      <Font name="Comic Sans MS" size="14" style="0"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="1. What do Luke, Jake and Connor look at? "/>
                   </Properties>
@@ -469,7 +517,7 @@
                 <Component class="javax.swing.JLabel" name="q2Label1">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Dialog" size="14" style="0"/>
+                      <Font name="Comic Sans MS" size="14" style="0"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="2. What does Luke point to in the sky?  "/>
                   </Properties>
@@ -482,7 +530,7 @@
                 <Component class="javax.swing.JLabel" name="q3label1">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Dialog" size="14" style="0"/>
+                      <Font name="Comic Sans MS" size="14" style="0"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="3. What do the boys collect in a jar? "/>
                   </Properties>
@@ -495,7 +543,7 @@
                 <Component class="javax.swing.JLabel" name="q4Label1">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Dialog" size="14" style="0"/>
+                      <Font name="Comic Sans MS" size="14" style="0"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="4. Where do the boys sleep?"/>
                   </Properties>
@@ -507,6 +555,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="DRadioButtonQ1T2">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="The Sun"/>
                   </Properties>
                   <Constraints>
@@ -517,6 +568,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="CRadioButtonQ1T2">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="A Bird"/>
                   </Properties>
                   <Constraints>
@@ -527,6 +581,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="BRadioButtonQ1T2">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="The Sky"/>
                   </Properties>
                   <Events>
@@ -540,6 +597,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="DRadioButtonQ2T2">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="The Plane"/>
                   </Properties>
                   <Constraints>
@@ -550,6 +610,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="ARadioButtonQ2T2">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="The Clouds"/>
                   </Properties>
                   <Constraints>
@@ -560,6 +623,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="CRadioButtonQ3T2">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Ants"/>
                   </Properties>
                   <Constraints>
@@ -570,6 +636,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="BRadioButtonQ2T2">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="The Stars"/>
                   </Properties>
                   <Events>
@@ -583,6 +652,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="CRadioButtonQ2T2">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="The Moon"/>
                   </Properties>
                   <Constraints>
@@ -593,6 +665,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="DRadioButtonQ3T2">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Leaves"/>
                   </Properties>
                   <Constraints>
@@ -603,6 +678,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="BRadioButtonQ3T2">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Worms"/>
                   </Properties>
                   <Constraints>
@@ -613,6 +691,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="ARadioButtonQ3T2">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Fireflies"/>
                   </Properties>
                   <Constraints>
@@ -623,6 +704,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="CRadioButtonQ4T2">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="In a tent"/>
                   </Properties>
                   <Constraints>
@@ -633,6 +717,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="DRadioButtonQ4T2">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="On the grass"/>
                   </Properties>
                   <Constraints>
@@ -643,6 +730,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="ARadioButtonQ4T2">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="In bed"/>
                   </Properties>
                   <Constraints>
@@ -653,6 +743,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="BRadioButtonQ4T2">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="On a cot"/>
                   </Properties>
                   <Constraints>
@@ -663,6 +756,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="ARadioButtonQ1T2">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="The Night"/>
                   </Properties>
                   <Constraints>
@@ -752,7 +848,7 @@
                     <Property name="editable" type="boolean" value="false"/>
                     <Property name="columns" type="int" value="20"/>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Dialog" size="18" style="0"/>
+                      <Font name="Comic Sans MS" size="18" style="0"/>
                     </Property>
                     <Property name="lineWrap" type="boolean" value="true"/>
                     <Property name="rows" type="int" value="5"/>
@@ -777,7 +873,7 @@
                 <Component class="javax.swing.JLabel" name="questionLabel2">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Dialog" size="14" style="0"/>
+                      <Font name="Comic Sans MS" size="14" style="0"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="Questions"/>
                   </Properties>
@@ -790,7 +886,7 @@
                 <Component class="javax.swing.JLabel" name="q1Label2">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Dialog" size="14" style="0"/>
+                      <Font name="Comic Sans MS" size="14" style="0"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="1. What animals did they adopt?"/>
                   </Properties>
@@ -803,7 +899,7 @@
                 <Component class="javax.swing.JLabel" name="q2Label2">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Dialog" size="14" style="0"/>
+                      <Font name="Comic Sans MS" size="14" style="0"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="2. What does the kitten like to do?"/>
                   </Properties>
@@ -816,7 +912,7 @@
                 <Component class="javax.swing.JLabel" name="q3label2">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Dialog" size="14" style="0"/>
+                      <Font name="Comic Sans MS" size="14" style="0"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="3. What is the puppy&#x2019;s name going to be?"/>
                   </Properties>
@@ -829,7 +925,7 @@
                 <Component class="javax.swing.JLabel" name="q4Label2">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Dialog" size="14" style="0"/>
+                      <Font name="Comic Sans MS" size="14" style="0"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="4. Who thought the names were perfect?"/>
                   </Properties>
@@ -841,6 +937,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="DRadioButtonQ1T3">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Snake and Pig"/>
                   </Properties>
                   <Constraints>
@@ -851,6 +950,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="ARadioButtonQ1T3">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Puppy and Kitten"/>
                   </Properties>
                   <Constraints>
@@ -861,6 +963,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="BRadioButtonQ1T3">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Fish and Rabbit"/>
                   </Properties>
                   <Events>
@@ -874,6 +979,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="DRadioButtonQ2T3">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Play"/>
                   </Properties>
                   <Constraints>
@@ -884,6 +992,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="CRadioButtonQ1T3">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Parrot and Hamster"/>
                   </Properties>
                   <Constraints>
@@ -894,6 +1005,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="ARadioButtonQ2T3">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Curl"/>
                   </Properties>
                   <Constraints>
@@ -904,6 +1018,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="CRadioButtonQ3T3">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Fluffy"/>
                   </Properties>
                   <Constraints>
@@ -914,6 +1031,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="BRadioButtonQ2T3">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Jump"/>
                   </Properties>
                   <Events>
@@ -927,6 +1047,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="CRadioButtonQ2T3">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Run"/>
                   </Properties>
                   <Constraints>
@@ -937,6 +1060,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="DRadioButtonQ3T3">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Sparky"/>
                   </Properties>
                   <Constraints>
@@ -947,6 +1073,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="BRadioButtonQ3T3">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Pounce"/>
                   </Properties>
                   <Constraints>
@@ -957,6 +1086,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="ARadioButtonQ3T3">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Rover"/>
                   </Properties>
                   <Constraints>
@@ -967,6 +1099,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="CRadioButtonQ4T3">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Children"/>
                   </Properties>
                   <Constraints>
@@ -977,6 +1112,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="DRadioButtonQ4T3">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="All"/>
                   </Properties>
                   <Constraints>
@@ -987,6 +1125,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="ARadioButtonQ4T3">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Emma"/>
                   </Properties>
                   <Constraints>
@@ -997,6 +1138,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="BRadioButtonQ4T3">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Parents"/>
                   </Properties>
                   <Constraints>
@@ -1086,7 +1230,7 @@
                     <Property name="editable" type="boolean" value="false"/>
                     <Property name="columns" type="int" value="20"/>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Dialog" size="18" style="0"/>
+                      <Font name="Comic Sans MS" size="18" style="0"/>
                     </Property>
                     <Property name="lineWrap" type="boolean" value="true"/>
                     <Property name="rows" type="int" value="5"/>
@@ -1111,7 +1255,7 @@
                 <Component class="javax.swing.JLabel" name="questionLabel3">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Dialog" size="14" style="0"/>
+                      <Font name="Comic Sans MS" size="14" style="0"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="Questions"/>
                   </Properties>
@@ -1124,7 +1268,7 @@
                 <Component class="javax.swing.JLabel" name="q1Label3">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Dialog" size="14" style="0"/>
+                      <Font name="Comic Sans MS" size="14" style="0"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="1. Do all bears live in warm places?"/>
                   </Properties>
@@ -1137,7 +1281,7 @@
                 <Component class="javax.swing.JLabel" name="q2Label3">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Dialog" size="14" style="0"/>
+                      <Font name="Comic Sans MS" size="14" style="0"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="2. Where do bears sleep during the winter?"/>
                   </Properties>
@@ -1150,7 +1294,7 @@
                 <Component class="javax.swing.JLabel" name="q3label3">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Dialog" size="14" style="0"/>
+                      <Font name="Comic Sans MS" size="14" style="0"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="3. What does hibernating mean? "/>
                   </Properties>
@@ -1163,7 +1307,7 @@
                 <Component class="javax.swing.JLabel" name="q4Label3">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Dialog" size="14" style="0"/>
+                      <Font name="Comic Sans MS" size="14" style="0"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="4. What is a baby bear called?"/>
                   </Properties>
@@ -1175,6 +1319,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="DRadioButtonQ1T4">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Sometimes"/>
                   </Properties>
                   <Constraints>
@@ -1185,6 +1332,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="ARadioButtonQ1T4">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Maybe"/>
                   </Properties>
                   <Constraints>
@@ -1195,6 +1345,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="BRadioButtonQ1T4">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="No"/>
                   </Properties>
                   <Events>
@@ -1208,6 +1361,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="DRadioButtonQ2T4">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Holes"/>
                   </Properties>
                   <Events>
@@ -1221,6 +1377,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="CRadioButtonQ1T4">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Yes"/>
                   </Properties>
                   <Constraints>
@@ -1231,6 +1390,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="ARadioButtonQ2T4">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Dens"/>
                   </Properties>
                   <Constraints>
@@ -1241,6 +1403,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="CRadioButtonQ3T4">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Sleeping"/>
                   </Properties>
                   <Constraints>
@@ -1251,6 +1416,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="BRadioButtonQ2T4">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Burrows"/>
                   </Properties>
                   <Events>
@@ -1264,6 +1432,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="CRadioButtonQ2T4">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Nests"/>
                   </Properties>
                   <Constraints>
@@ -1274,6 +1445,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="DRadioButtonQ3T4">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Playing"/>
                   </Properties>
                   <Constraints>
@@ -1284,6 +1458,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="BRadioButtonQ3T4">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Running"/>
                   </Properties>
                   <Constraints>
@@ -1294,6 +1471,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="ARadioButtonQ3T4">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Eating"/>
                   </Properties>
                   <Constraints>
@@ -1304,6 +1484,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="CRadioButtonQ4T4">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Calf"/>
                   </Properties>
                   <Constraints>
@@ -1314,6 +1497,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="DRadioButtonQ4T4">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Joey"/>
                   </Properties>
                   <Constraints>
@@ -1324,6 +1510,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="ARadioButtonQ4T4">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Cub"/>
                   </Properties>
                   <Constraints>
@@ -1334,6 +1523,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="BRadioButtonQ4T4">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Kid"/>
                   </Properties>
                   <Constraints>
@@ -1423,7 +1615,7 @@
                     <Property name="editable" type="boolean" value="false"/>
                     <Property name="columns" type="int" value="20"/>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Dialog" size="18" style="0"/>
+                      <Font name="Comic Sans MS" size="18" style="0"/>
                     </Property>
                     <Property name="lineWrap" type="boolean" value="true"/>
                     <Property name="rows" type="int" value="5"/>
@@ -1448,7 +1640,7 @@
                 <Component class="javax.swing.JLabel" name="questionLabel4">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Dialog" size="14" style="0"/>
+                      <Font name="Comic Sans MS" size="14" style="0"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="Questions"/>
                   </Properties>
@@ -1461,7 +1653,7 @@
                 <Component class="javax.swing.JLabel" name="q1Label4">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Dialog" size="14" style="0"/>
+                      <Font name="Comic Sans MS" size="14" style="0"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="1. What scared Pete?"/>
                   </Properties>
@@ -1474,7 +1666,7 @@
                 <Component class="javax.swing.JLabel" name="q2Label4">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Dialog" size="14" style="0"/>
+                      <Font name="Comic Sans MS" size="14" style="0"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="2. Where did Pete search for his courage?"/>
                   </Properties>
@@ -1487,7 +1679,7 @@
                 <Component class="javax.swing.JLabel" name="q3label4">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Dialog" size="14" style="0"/>
+                      <Font name="Comic Sans MS" size="14" style="0"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="3. Who asked Pete about his courage?"/>
                   </Properties>
@@ -1500,7 +1692,7 @@
                 <Component class="javax.swing.JLabel" name="q4Label4">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Dialog" size="14" style="0"/>
+                      <Font name="Comic Sans MS" size="14" style="0"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="4. What did Pete forget to be afraid of?"/>
                   </Properties>
@@ -1512,6 +1704,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="DRadioButtonQ1T5">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Dogs"/>
                   </Properties>
                   <Constraints>
@@ -1522,6 +1717,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="ARadioButtonQ1T5">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Rains"/>
                   </Properties>
                   <Constraints>
@@ -1532,6 +1730,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="BRadioButtonQ1T5">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Birds"/>
                   </Properties>
                   <Events>
@@ -1545,6 +1746,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="DButtonQ2T5">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Beach"/>
                   </Properties>
                   <Events>
@@ -1558,6 +1762,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="CRadioButtonQ1T5">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Storms"/>
                   </Properties>
                   <Constraints>
@@ -1568,6 +1775,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="ARadioButtonQ2T5">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="School"/>
                   </Properties>
                   <Constraints>
@@ -1578,6 +1788,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="CRadioButtonQ3T5">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Mom"/>
                   </Properties>
                   <Constraints>
@@ -1588,6 +1801,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="BRadioButtonQ2T5">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="House"/>
                   </Properties>
                   <Events>
@@ -1601,6 +1817,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="CRadioButtonQ2T5">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Park"/>
                   </Properties>
                   <Constraints>
@@ -1611,6 +1830,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="DRadioButtonQ3T5">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Sister"/>
                   </Properties>
                   <Constraints>
@@ -1621,6 +1843,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="BRadioButtonQ3T5">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Dad"/>
                   </Properties>
                   <Constraints>
@@ -1631,6 +1856,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="ARadioButtonQ3T5">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Granddad"/>
                   </Properties>
                   <Constraints>
@@ -1641,6 +1869,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="CRadioButtonQ4T5">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Thunder"/>
                   </Properties>
                   <Constraints>
@@ -1651,6 +1882,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="DRadioButtonQ4T5">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Storm"/>
                   </Properties>
                   <Constraints>
@@ -1661,6 +1895,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="ARadioButtonQ4T5">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Lightning"/>
                   </Properties>
                   <Constraints>
@@ -1671,6 +1908,9 @@
                 </Component>
                 <Component class="javax.swing.JRadioButton" name="BRadioButtonQ4T5">
                   <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Comic Sans MS" size="11" style="0"/>
+                    </Property>
                     <Property name="text" type="java.lang.String" value="Wind"/>
                   </Properties>
                   <Constraints>
