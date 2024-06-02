@@ -61,6 +61,9 @@ public class Consonants extends javax.swing.JPanel {
         YyLabel = new javax.swing.JLabel();
         ZzLabel = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+
+        setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         BbLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         BbLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Bb.png"))); // NOI18N
@@ -70,6 +73,7 @@ public class Consonants extends javax.swing.JPanel {
                 BbLabelMouseClicked(evt);
             }
         });
+        add(BbLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(36, 241, -1, -1));
 
         CcLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         CcLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Cc.png"))); // NOI18N
@@ -79,6 +83,7 @@ public class Consonants extends javax.swing.JPanel {
                 CcLabelMouseClicked(evt);
             }
         });
+        add(CcLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(555, 241, -1, -1));
 
         DdLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         DdLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Dd.png"))); // NOI18N
@@ -88,6 +93,7 @@ public class Consonants extends javax.swing.JPanel {
                 DdLabelMouseClicked(evt);
             }
         });
+        add(DdLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(36, 422, -1, -1));
 
         FfLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         FfLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Ff.png"))); // NOI18N
@@ -97,6 +103,7 @@ public class Consonants extends javax.swing.JPanel {
                 FfLabelMouseClicked(evt);
             }
         });
+        add(FfLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(557, 422, -1, -1));
 
         GgLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         GgLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Gg.png"))); // NOI18N
@@ -106,6 +113,7 @@ public class Consonants extends javax.swing.JPanel {
                 GgLabelMouseClicked(evt);
             }
         });
+        add(GgLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(36, 603, -1, -1));
 
         HhLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         HhLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Hh.png"))); // NOI18N
@@ -115,6 +123,7 @@ public class Consonants extends javax.swing.JPanel {
                 HhLabelMouseClicked(evt);
             }
         });
+        add(HhLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(555, 603, -1, -1));
 
         JjLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         JjLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Jj.png"))); // NOI18N
@@ -124,6 +133,7 @@ public class Consonants extends javax.swing.JPanel {
                 JjLabelMouseClicked(evt);
             }
         });
+        add(JjLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(36, 784, -1, -1));
 
         KkLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         KkLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Kk.png"))); // NOI18N
@@ -133,6 +143,7 @@ public class Consonants extends javax.swing.JPanel {
                 KkLabelMouseClicked(evt);
             }
         });
+        add(KkLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(555, 784, -1, -1));
 
         LlLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         LlLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Ll.png"))); // NOI18N
@@ -142,6 +153,7 @@ public class Consonants extends javax.swing.JPanel {
                 LlLabelMouseClicked(evt);
             }
         });
+        add(LlLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(36, 965, -1, -1));
 
         MmLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         MmLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Mm.png"))); // NOI18N
@@ -151,6 +163,7 @@ public class Consonants extends javax.swing.JPanel {
                 MmLabelMouseClicked(evt);
             }
         });
+        add(MmLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(555, 965, -1, -1));
 
         NnLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         NnLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Nn.png"))); // NOI18N
@@ -160,6 +173,7 @@ public class Consonants extends javax.swing.JPanel {
                 NnLabelMouseClicked(evt);
             }
         });
+        add(NnLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(36, 1146, -1, -1));
 
         PpLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         PpLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Pp.png"))); // NOI18N
@@ -169,6 +183,7 @@ public class Consonants extends javax.swing.JPanel {
                 PpLabelMouseClicked(evt);
             }
         });
+        add(PpLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(555, 1146, -1, -1));
 
         QqLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         QqLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Qq.png"))); // NOI18N
@@ -178,6 +193,7 @@ public class Consonants extends javax.swing.JPanel {
                 QqLabelMouseClicked(evt);
             }
         });
+        add(QqLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(36, 1327, -1, -1));
 
         RrLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         RrLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Rr.png"))); // NOI18N
@@ -187,6 +203,7 @@ public class Consonants extends javax.swing.JPanel {
                 RrLabelMouseClicked(evt);
             }
         });
+        add(RrLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(555, 1327, -1, -1));
 
         SsLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         SsLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Ss.png"))); // NOI18N
@@ -196,6 +213,7 @@ public class Consonants extends javax.swing.JPanel {
                 SsLabelMouseClicked(evt);
             }
         });
+        add(SsLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(36, 1508, -1, -1));
 
         TtLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         TtLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Tt.png"))); // NOI18N
@@ -205,6 +223,7 @@ public class Consonants extends javax.swing.JPanel {
                 TtLabelMouseClicked(evt);
             }
         });
+        add(TtLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(555, 1508, -1, -1));
 
         VvLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         VvLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Vv.png"))); // NOI18N
@@ -214,6 +233,7 @@ public class Consonants extends javax.swing.JPanel {
                 VvLabelMouseClicked(evt);
             }
         });
+        add(VvLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(36, 1689, -1, -1));
 
         WwLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         WwLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Ww.jpg"))); // NOI18N
@@ -223,6 +243,7 @@ public class Consonants extends javax.swing.JPanel {
                 WwLabelMouseClicked(evt);
             }
         });
+        add(WwLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(555, 1689, -1, -1));
 
         XxLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         XxLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Xx.png"))); // NOI18N
@@ -232,6 +253,7 @@ public class Consonants extends javax.swing.JPanel {
                 XxLabelMouseClicked(evt);
             }
         });
+        add(XxLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(36, 1870, -1, -1));
 
         YyLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         YyLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Yy.png"))); // NOI18N
@@ -241,6 +263,7 @@ public class Consonants extends javax.swing.JPanel {
                 YyLabelMouseClicked(evt);
             }
         });
+        add(YyLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(555, 1870, -1, -1));
 
         ZzLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
         ZzLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Zz.png"))); // NOI18N
@@ -250,100 +273,15 @@ public class Consonants extends javax.swing.JPanel {
                 ZzLabelMouseClicked(evt);
             }
         });
+        add(ZzLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(292, 2056, -1, -1));
 
         jLabel1.setFont(new java.awt.Font("Dialog", 1, 50)); // NOI18N
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("CONSONANTS");
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(353, 62, 398, 140));
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
-        this.setLayout(layout);
-        layout.setHorizontalGroup(
-                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(layout.createSequentialGroup()
-                                .addGap(36, 36, 36)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(GgLabel)
-                                        .addComponent(JjLabel)
-                                        .addComponent(LlLabel)
-                                        .addComponent(NnLabel)
-                                        .addComponent(QqLabel)
-                                        .addComponent(SsLabel)
-                                        .addComponent(VvLabel)
-                                        .addComponent(XxLabel)
-                                        .addComponent(DdLabel)
-                                        .addComponent(BbLabel))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(KkLabel)
-                                        .addComponent(HhLabel)
-                                        .addComponent(MmLabel)
-                                        .addComponent(PpLabel)
-                                        .addComponent(RrLabel)
-                                        .addComponent(TtLabel)
-                                        .addComponent(WwLabel)
-                                        .addComponent(YyLabel)
-                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                .addComponent(FfLabel, javax.swing.GroupLayout.Alignment.TRAILING)
-                                                .addComponent(CcLabel, javax.swing.GroupLayout.Alignment.TRAILING)))
-                                .addGap(56, 56, 56))
-                        .addGroup(layout.createSequentialGroup()
-                                .addGap(292, 292, 292)
-                                .addComponent(ZzLabel)
-                                .addGap(0, 0, Short.MAX_VALUE))
-                        .addGroup(layout.createSequentialGroup()
-                                .addGap(353, 353, 353)
-                                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 398, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        layout.setVerticalGroup(
-                layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(layout.createSequentialGroup()
-                                .addGap(62, 62, 62)
-                                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(39, 39, 39)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                        .addComponent(CcLabel)
-                                        .addComponent(BbLabel))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(DdLabel)
-                                        .addComponent(FfLabel))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(GgLabel)
-                                        .addComponent(HhLabel))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(JjLabel)
-                                        .addComponent(KkLabel))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(LlLabel)
-                                        .addComponent(MmLabel))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(NnLabel)
-                                        .addComponent(PpLabel))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(QqLabel)
-                                        .addComponent(RrLabel))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(SsLabel)
-                                        .addComponent(TtLabel))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(VvLabel)
-                                        .addComponent(WwLabel))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                                        .addComponent(XxLabel)
-                                        .addComponent(YyLabel))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 17, Short.MAX_VALUE)
-                                .addComponent(ZzLabel)
-                                .addContainerGap())
-        );
+        jLabel2.setText("jLabel2");
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1200, 1790));
     }// </editor-fold>//GEN-END:initComponents
 
     String[] consonants = {"Bb", "Cc", "Dd", "Ff", "Gg", "Hh", "Jj", "Kk", "Ll", "Mm", "Nn", "Pp", "Qq", "Rr", "Ss", "Tt", "Vv", "Ww", "Xx", "Yy", "Zz"};
@@ -479,5 +417,6 @@ public class Consonants extends javax.swing.JPanel {
     private javax.swing.JLabel YyLabel;
     private javax.swing.JLabel ZzLabel;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     // End of variables declaration//GEN-END:variables
 }
