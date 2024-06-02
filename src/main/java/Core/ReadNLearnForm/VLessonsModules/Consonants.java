@@ -60,12 +60,37 @@ public class Consonants extends javax.swing.JPanel {
         XxLabel = new javax.swing.JLabel();
         YyLabel = new javax.swing.JLabel();
         ZzLabel = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
+        jLabel12 = new javax.swing.JLabel();
+        jLabel13 = new javax.swing.JLabel();
+        jLabel14 = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
+        jLabel16 = new javax.swing.JLabel();
+        jLabel17 = new javax.swing.JLabel();
+        jLabel18 = new javax.swing.JLabel();
+        jLabel19 = new javax.swing.JLabel();
+        jLabel20 = new javax.swing.JLabel();
+        jLabel21 = new javax.swing.JLabel();
+        jLabel22 = new javax.swing.JLabel();
+        jLabel23 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
 
+        setMaximumSize(new java.awt.Dimension(1960, 1619));
+        setMinimumSize(new java.awt.Dimension(1960, 1619));
+        setPreferredSize(new java.awt.Dimension(1960, 1619));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         BbLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
+        BbLabel.setForeground(new java.awt.Color(0, 0, 0));
         BbLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Bb.png"))); // NOI18N
         BbLabel.setText("/bi:/ B for boy");
         BbLabel.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -73,9 +98,10 @@ public class Consonants extends javax.swing.JPanel {
                 BbLabelMouseClicked(evt);
             }
         });
-        add(BbLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(36, 241, 480, -1));
+        add(BbLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 120, 620, -1));
 
         CcLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
+        CcLabel.setForeground(new java.awt.Color(0, 0, 0));
         CcLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Cc.png"))); // NOI18N
         CcLabel.setText("/si:/ C for cat");
         CcLabel.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -83,9 +109,10 @@ public class Consonants extends javax.swing.JPanel {
                 CcLabelMouseClicked(evt);
             }
         });
-        add(CcLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(555, 241, -1, -1));
+        add(CcLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 120, 620, -1));
 
         DdLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
+        DdLabel.setForeground(new java.awt.Color(0, 0, 0));
         DdLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Dd.png"))); // NOI18N
         DdLabel.setText("/di:/ D for duck");
         DdLabel.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -93,9 +120,10 @@ public class Consonants extends javax.swing.JPanel {
                 DdLabelMouseClicked(evt);
             }
         });
-        add(DdLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(36, 422, -1, -1));
+        add(DdLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(1270, 130, 620, -1));
 
         FfLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
+        FfLabel.setForeground(new java.awt.Color(0, 0, 0));
         FfLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Ff.png"))); // NOI18N
         FfLabel.setText("/ɛf/ F for fish");
         FfLabel.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -103,9 +131,10 @@ public class Consonants extends javax.swing.JPanel {
                 FfLabelMouseClicked(evt);
             }
         });
-        add(FfLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(557, 422, -1, -1));
+        add(FfLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 360, 620, -1));
 
         GgLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
+        GgLabel.setForeground(new java.awt.Color(0, 0, 0));
         GgLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Gg.png"))); // NOI18N
         GgLabel.setText("/dʒi:/ G for girl");
         GgLabel.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -113,9 +142,10 @@ public class Consonants extends javax.swing.JPanel {
                 GgLabelMouseClicked(evt);
             }
         });
-        add(GgLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(36, 603, -1, -1));
+        add(GgLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 360, 620, -1));
 
         HhLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
+        HhLabel.setForeground(new java.awt.Color(0, 0, 0));
         HhLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Hh.png"))); // NOI18N
         HhLabel.setText("/eɪtʃ/ H for hat");
         HhLabel.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -123,9 +153,10 @@ public class Consonants extends javax.swing.JPanel {
                 HhLabelMouseClicked(evt);
             }
         });
-        add(HhLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(555, 603, -1, -1));
+        add(HhLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(1270, 370, 620, -1));
 
         JjLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
+        JjLabel.setForeground(new java.awt.Color(0, 0, 0));
         JjLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Jj.png"))); // NOI18N
         JjLabel.setText("/dʒeɪ/ J for jelly");
         JjLabel.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -133,9 +164,10 @@ public class Consonants extends javax.swing.JPanel {
                 JjLabelMouseClicked(evt);
             }
         });
-        add(JjLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(36, 784, -1, -1));
+        add(JjLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 580, 620, 170));
 
         KkLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
+        KkLabel.setForeground(new java.awt.Color(0, 0, 0));
         KkLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Kk.png"))); // NOI18N
         KkLabel.setText("/keɪ/ K for kite");
         KkLabel.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -143,9 +175,10 @@ public class Consonants extends javax.swing.JPanel {
                 KkLabelMouseClicked(evt);
             }
         });
-        add(KkLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 780, -1, -1));
+        add(KkLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 590, 530, -1));
 
         LlLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
+        LlLabel.setForeground(new java.awt.Color(0, 0, 0));
         LlLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Ll.png"))); // NOI18N
         LlLabel.setText("/ɛl/ L for lion");
         LlLabel.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -153,9 +186,10 @@ public class Consonants extends javax.swing.JPanel {
                 LlLabelMouseClicked(evt);
             }
         });
-        add(LlLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(36, 965, -1, -1));
+        add(LlLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(1270, 600, 620, -1));
 
         MmLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
+        MmLabel.setForeground(new java.awt.Color(0, 0, 0));
         MmLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Mm.png"))); // NOI18N
         MmLabel.setText("/ɛm/ M for moon");
         MmLabel.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -163,9 +197,10 @@ public class Consonants extends javax.swing.JPanel {
                 MmLabelMouseClicked(evt);
             }
         });
-        add(MmLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(555, 965, -1, -1));
+        add(MmLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 790, 620, -1));
 
         NnLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
+        NnLabel.setForeground(new java.awt.Color(0, 0, 0));
         NnLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Nn.png"))); // NOI18N
         NnLabel.setText("/ɛn/ N for net");
         NnLabel.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -173,9 +208,10 @@ public class Consonants extends javax.swing.JPanel {
                 NnLabelMouseClicked(evt);
             }
         });
-        add(NnLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(36, 1146, -1, -1));
+        add(NnLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 810, 620, -1));
 
         PpLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
+        PpLabel.setForeground(new java.awt.Color(0, 0, 0));
         PpLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Pp.png"))); // NOI18N
         PpLabel.setText("/piː/ P for pizza");
         PpLabel.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -183,9 +219,10 @@ public class Consonants extends javax.swing.JPanel {
                 PpLabelMouseClicked(evt);
             }
         });
-        add(PpLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(555, 1146, -1, -1));
+        add(PpLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(1270, 830, 620, -1));
 
         QqLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
+        QqLabel.setForeground(new java.awt.Color(0, 0, 0));
         QqLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Qq.png"))); // NOI18N
         QqLabel.setText("/kju:/ Q for queen");
         QqLabel.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -193,9 +230,10 @@ public class Consonants extends javax.swing.JPanel {
                 QqLabelMouseClicked(evt);
             }
         });
-        add(QqLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(36, 1327, -1, -1));
+        add(QqLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 1020, 620, -1));
 
         RrLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
+        RrLabel.setForeground(new java.awt.Color(0, 0, 0));
         RrLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Rr.png"))); // NOI18N
         RrLabel.setText("/ɑ:/ R for rabbit");
         RrLabel.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -203,9 +241,10 @@ public class Consonants extends javax.swing.JPanel {
                 RrLabelMouseClicked(evt);
             }
         });
-        add(RrLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(555, 1327, -1, -1));
+        add(RrLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 1020, 620, -1));
 
         SsLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
+        SsLabel.setForeground(new java.awt.Color(0, 0, 0));
         SsLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Ss.png"))); // NOI18N
         SsLabel.setText("/ɛs/ S for sun");
         SsLabel.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -213,9 +252,10 @@ public class Consonants extends javax.swing.JPanel {
                 SsLabelMouseClicked(evt);
             }
         });
-        add(SsLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(36, 1508, -1, -1));
+        add(SsLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(1270, 1030, 610, -1));
 
         TtLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
+        TtLabel.setForeground(new java.awt.Color(0, 0, 0));
         TtLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Tt.png"))); // NOI18N
         TtLabel.setText("/ti:/ T for table");
         TtLabel.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -223,9 +263,10 @@ public class Consonants extends javax.swing.JPanel {
                 TtLabelMouseClicked(evt);
             }
         });
-        add(TtLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(555, 1508, -1, -1));
+        add(TtLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 1220, 620, -1));
 
         VvLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
+        VvLabel.setForeground(new java.awt.Color(0, 0, 0));
         VvLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Vv.png"))); // NOI18N
         VvLabel.setText("/vi:/ V for van");
         VvLabel.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -233,9 +274,10 @@ public class Consonants extends javax.swing.JPanel {
                 VvLabelMouseClicked(evt);
             }
         });
-        add(VvLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(36, 1689, -1, -1));
+        add(VvLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 1220, 620, -1));
 
         WwLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
+        WwLabel.setForeground(new java.awt.Color(0, 0, 0));
         WwLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Ww.jpg"))); // NOI18N
         WwLabel.setText("/ˈdʌbəlˌju:/ W for window");
         WwLabel.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -243,9 +285,10 @@ public class Consonants extends javax.swing.JPanel {
                 WwLabelMouseClicked(evt);
             }
         });
-        add(WwLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(555, 1689, -1, -1));
+        add(WwLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(1280, 1230, 620, 170));
 
         XxLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
+        XxLabel.setForeground(new java.awt.Color(0, 0, 0));
         XxLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Xx.png"))); // NOI18N
         XxLabel.setText("/ɛks/ X as in box");
         XxLabel.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -253,9 +296,10 @@ public class Consonants extends javax.swing.JPanel {
                 XxLabelMouseClicked(evt);
             }
         });
-        add(XxLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(36, 1870, -1, -1));
+        add(XxLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 1420, 620, -1));
 
         YyLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
+        YyLabel.setForeground(new java.awt.Color(0, 0, 0));
         YyLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Yy.png"))); // NOI18N
         YyLabel.setText("/waɪ/ Y for yoghurt");
         YyLabel.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -263,9 +307,10 @@ public class Consonants extends javax.swing.JPanel {
                 YyLabelMouseClicked(evt);
             }
         });
-        add(YyLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(555, 1870, -1, -1));
+        add(YyLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 1420, 620, -1));
 
         ZzLabel.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
+        ZzLabel.setForeground(new java.awt.Color(0, 0, 0));
         ZzLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Alphabet letters/Consonants/Zz.png"))); // NOI18N
         ZzLabel.setText("/zi:/ Z for zebra");
         ZzLabel.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -273,17 +318,78 @@ public class Consonants extends javax.swing.JPanel {
                 ZzLabelMouseClicked(evt);
             }
         });
-        add(ZzLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(292, 2056, -1, -1));
+        add(ZzLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(1290, 1430, 620, -1));
 
-        jLabel1.setFont(new java.awt.Font("Dialog", 1, 50)); // NOI18N
-        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("CONSONANTS");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(353, 62, 398, 140));
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Consonant_Layout__-removebg-preview.png"))); // NOI18N
+        jLabel2.setText("jLabel2");
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 150, 300, 100));
 
-        jLabel3.setBackground(new java.awt.Color(255, 51, 51));
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Plain Background.png"))); // NOI18N
-        jLabel3.setText("jLabel3");
-        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1240, 2370));
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Consonant_Layout__-removebg-preview.png"))); // NOI18N
+        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(1590, 170, 350, 90));
+
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Consonant_Layout__-removebg-preview.png"))); // NOI18N
+        add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 150, 310, 100));
+
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Consonant_Layout__-removebg-preview.png"))); // NOI18N
+        add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 390, 310, 110));
+
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Consonant_Layout__-removebg-preview.png"))); // NOI18N
+        add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 400, 300, 80));
+
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Consonant_Layout__-removebg-preview.png"))); // NOI18N
+        add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(1590, 410, 310, 100));
+
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Consonant_Layout__-removebg-preview.png"))); // NOI18N
+        add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 620, 300, 100));
+
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Consonant_Layout__-removebg-preview.png"))); // NOI18N
+        add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 620, 320, 100));
+
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Consonant_Layout__-removebg-preview.png"))); // NOI18N
+        jLabel11.setText("jLabel11");
+        add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(1590, 630, 300, 90));
+
+        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Consonant_Layout__-removebg-preview.png"))); // NOI18N
+        add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 820, 300, 90));
+
+        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Consonant_Layout__-removebg-preview.png"))); // NOI18N
+        add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 820, -1, -1));
+
+        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Consonant_Layout__-removebg-preview.png"))); // NOI18N
+        add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 1030, -1, -1));
+
+        jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Consonant_Layout__-removebg-preview.png"))); // NOI18N
+        add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(1590, 1070, -1, 80));
+
+        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Consonant_Layout__-removebg-preview.png"))); // NOI18N
+        add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(1590, 870, -1, 80));
+
+        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Consonant_Layout__-removebg-preview.png"))); // NOI18N
+        add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 1020, -1, -1));
+
+        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Consonant_Layout__-removebg-preview.png"))); // NOI18N
+        add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 1260, -1, 80));
+
+        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Consonant_Layout__-removebg-preview.png"))); // NOI18N
+        add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 1230, -1, -1));
+
+        jLabel20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Consonant_Layout__-removebg-preview.png"))); // NOI18N
+        add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(1600, 1270, -1, 80));
+
+        jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Consonant_Layout__-removebg-preview.png"))); // NOI18N
+        add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(980, 1460, -1, 90));
+
+        jLabel22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Consonant_Layout__-removebg-preview.png"))); // NOI18N
+        add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 1420, 300, -1));
+
+        jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Consonant_Layout__-removebg-preview.png"))); // NOI18N
+        add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(1610, 1430, -1, -1));
+
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Consonants__Wood_-removebg-preview.png"))); // NOI18N
+        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 0, 630, 120));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/pAGOD NA KO.png"))); // NOI18N
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, -250, 1990, 1860));
     }// </editor-fold>//GEN-END:initComponents
 
     String[] consonants = {"Bb", "Cc", "Dd", "Ff", "Gg", "Hh", "Jj", "Kk", "Ll", "Mm", "Nn", "Pp", "Qq", "Rr", "Ss", "Tt", "Vv", "Ww", "Xx", "Yy", "Zz"};
@@ -419,6 +525,27 @@ public class Consonants extends javax.swing.JPanel {
     private javax.swing.JLabel YyLabel;
     private javax.swing.JLabel ZzLabel;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     // End of variables declaration//GEN-END:variables
 }
