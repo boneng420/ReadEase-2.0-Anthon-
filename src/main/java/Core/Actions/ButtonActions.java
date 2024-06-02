@@ -1,5 +1,6 @@
 package Core.Actions;
 
+import Utilities.MusicPlayer;
 import Utilities.NetworkUtils;
 import com.google.cloud.texttospeech.v1.*;
 import com.google.protobuf.ByteString;
@@ -25,7 +26,9 @@ public class ButtonActions {
         textArea.setText("");
     }
 
-    public static void readText(JTextArea textArea) {
+    public static void readText(JTextArea textArea, MusicPlayer musicPlayer) {
+        musicPlayer.pauseMusic();
+
         String text = textArea.getText(); // Get the text from the textArea
         if (text.isBlank()) {
             JOptionPane.showMessageDialog(null, "There is no text to read.");
@@ -70,6 +73,7 @@ public class ButtonActions {
                     if (event.getType() == LineEvent.Type.STOP) {
                         synchronized (audioClip) {
                             audioClip.notify();
+                            musicPlayer.resumeMusic();
                         }
                     }
                 });
@@ -85,6 +89,7 @@ public class ButtonActions {
             }
 
         } catch (Exception e) {
+
         }
     }
 

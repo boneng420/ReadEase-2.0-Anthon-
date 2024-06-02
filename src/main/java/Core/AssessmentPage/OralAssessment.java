@@ -6,6 +6,7 @@ package Core.AssessmentPage;
 
 import Core.Actions.ButtonActions;
 import Core.Assessment;
+import Utilities.MusicPlayer;
 
 import javax.swing.*;
 import java.awt.*;
@@ -15,8 +16,13 @@ import java.awt.*;
  */
 public class OralAssessment extends javax.swing.JFrame {
 
+    private MusicPlayer musicPlayer;
+
     public OralAssessment() {
         initComponents();
+
+        musicPlayer = new MusicPlayer();
+        musicPlayer.playMusic("Audio/Background Music/POU FREE-FALL.mp3");
 
         clearButton5.setOpaque(false);
         clearButton5.setContentAreaFilled(false);
@@ -997,7 +1003,7 @@ public class OralAssessment extends javax.swing.JFrame {
 
     private void ReadButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ReadButton2ActionPerformed
         // TODO add your handling code here:
-        ButtonActions.readText(textArea2);
+        ButtonActions.readText(textArea2, musicPlayer);
     }//GEN-LAST:event_ReadButton2ActionPerformed
 
     private void matWordButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_matWordButton2ActionPerformed
@@ -1054,7 +1060,7 @@ public class OralAssessment extends javax.swing.JFrame {
 
     private void ReadButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ReadButton3ActionPerformed
         // TODO add your handling code here:
-        ButtonActions.readText(textArea3);
+        ButtonActions.readText(textArea3, musicPlayer);
     }//GEN-LAST:event_ReadButton3ActionPerformed
 
     private void fishWordButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fishWordButton3ActionPerformed
@@ -1105,7 +1111,7 @@ public class OralAssessment extends javax.swing.JFrame {
 
     private void ReadButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ReadButton4ActionPerformed
         // TODO add your handling code here:
-        ButtonActions.readText(textArea4);
+        ButtonActions.readText(textArea4, musicPlayer);
     }//GEN-LAST:event_ReadButton4ActionPerformed
 
     private void areWordButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_areWordButton4ActionPerformed
@@ -1150,7 +1156,7 @@ public class OralAssessment extends javax.swing.JFrame {
 
     private void ReadButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ReadButton5ActionPerformed
         // TODO add your handling code here:
-        ButtonActions.readText(textArea5);
+        ButtonActions.readText(textArea5, musicPlayer);
     }//GEN-LAST:event_ReadButton5ActionPerformed
 
     private void boxWordButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boxWordButton5ActionPerformed
@@ -1245,7 +1251,7 @@ public class OralAssessment extends javax.swing.JFrame {
 
         private void readButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_readButton1ActionPerformed
                 // TODO add your handling code here:
-                ButtonActions.readText(textArea1);
+                ButtonActions.readText(textArea1, musicPlayer);
         }//GEN-LAST:event_readButton1ActionPerformed
 
         private void clearButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButton1ActionPerformed

@@ -6,6 +6,7 @@ package Core.AssessmentPage.TakeChallengeModeOfDifficulty;
 
 import Core.Actions.ButtonActions;
 import Core.AssessmentPage.TakeChallengeAssessment;
+import Utilities.MusicPlayer;
 
 import javax.swing.*;
 import java.awt.*;
@@ -15,11 +16,16 @@ import java.awt.*;
  */
 public class EasyTakeChallenge extends javax.swing.JFrame {
 
+        private MusicPlayer musicPlayer;
+
     /**
      * Creates new form EasyTakeChallenge
      */
     public EasyTakeChallenge() {
         initComponents();
+
+        musicPlayer = new MusicPlayer();
+        musicPlayer.playMusic("Audio/Background Music/POU FREE-FALL.mp3");
 
         ImageIcon originalIcon = new ImageIcon(getClass().getResource("/Assessment/Take Challenge/TIGER.png"));
         ImageIcon icon = new ImageIcon(originalIcon.getImage().getScaledInstance(iconT1.getWidth(), iconT1.getHeight(), java.awt.Image.SCALE_SMOOTH));
@@ -746,12 +752,12 @@ public class EasyTakeChallenge extends javax.swing.JFrame {
 
     private void readButtonTC1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_readButtonTC1ActionPerformed
         // TODO add your handling code here:
-        ButtonActions.readText(textAreaTC1);
+        ButtonActions.readText(textAreaTC1, musicPlayer);
     }//GEN-LAST:event_readButtonTC1ActionPerformed
 
     private void readButtonTC2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_readButtonTC2ActionPerformed
         // TODO add your handling code here:
-        ButtonActions.readText(textAreaTC2);
+        ButtonActions.readText(textAreaTC2, musicPlayer);
     }//GEN-LAST:event_readButtonTC2ActionPerformed
 
     private void clearButtonTC2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButtonTC2ActionPerformed
@@ -766,7 +772,7 @@ public class EasyTakeChallenge extends javax.swing.JFrame {
 
     private void readButtonTC3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_readButtonTC3ActionPerformed
         // TODO add your handling code here:
-        ButtonActions.readText(textAreaTC3);
+        ButtonActions.readText(textAreaTC3, musicPlayer);
     }//GEN-LAST:event_readButtonTC3ActionPerformed
 
     private void clearButtonTC3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButtonTC3ActionPerformed
@@ -781,7 +787,7 @@ public class EasyTakeChallenge extends javax.swing.JFrame {
 
     private void readButtonTC4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_readButtonTC4ActionPerformed
         // TODO add your handling code here:
-        ButtonActions.readText(textAreaTC4);
+        ButtonActions.readText(textAreaTC4, musicPlayer);
     }//GEN-LAST:event_readButtonTC4ActionPerformed
 
     private void clearButtonTC4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButtonTC4ActionPerformed
@@ -796,7 +802,7 @@ public class EasyTakeChallenge extends javax.swing.JFrame {
 
     private void readButtonTC5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_readButtonTC5ActionPerformed
         // TODO add your handling code here:
-        ButtonActions.readText(textAreaTC5);
+        ButtonActions.readText(textAreaTC5, musicPlayer);
     }//GEN-LAST:event_readButtonTC5ActionPerformed
 
     private void clearButtonTC5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButtonTC5ActionPerformed
