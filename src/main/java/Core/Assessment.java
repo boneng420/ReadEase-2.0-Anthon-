@@ -79,7 +79,7 @@ public class Assessment extends javax.swing.JFrame {
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         oralAssessmentButton.setFont(new java.awt.Font("Dialog", 1, 36)); // NOI18N
-        oralAssessmentButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Oral Assessment(Button).png"))); // NOI18N
+        oralAssessmentButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/OAButton.png"))); // NOI18N
         oralAssessmentButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 oralAssessmentButtonActionPerformed(evt);

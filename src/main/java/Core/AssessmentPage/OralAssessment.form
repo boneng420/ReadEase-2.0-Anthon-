@@ -104,7 +104,7 @@
             <Component class="javax.swing.JButton" name="clearButton1">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/CLEAR_Button__140_x_125___2_.png"/>
+                  <Image iconType="3" name="/ClearButton.png"/>
                 </Property>
               </Properties>
               <Events>
@@ -365,7 +365,7 @@
             <Component class="javax.swing.JButton" name="clearButton2">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/CLEAR_Button__140_x_125___2_.png"/>
+                  <Image iconType="3" name="/ClearButton.png"/>
                 </Property>
               </Properties>
               <Events>
@@ -396,9 +396,6 @@
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Dialog" size="18" style="0"/>
-                </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/mat_Button__250x250_-removebg-preview.png"/>
                 </Property>
               </Properties>
               <Events>
@@ -451,9 +448,6 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Dialog" size="18" style="0"/>
                 </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/on_Button__250x250_-removebg-preview.png"/>
-                </Property>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="onWordButton2ActionPerformed"/>
@@ -500,9 +494,6 @@
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Dialog" size="18" style="0"/>
                 </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/cat_Button__250x250___1_-removebg-preview.png"/>
-                </Property>
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="catWordButton2ActionPerformed"/>
@@ -517,9 +508,6 @@
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Dialog" size="18" style="0"/>
-                </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/the_Button__smol___250x250_-removebg-preview.png"/>
                 </Property>
               </Properties>
               <Events>
@@ -647,7 +635,7 @@
             <Component class="javax.swing.JButton" name="clearButton3">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/CLEAR_Button__140_x_125___2_.png"/>
+                  <Image iconType="3" name="/ClearButton.png"/>
                 </Property>
               </Properties>
               <Events>
@@ -714,9 +702,6 @@
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Dialog" size="18" style="0"/>
-                </Property>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/big_Button__smol___250x250_-removebg-preview.png"/>
                 </Property>
               </Properties>
               <Events>
@@ -911,7 +896,7 @@
             <Component class="javax.swing.JButton" name="clearButton4">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/CLEAR_Button__140_x_125___2_.png"/>
+                  <Image iconType="3" name="/ClearButton.png"/>
                 </Property>
               </Properties>
               <Events>
@@ -1157,7 +1142,7 @@
             <Component class="javax.swing.JButton" name="clearButton5">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/CLEAR_Button__140_x_125___2_.png"/>
+                  <Image iconType="3" name="/ClearButton.png"/>
                 </Property>
               </Properties>
               <Events>
