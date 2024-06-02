@@ -5,6 +5,7 @@
 package Core.ReadNLearnForm;
 
 import Core.ReadNLearn;
+import java.awt.Color;
 
 /**
  *
@@ -17,6 +18,17 @@ public class VideoLearning extends javax.swing.JFrame {
 	 */
 	public VideoLearning() {
 		initComponents();
+                this.setExtendedState(MAXIMIZED_BOTH);
+                
+        returnButton.setOpaque(false);
+        returnButton.setContentAreaFilled(false);
+        returnButton.setBorderPainted(false);
+        returnButton.setBackground(new Color(0, 0, 0, 0));
+        
+        nextButton.setOpaque(false);
+        nextButton.setContentAreaFilled(false);
+        nextButton.setBorderPainted(false);
+        nextButton.setBackground(new Color(0, 0, 0, 0));
 	}
 
 	/**
@@ -30,15 +42,17 @@ public class VideoLearning extends javax.swing.JFrame {
 
         letterSoundTabbedPane = new javax.swing.JTabbedPane();
         jScrollPane1 = new javax.swing.JScrollPane();
-        vowels = new Core.ReadNLearnForm.VLessonsModules.Vowels();
+        vowels1 = new Core.ReadNLearnForm.VLessonsModules.Vowels();
         jScrollPane2 = new javax.swing.JScrollPane();
         consonants = new Core.ReadNLearnForm.VLessonsModules.Consonants();
         returnButton = new javax.swing.JButton();
         nextButton = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jScrollPane1.setViewportView(vowels);
+        jScrollPane1.setViewportView(vowels1);
 
         letterSoundTabbedPane.addTab("Lesson 1: Vowels", jScrollPane1);
 
@@ -46,47 +60,34 @@ public class VideoLearning extends javax.swing.JFrame {
 
         letterSoundTabbedPane.addTab("Lesson 2: Consonants", jScrollPane2);
 
+        getContentPane().add(letterSoundTabbedPane, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 90, 1908, 891));
+
         returnButton.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
-        returnButton.setText("Return");
+        returnButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Back_Button__150x150.png"))); // NOI18N
         returnButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 returnButtonMouseClicked(evt);
             }
         });
+        getContentPane().add(returnButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 150, 90));
 
         nextButton.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
-        nextButton.setText("Next");
+        nextButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Next Button (150x150).png"))); // NOI18N
         nextButton.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 nextButtonMouseClicked(evt);
             }
         });
+        nextButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                nextButtonActionPerformed(evt);
+            }
+        });
+        getContentPane().add(nextButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(1740, 10, 160, 90));
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(letterSoundTabbedPane, javax.swing.GroupLayout.DEFAULT_SIZE, 976, Short.MAX_VALUE)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(returnButton, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(nextButton, javax.swing.GroupLayout.PREFERRED_SIZE, 127, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap())
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(returnButton, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(nextButton, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addComponent(letterSoundTabbedPane, javax.swing.GroupLayout.PREFERRED_SIZE, 891, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(193, Short.MAX_VALUE))
-        );
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Plain Background.png"))); // NOI18N
+        jLabel1.setText("jLabel1");
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1, -4, 2130, 1370));
 
         pack();
         setLocationRelativeTo(null);
@@ -113,6 +114,10 @@ public class VideoLearning extends javax.swing.JFrame {
                 readNLearn.setVisible(true);
             }
         }//GEN-LAST:event_returnButtonMouseClicked
+
+    private void nextButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nextButtonActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_nextButtonActionPerformed
 
 	/**
 	 * @param args the command line arguments
@@ -151,11 +156,12 @@ public class VideoLearning extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private Core.ReadNLearnForm.VLessonsModules.Consonants consonants;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JTabbedPane letterSoundTabbedPane;
     private javax.swing.JButton nextButton;
     private javax.swing.JButton returnButton;
-    private Core.ReadNLearnForm.VLessonsModules.Vowels vowels;
+    private Core.ReadNLearnForm.VLessonsModules.Vowels vowels1;
     // End of variables declaration//GEN-END:variables
 }
