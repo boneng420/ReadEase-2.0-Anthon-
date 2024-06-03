@@ -13,6 +13,6 @@ public class ReadEase {
     public static void main(String[] args) {
         new StartingPage().setVisible(true);
         MusicPlayer musicPlayer = MusicPlayer.getInstance();
-        musicPlayer.playMusic("Audio/Bach.mp3");
+        musicPlayer.playMusic("sound/background/Bach.mp3");
     }
 }
