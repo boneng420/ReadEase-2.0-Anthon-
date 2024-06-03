@@ -46,7 +46,6 @@ public class TakeChallengeAssessment extends javax.swing.JFrame {
                 takeChallengeHardButton = new javax.swing.JLabel();
                 back = new javax.swing.JPanel();
                 backButton = new javax.swing.JLabel();
-                background = new javax.swing.JLabel();
 
                 setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
                 setBackground(new java.awt.Color(255, 153, 153));
@@ -121,9 +120,9 @@ public class TakeChallengeAssessment extends javax.swing.JFrame {
                 backLayout.setHorizontalGroup(
                         backLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                         .addGroup(backLayout.createSequentialGroup()
-                                .addGap(20, 20, 20)
+                                .addContainerGap()
                                 .addComponent(backButton)
-                                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                .addContainerGap(20, Short.MAX_VALUE))
                 );
                 backLayout.setVerticalGroup(
                         backLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -140,17 +139,6 @@ public class TakeChallengeAssessment extends javax.swing.JFrame {
                 gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
                 gridBagConstraints.insets = new java.awt.Insets(600, 10, 0, 0);
                 getContentPane().add(back, gridBagConstraints);
-
-                background.setIcon(new javax.swing.ImageIcon(getClass().getResource("/bgbgbg.gif"))); // NOI18N
-                gridBagConstraints = new java.awt.GridBagConstraints();
-                gridBagConstraints.gridx = 0;
-                gridBagConstraints.gridy = 0;
-                gridBagConstraints.gridwidth = 4;
-                gridBagConstraints.gridheight = 4;
-                gridBagConstraints.ipadx = -2;
-                gridBagConstraints.ipady = 112;
-                gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
-                getContentPane().add(background, gridBagConstraints);
 
                 pack();
                 setLocationRelativeTo(null);
@@ -238,7 +226,6 @@ public class TakeChallengeAssessment extends javax.swing.JFrame {
         // Variables declaration - do not modify//GEN-BEGIN:variables
         private javax.swing.JPanel back;
         private javax.swing.JLabel backButton;
-        private javax.swing.JLabel background;
         private javax.swing.JLabel takeChallengeEasyButton;
         private javax.swing.JLabel takeChallengeHardButton;
         private javax.swing.JLabel takeChallengeIntermediateButton;
