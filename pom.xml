@@ -43,7 +43,6 @@
             <artifactId>javafx-fxml</artifactId>
             <version>17</version>
         </dependency>
-
     </dependencies>
     <build>
         <plugins>

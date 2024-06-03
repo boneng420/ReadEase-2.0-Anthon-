@@ -196,6 +196,11 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
         TCtabbedPane1I.add(clearButtonI1, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 420, 73, -1));
 
         hintButtonI1.setText("Hint");
+        hintButtonI1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                hintButtonI1ActionPerformed(evt);
+            }
+        });
         TCtabbedPane1I.add(hintButtonI1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 420, 73, -1));
 
         HButtonI1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Button_Letters/H button.png"))); // NOI18N
@@ -316,6 +321,11 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
         TCtabbedPane2I.add(clearButtonI2, new org.netbeans.lib.awtextra.AbsoluteConstraints(268, 435, 73, -1));
 
         hintButtonI2.setText("Hint");
+        hintButtonI2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                hintButtonI2ActionPerformed(evt);
+            }
+        });
         TCtabbedPane2I.add(hintButtonI2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 435, 73, -1));
 
         nextButtonI2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Button_Letters/next button.png"))); // NOI18N
@@ -452,6 +462,11 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
         TCtabbedPane3I.add(clearButtonI3, new org.netbeans.lib.awtextra.AbsoluteConstraints(268, 435, 73, -1));
 
         hintButtonI3.setText("Hint");
+        hintButtonI3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                hintButtonI3ActionPerformed(evt);
+            }
+        });
         TCtabbedPane3I.add(hintButtonI3, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 435, 73, -1));
 
         nextButtonI3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Button_Letters/next button.png"))); // NOI18N
@@ -572,6 +587,11 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
         TCtabbedPane4I.add(clearButtonI4, new org.netbeans.lib.awtextra.AbsoluteConstraints(268, 435, 73, -1));
 
         hintButtonI4.setText("Hint");
+        hintButtonI4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                hintButtonI4ActionPerformed(evt);
+            }
+        });
         TCtabbedPane4I.add(hintButtonI4, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 435, 73, -1));
 
         nextButtonI4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Button_Letters/next button.png"))); // NOI18N
@@ -692,6 +712,11 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
         TCtabbedPane5I.add(clearButtonI5, new org.netbeans.lib.awtextra.AbsoluteConstraints(268, 435, 73, -1));
 
         hintButtonI5.setText("Hint");
+        hintButtonI5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                hintButtonI5ActionPerformed(evt);
+            }
+        });
         TCtabbedPane5I.add(hintButtonI5, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 435, 73, -1));
 
         textAreaI5.setEditable(false);
@@ -792,6 +817,14 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
     String[] wordI3 = {"C", "A", "S", "T", "L", "E"};
     String[] wordI4 = {"D", "R", "A", "G", "O", "N"};
     String[] wordI5 = {"G", "U", "I", "T", "A", "R"};
+
+    String[] hints = {
+            "You wear it on your wrist to tell the time.",
+            "A small, furry animal with a bushy tail that loves nuts.",
+            "A big, grand building where kings and queens used to live.",
+            "A mythical creature with wings and fire-breathing powers.",
+            "A musical instrument with strings that you strum to make music."
+    };
 
     private void readButtonI1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_readButtonI1ActionPerformed
         // TODO add your handling code here:
@@ -1096,6 +1129,31 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
         takeChallengeAssessment.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_returnButtonI5MouseClicked
+
+    private void hintButtonI1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hintButtonI1ActionPerformed
+        // TODO add your handling code here:
+        JOptionPane.showMessageDialog(this, hints[0], "Hint", JOptionPane.INFORMATION_MESSAGE);
+    }//GEN-LAST:event_hintButtonI1ActionPerformed
+
+    private void hintButtonI2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hintButtonI2ActionPerformed
+        // TODO add your handling code here:
+        JOptionPane.showMessageDialog(this, hints[1], "Hint", JOptionPane.INFORMATION_MESSAGE);
+    }//GEN-LAST:event_hintButtonI2ActionPerformed
+
+    private void hintButtonI3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hintButtonI3ActionPerformed
+        // TODO add your handling code here:
+        JOptionPane.showMessageDialog(this, hints[2], "Hint", JOptionPane.INFORMATION_MESSAGE);
+    }//GEN-LAST:event_hintButtonI3ActionPerformed
+
+    private void hintButtonI4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hintButtonI4ActionPerformed
+        // TODO add your handling code here:
+        JOptionPane.showMessageDialog(this, hints[3], "Hint", JOptionPane.INFORMATION_MESSAGE);
+    }//GEN-LAST:event_hintButtonI4ActionPerformed
+
+    private void hintButtonI5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hintButtonI5ActionPerformed
+        // TODO add your handling code here:
+        JOptionPane.showMessageDialog(this, hints[4], "Hint", JOptionPane.INFORMATION_MESSAGE);
+    }//GEN-LAST:event_hintButtonI5ActionPerformed
 
     /**
      * @param args the command line arguments

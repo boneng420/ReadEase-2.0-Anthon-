@@ -186,6 +186,11 @@ public class HardTakeChallenge extends javax.swing.JFrame {
         TCtabbedPane1H.add(clearButtonH1, new org.netbeans.lib.awtextra.AbsoluteConstraints(268, 435, 73, -1));
 
         hintButtonH1.setText("Hint");
+        hintButtonH1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                hintButtonH1ActionPerformed(evt);
+            }
+        });
         TCtabbedPane1H.add(hintButtonH1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 435, 73, -1));
 
         textAreaH1.setEditable(false);
@@ -330,6 +335,11 @@ public class HardTakeChallenge extends javax.swing.JFrame {
         TCtabbedPane2H.add(clearButtonH2, new org.netbeans.lib.awtextra.AbsoluteConstraints(268, 435, 73, -1));
 
         hintButtonH2.setText("Hint");
+        hintButtonH2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                hintButtonH2ActionPerformed(evt);
+            }
+        });
         TCtabbedPane2H.add(hintButtonH2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 435, 73, -1));
 
         textAreaH2.setEditable(false);
@@ -458,6 +468,11 @@ public class HardTakeChallenge extends javax.swing.JFrame {
         TCtabbedPane3H.add(clearButtonH3, new org.netbeans.lib.awtextra.AbsoluteConstraints(268, 435, 73, -1));
 
         hintButtonH3.setText("Hint");
+        hintButtonH3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                hintButtonH3ActionPerformed(evt);
+            }
+        });
         TCtabbedPane3H.add(hintButtonH3, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 435, 73, -1));
 
         nextButtonH3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Button_Letters/next button.png"))); // NOI18N
@@ -586,6 +601,11 @@ public class HardTakeChallenge extends javax.swing.JFrame {
         TCtabbedPane4H.add(clearButtonH4, new org.netbeans.lib.awtextra.AbsoluteConstraints(268, 435, 73, -1));
 
         hintButtonH4.setText("Hint");
+        hintButtonH4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                hintButtonH4ActionPerformed(evt);
+            }
+        });
         TCtabbedPane4H.add(hintButtonH4, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 435, 73, -1));
 
         nextButtonH4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Button_Letters/next button.png"))); // NOI18N
@@ -706,6 +726,11 @@ public class HardTakeChallenge extends javax.swing.JFrame {
         TCtabbedPane5H.add(clearButtonH5, new org.netbeans.lib.awtextra.AbsoluteConstraints(268, 435, 73, -1));
 
         hintButtonH5.setText("Hint");
+        hintButtonH5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                hintButtonH5ActionPerformed(evt);
+            }
+        });
         TCtabbedPane5H.add(hintButtonH5, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 435, 73, -1));
 
         textAreaH5.setEditable(false);
@@ -814,6 +839,16 @@ public class HardTakeChallenge extends javax.swing.JFrame {
     String[] wordH3 = {"G", "L", "A", "S", "S", "E", "S"};
     String[] wordH4 = {"C", "A", "M", "E", "R", "A"};
     String[] wordH5 = {"P", "E", "N", "G", "U", "I", "N"};
+
+    //    Array of hint for each word
+    String[] hints = {
+            "It's the king of the jungle, with a long trunk and big ears.",
+            "This animal has a neck as tall as a tree and loves munching on leaves.",
+            "Put these on your face to help you see better.",
+            "Capture memories with this device, whether in photos or videos!",
+            "This bird might not fly, but it's a fantastic swimmer and loves the ocean."
+    };
+
 
     private void readButtonH1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_readButtonH1ActionPerformed
         // TODO add your handling code here:
@@ -1148,6 +1183,31 @@ public class HardTakeChallenge extends javax.swing.JFrame {
         textAreaH5.append(wordH5[6]);
         ButtonActions.speak(wordH5[6], soundToggleButtonH5);
     }//GEN-LAST:event_N2ButtonH5MouseClicked
+
+    private void hintButtonH1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hintButtonH1ActionPerformed
+        // TODO add your handling code here:
+        JOptionPane.showMessageDialog(this, hints[0], "Hint", JOptionPane.INFORMATION_MESSAGE);
+    }//GEN-LAST:event_hintButtonH1ActionPerformed
+
+    private void hintButtonH2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hintButtonH2ActionPerformed
+        // TODO add your handling code here:
+        JOptionPane.showMessageDialog(this, hints[1], "Hint", JOptionPane.INFORMATION_MESSAGE);
+    }//GEN-LAST:event_hintButtonH2ActionPerformed
+
+    private void hintButtonH3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hintButtonH3ActionPerformed
+        // TODO add your handling code here:
+        JOptionPane.showMessageDialog(this, hints[2], "Hint", JOptionPane.INFORMATION_MESSAGE);
+    }//GEN-LAST:event_hintButtonH3ActionPerformed
+
+    private void hintButtonH4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hintButtonH4ActionPerformed
+        // TODO add your handling code here:
+        JOptionPane.showMessageDialog(this, hints[3], "Hint", JOptionPane.INFORMATION_MESSAGE);
+    }//GEN-LAST:event_hintButtonH4ActionPerformed
+
+    private void hintButtonH5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hintButtonH5ActionPerformed
+        // TODO add your handling code here:
+        JOptionPane.showMessageDialog(this, hints[4], "Hint", JOptionPane.INFORMATION_MESSAGE);
+    }//GEN-LAST:event_hintButtonH5ActionPerformed
 
     /**
      * @param args the command line arguments
