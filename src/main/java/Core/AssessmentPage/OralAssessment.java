@@ -483,13 +483,14 @@ public class OralAssessment extends javax.swing.JFrame {
         });
         q1Panel.add(nextButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1070, 620, 160, 90));
 
+        textToSpeechToggleButton1.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
         textToSpeechToggleButton1.setText("Sound");
         textToSpeechToggleButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 textToSpeechToggleButton1ActionPerformed(evt);
             }
         });
-        q1Panel.add(textToSpeechToggleButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, 80, 40));
+        q1Panel.add(textToSpeechToggleButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, -1, -1));
 
         iconT1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Assessment/Oral Assessment/WetNet.png"))); // NOI18N
         iconT1.setPreferredSize(new java.awt.Dimension(50, 15));
@@ -521,7 +522,7 @@ public class OralAssessment extends javax.swing.JFrame {
         directionLabel2.setFont(new java.awt.Font("Comic Sans MS", 0, 35)); // NOI18N
         directionLabel2.setForeground(new java.awt.Color(204, 204, 0));
         directionLabel2.setText("Direction: Describe the picture using the word");
-        q2Panel.add(directionLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 40, 672, -1));
+        q2Panel.add(directionLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 40, 790, -1));
 
         textArea2.setEditable(false);
         textArea2.setBackground(new java.awt.Color(255, 255, 204));
@@ -593,13 +594,14 @@ public class OralAssessment extends javax.swing.JFrame {
         });
         q2Panel.add(nextButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(1090, 620, 160, 80));
 
+        textToSpeechToggleButton2.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
         textToSpeechToggleButton2.setText("Sound");
         textToSpeechToggleButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 textToSpeechToggleButton2ActionPerformed(evt);
             }
         });
-        q2Panel.add(textToSpeechToggleButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, -1, -1));
+        q2Panel.add(textToSpeechToggleButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, -1, -1));
 
         catWordButton2.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
         catWordButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cat_Button__250x250___1_-.png"))); // NOI18N
@@ -643,7 +645,7 @@ public class OralAssessment extends javax.swing.JFrame {
         directionLabel3.setFont(new java.awt.Font("Comic Sans MS", 0, 35)); // NOI18N
         directionLabel3.setForeground(new java.awt.Color(204, 204, 0));
         directionLabel3.setText("Direction: Describe the picture using the word");
-        q3Panel.add(directionLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(28, 47, 672, -1));
+        q3Panel.add(directionLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(28, 47, 790, -1));
 
         textArea3.setEditable(false);
         textArea3.setBackground(new java.awt.Color(255, 255, 204));
@@ -715,13 +717,14 @@ public class OralAssessment extends javax.swing.JFrame {
         });
         q3Panel.add(nextButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(1100, 600, 140, 100));
 
+        textToSpeechToggleButton3.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
         textToSpeechToggleButton3.setText("Sound");
         textToSpeechToggleButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 textToSpeechToggleButton3ActionPerformed(evt);
             }
         });
-        q3Panel.add(textToSpeechToggleButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 10, -1, -1));
+        q3Panel.add(textToSpeechToggleButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, -1, -1));
 
         finsWordButton3.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
         finsWordButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/fins_Button__250x250___.png"))); // NOI18N
@@ -756,7 +759,7 @@ public class OralAssessment extends javax.swing.JFrame {
         directionLabel4.setFont(new java.awt.Font("Comic Sans MS", 0, 35)); // NOI18N
         directionLabel4.setForeground(new java.awt.Color(204, 204, 0));
         directionLabel4.setText("Direction: Describe the picture using the word");
-        q4Panel.add(directionLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(28, 47, 672, -1));
+        q4Panel.add(directionLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(28, 47, 800, -1));
 
         textArea4.setEditable(false);
         textArea4.setBackground(new java.awt.Color(255, 255, 204));
@@ -828,13 +831,14 @@ public class OralAssessment extends javax.swing.JFrame {
         });
         q4Panel.add(nextButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(1070, 590, 160, 120));
 
+        textToSpeechToggleButton4.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
         textToSpeechToggleButton4.setText("Sound");
         textToSpeechToggleButton4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 textToSpeechToggleButton4ActionPerformed(evt);
             }
         });
-        q4Panel.add(textToSpeechToggleButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 10, -1, -1));
+        q4Panel.add(textToSpeechToggleButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, -1, -1));
 
         iconT4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Assessment/Oral Assessment/Apple.png"))); // NOI18N
         iconT4.setPreferredSize(new java.awt.Dimension(50, 15));
@@ -860,7 +864,7 @@ public class OralAssessment extends javax.swing.JFrame {
         directionLabel5.setFont(new java.awt.Font("Comic Sans MS", 0, 35)); // NOI18N
         directionLabel5.setForeground(new java.awt.Color(204, 204, 0));
         directionLabel5.setText("Direction: Describe the picture using the word");
-        q5Panel.add(directionLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 50, 672, -1));
+        q5Panel.add(directionLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 50, 800, -1));
 
         textArea5.setEditable(false);
         textArea5.setBackground(new java.awt.Color(255, 255, 204));
@@ -932,13 +936,14 @@ public class OralAssessment extends javax.swing.JFrame {
         });
         q5Panel.add(nextButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(1070, 610, 160, 100));
 
+        textToSpeechToggleButton5.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
         textToSpeechToggleButton5.setText("Sound");
         textToSpeechToggleButton5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 textToSpeechToggleButton5ActionPerformed(evt);
             }
         });
-        q5Panel.add(textToSpeechToggleButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 10, -1, -1));
+        q5Panel.add(textToSpeechToggleButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 20, -1, -1));
 
         catWordButton5.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
         catWordButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cat_Button__250x250___1_-.png"))); // NOI18N
