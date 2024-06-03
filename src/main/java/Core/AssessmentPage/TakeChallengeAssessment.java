@@ -185,6 +185,7 @@ public class TakeChallengeAssessment extends javax.swing.JFrame {
 
     private void backButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_backButtonMouseClicked
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         Assessment assessment = new Assessment();
         assessment.setVisible(true);
         this.dispose();
@@ -193,6 +194,7 @@ public class TakeChallengeAssessment extends javax.swing.JFrame {
 
     private void backMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_backMouseClicked
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         Assessment assessment = new Assessment();
         assessment.setVisible(true);
         this.dispose();

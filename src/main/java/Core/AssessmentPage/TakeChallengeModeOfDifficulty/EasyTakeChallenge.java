@@ -794,21 +794,25 @@ public class EasyTakeChallenge extends javax.swing.JFrame {
 
     private void clearButtonTC1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButtonTC1ActionPerformed
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ButtonActions.clearTextArea(textAreaTC1);
     }//GEN-LAST:event_clearButtonTC1ActionPerformed
 
     private void readButtonTC1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_readButtonTC1ActionPerformed
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ButtonActions.readText(textAreaTC1, musicPlayer);
     }//GEN-LAST:event_readButtonTC1ActionPerformed
 
     private void readButtonTC2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_readButtonTC2ActionPerformed
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ButtonActions.readText(textAreaTC2, musicPlayer);
     }//GEN-LAST:event_readButtonTC2ActionPerformed
 
     private void clearButtonTC2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButtonTC2ActionPerformed
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ButtonActions.clearTextArea(textAreaTC2);
     }//GEN-LAST:event_clearButtonTC2ActionPerformed
 
@@ -819,11 +823,13 @@ public class EasyTakeChallenge extends javax.swing.JFrame {
 
     private void readButtonTC3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_readButtonTC3ActionPerformed
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ButtonActions.readText(textAreaTC3, musicPlayer);
     }//GEN-LAST:event_readButtonTC3ActionPerformed
 
     private void clearButtonTC3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButtonTC3ActionPerformed
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ButtonActions.clearTextArea(textAreaTC3);
     }//GEN-LAST:event_clearButtonTC3ActionPerformed
 
@@ -834,11 +840,13 @@ public class EasyTakeChallenge extends javax.swing.JFrame {
 
     private void readButtonTC4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_readButtonTC4ActionPerformed
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ButtonActions.readText(textAreaTC4, musicPlayer);
     }//GEN-LAST:event_readButtonTC4ActionPerformed
 
     private void clearButtonTC4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButtonTC4ActionPerformed
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ButtonActions.clearTextArea(textAreaTC4);
     }//GEN-LAST:event_clearButtonTC4ActionPerformed
 
@@ -849,11 +857,13 @@ public class EasyTakeChallenge extends javax.swing.JFrame {
 
     private void readButtonTC5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_readButtonTC5ActionPerformed
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ButtonActions.readText(textAreaTC5, musicPlayer);
     }//GEN-LAST:event_readButtonTC5ActionPerformed
 
     private void clearButtonTC5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButtonTC5ActionPerformed
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ButtonActions.clearTextArea(textAreaTC5);
     }//GEN-LAST:event_clearButtonTC5ActionPerformed
 
@@ -1018,6 +1028,7 @@ public class EasyTakeChallenge extends javax.swing.JFrame {
 
     private void returnButtonTC1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_returnButtonTC1MouseClicked
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         this.dispose();
         new TakeChallengeAssessment().setVisible(true);
     }//GEN-LAST:event_returnButtonTC1MouseClicked
@@ -1054,6 +1065,7 @@ public class EasyTakeChallenge extends javax.swing.JFrame {
 
     private void returnButtonTC5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_returnButtonTC5MouseClicked
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         TakeChallengeAssessment takeChallengeAssessment = new TakeChallengeAssessment();
         takeChallengeAssessment.setVisible(true);
         this.dispose();

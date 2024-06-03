@@ -311,12 +311,12 @@ public class HardTakeChallenge extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+                jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 0, Short.MAX_VALUE)
         );
         jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+                jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 0, Short.MAX_VALUE)
         );
 
         TCtabbedPane2H.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 129, -1, -1));
@@ -447,12 +447,12 @@ public class HardTakeChallenge extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
         jPanel5Layout.setHorizontalGroup(
-            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+                jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 0, Short.MAX_VALUE)
         );
         jPanel5Layout.setVerticalGroup(
-            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+                jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 0, Short.MAX_VALUE)
         );
 
         TCtabbedPane3H.add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 129, -1, -1));
@@ -583,12 +583,12 @@ public class HardTakeChallenge extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
         jPanel7Layout.setHorizontalGroup(
-            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+                jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 0, Short.MAX_VALUE)
         );
         jPanel7Layout.setVerticalGroup(
-            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+                jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 0, Short.MAX_VALUE)
         );
 
         TCtabbedPane4H.add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 129, -1, -1));
@@ -711,12 +711,12 @@ public class HardTakeChallenge extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
         jPanel9.setLayout(jPanel9Layout);
         jPanel9Layout.setHorizontalGroup(
-            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+                jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 0, Short.MAX_VALUE)
         );
         jPanel9Layout.setVerticalGroup(
-            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+                jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGap(0, 0, Short.MAX_VALUE)
         );
 
         TCtabbedPane5H.add(jPanel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 129, -1, -1));
@@ -867,11 +867,13 @@ public class HardTakeChallenge extends javax.swing.JFrame {
 
     private void readButtonH1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_readButtonH1ActionPerformed
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ButtonActions.readText(textAreaH1, musicPlayer);
     }//GEN-LAST:event_readButtonH1ActionPerformed
 
     private void clearButtonH1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButtonH1ActionPerformed
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ButtonActions.clearTextArea(textAreaH1);
     }//GEN-LAST:event_clearButtonH1ActionPerformed
 
@@ -882,11 +884,13 @@ public class HardTakeChallenge extends javax.swing.JFrame {
 
     private void readButtonH2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_readButtonH2ActionPerformed
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ButtonActions.readText(textAreaH2, musicPlayer);
     }//GEN-LAST:event_readButtonH2ActionPerformed
 
     private void clearButtonH2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButtonH2ActionPerformed
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ButtonActions.clearTextArea(textAreaH2);
     }//GEN-LAST:event_clearButtonH2ActionPerformed
 
@@ -903,11 +907,13 @@ public class HardTakeChallenge extends javax.swing.JFrame {
 
     private void readButtonH3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_readButtonH3ActionPerformed
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ButtonActions.readText(textAreaH3, musicPlayer);
     }//GEN-LAST:event_readButtonH3ActionPerformed
 
     private void clearButtonH3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButtonH3ActionPerformed
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ButtonActions.clearTextArea(textAreaH3);
     }//GEN-LAST:event_clearButtonH3ActionPerformed
 
@@ -918,11 +924,13 @@ public class HardTakeChallenge extends javax.swing.JFrame {
 
     private void readButtonH4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_readButtonH4ActionPerformed
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ButtonActions.readText(textAreaH4, musicPlayer);
     }//GEN-LAST:event_readButtonH4ActionPerformed
 
     private void clearButtonH4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButtonH4ActionPerformed
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ButtonActions.clearTextArea(textAreaH4);
     }//GEN-LAST:event_clearButtonH4ActionPerformed
 
@@ -933,11 +941,13 @@ public class HardTakeChallenge extends javax.swing.JFrame {
 
     private void readButtonH5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_readButtonH5ActionPerformed
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ButtonActions.readText(textAreaH5, musicPlayer);
     }//GEN-LAST:event_readButtonH5ActionPerformed
 
     private void clearButtonH5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButtonH5ActionPerformed
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ButtonActions.clearTextArea(textAreaH5);
     }//GEN-LAST:event_clearButtonH5ActionPerformed
 
@@ -996,6 +1006,7 @@ public class HardTakeChallenge extends javax.swing.JFrame {
 
     private void returnButtonH1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_returnButtonH1MouseClicked
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         this.dispose();
         new TakeChallengeAssessment().setVisible(true);
     }//GEN-LAST:event_returnButtonH1MouseClicked
@@ -1152,6 +1163,7 @@ public class HardTakeChallenge extends javax.swing.JFrame {
 
     private void returnButtonH5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_returnButtonH5MouseClicked
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         TakeChallengeAssessment takeChallengeAssessment = new TakeChallengeAssessment();
         takeChallengeAssessment.setVisible(true);
         this.dispose();

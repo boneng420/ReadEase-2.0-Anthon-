@@ -843,11 +843,13 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
 
     private void readButtonI1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_readButtonI1ActionPerformed
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ButtonActions.readText(textAreaI1, musicPlayer);
     }//GEN-LAST:event_readButtonI1ActionPerformed
 
     private void clearButtonI1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButtonI1ActionPerformed
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ButtonActions.clearTextArea(textAreaI1);
     }//GEN-LAST:event_clearButtonI1ActionPerformed
 
@@ -858,11 +860,13 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
 
     private void readButtonI2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_readButtonI2ActionPerformed
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ButtonActions.readText(textAreaI2, musicPlayer);
     }//GEN-LAST:event_readButtonI2ActionPerformed
 
     private void clearButtonI2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButtonI2ActionPerformed
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ButtonActions.clearTextArea(textAreaI2);
     }//GEN-LAST:event_clearButtonI2ActionPerformed
 
@@ -873,11 +877,13 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
 
     private void readButtonI3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_readButtonI3ActionPerformed
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ButtonActions.readText(textAreaI3, musicPlayer);
     }//GEN-LAST:event_readButtonI3ActionPerformed
 
     private void clearButtonI3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButtonI3ActionPerformed
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ButtonActions.clearTextArea(textAreaI3);
     }//GEN-LAST:event_clearButtonI3ActionPerformed
 
@@ -888,11 +894,13 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
 
     private void readButtonI4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_readButtonI4ActionPerformed
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ButtonActions.readText(textAreaI4, musicPlayer);
     }//GEN-LAST:event_readButtonI4ActionPerformed
 
     private void clearButtonI4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButtonI4ActionPerformed
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ButtonActions.clearTextArea(textAreaI4);
     }//GEN-LAST:event_clearButtonI4ActionPerformed
 
@@ -903,11 +911,13 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
 
     private void readButtonI5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_readButtonI5ActionPerformed
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ButtonActions.readText(textAreaI5, musicPlayer);
     }//GEN-LAST:event_readButtonI5ActionPerformed
 
     private void clearButtonI5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButtonI5ActionPerformed
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ButtonActions.clearTextArea(textAreaI5);
     }//GEN-LAST:event_clearButtonI5ActionPerformed
 
@@ -1140,6 +1150,7 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
 
     private void returnButtonI5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_returnButtonI5MouseClicked
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         TakeChallengeAssessment takeChallengeAssessment = new TakeChallengeAssessment();
         takeChallengeAssessment.setVisible(true);
         this.dispose();

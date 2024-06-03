@@ -133,8 +133,6 @@ public class ReadNLearn extends javax.swing.JFrame {
 
     private void vLessonButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_vLessonButtonActionPerformed
         // TODO add your handling code here:
-        MusicPlayer.getInstance().buttonClickedSound("click");
-
         VideoLearning videoLearning = new VideoLearning();
         videoLearning.setVisible(true);
         this.dispose();
