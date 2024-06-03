@@ -48,11 +48,7 @@ public class StartingPage extends javax.swing.JFrame {
 
         contButton.setFont(new java.awt.Font("Dialog", 0, 48)); // NOI18N
         contButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Cute Wood Game Button Twitch Panel.png"))); // NOI18N
-        contButton.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                contButtonMouseClicked(evt);
-            }
-        });
+
         contButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 contButtonActionPerformed(evt);
@@ -82,6 +78,8 @@ public class StartingPage extends javax.swing.JFrame {
 
     private void contButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_contButtonActionPerformed
         // TODO add your handling code here:
+        MusicPlayer musicPlayer = MusicPlayer.getInstance();
+        musicPlayer.buttonClickedSound("sound/buttons/button_click.mp3");
 
         this.dispose();
         java.awt.EventQueue.invokeLater(() -> {
@@ -92,12 +90,6 @@ public class StartingPage extends javax.swing.JFrame {
             }
         });
     }//GEN-LAST:event_contButtonActionPerformed
-
-    private void contButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_contButtonMouseClicked
-        // TODO add your handling code here:
-        MusicPlayer musicPlayer = MusicPlayer.getInstance();
-        musicPlayer.buttonClickSound();;
-    }//GEN-LAST:event_contButtonMouseClicked
 
     /**
      * @param args the command line arguments

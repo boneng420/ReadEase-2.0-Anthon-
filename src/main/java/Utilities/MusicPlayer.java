@@ -64,22 +64,22 @@ public class MusicPlayer {
         }
     }
 
-    public void buttonClickSound() {
+    public void buttonClickedSound(String soundFile) {
         // Get the URL of the audio file
-        URL musicUrl = getClass().getClassLoader().getResource("sound/buttons/button_click.mp3");
-        if (musicUrl == null) {
-            System.err.println("Cannot find audio file: " + "sound/buttons/button_click.mp3");
+        URL soundUrl = getClass().getClassLoader().getResource(soundFile);
+        if (soundUrl == null) {
+            System.err.println("Cannot find audio file: " + soundFile);
             return;
         }
 
         // Create a Media object
-        String musicUrlStr = musicUrl.toExternalForm();
-        Media media = new Media(musicUrlStr);
+        String soundUrlStr = soundUrl.toExternalForm();
+        Media media = new Media(soundUrlStr);
 
         // Create a MediaPlayer object and pass the Media object
-        MediaPlayer buttonClickPlayer = new MediaPlayer(media);
+        MediaPlayer soundPlayer = new MediaPlayer(media);
 
-        // Play the audio
-        buttonClickPlayer.play();
+        // Play the sound
+        soundPlayer.play();
     }
 }
