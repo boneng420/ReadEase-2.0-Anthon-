@@ -4,6 +4,7 @@
  */
 package com.core.readease;
 
+import Core.Actions.ButtonActions;
 import HomePage.HomePage;
 
 import java.awt.*;
@@ -24,6 +25,8 @@ public class StartingPage extends javax.swing.JFrame {
         contButton.setBackground(new Color(0, 0, 0, 0));
 
         this.setExtendedState(Frame.MAXIMIZED_BOTH);
+
+        ButtonActions.setCursorForButtons(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR), contButton);
     }
 
     /**

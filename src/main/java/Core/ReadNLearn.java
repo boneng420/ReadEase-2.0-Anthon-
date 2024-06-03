@@ -4,6 +4,7 @@
  */
 package Core;
 
+import Core.Actions.ButtonActions;
 import Core.ReadNLearnForm.StoryLearning;
 import Core.ReadNLearnForm.VideoLearning;
 import HomePage.HomePage;
@@ -43,6 +44,8 @@ public class ReadNLearn extends javax.swing.JFrame {
         backButton.setBackground(new Color(0, 0, 0, 0));
 
         musicPlayer = MusicPlayer.getInstance();
+
+        ButtonActions.setCursorForButtons(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR), sLearningButton, vLessonButton, backButton);
     }
 
     private void separateButtonsAnimation() {

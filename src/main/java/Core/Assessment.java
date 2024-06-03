@@ -4,9 +4,12 @@
  */
 package Core;
 
+import Core.Actions.ButtonActions;
 import Core.AssessmentPage.OralAssessment;
 import Core.AssessmentPage.TakeChallengeAssessment;
-import java.awt.Color;
+
+import java.awt.*;
+
 import HomePage.HomePage;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -38,6 +41,8 @@ public class Assessment extends javax.swing.JFrame {
         backButton.setContentAreaFilled(false);
         backButton.setBorderPainted(false);
         backButton.setBackground(new Color(0, 0, 0, 0));
+
+        ButtonActions.setCursorForButtons(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR), oralAssessmentButton, takeChallengeButton, backButton);
     }
      private void separateButtonsAnimation() {
         int initialX1 = oralAssessmentButton.getX();

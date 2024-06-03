@@ -4,6 +4,7 @@
  */
 package Core.ReadNLearnForm;
 
+import Core.Actions.ButtonActions;
 import Core.ReadNLearn;
 import Utilities.MusicPlayer;
 
@@ -37,6 +38,8 @@ public class VideoLearning extends javax.swing.JFrame {
 
         vowels1.setMusicPlayer(musicPlayer);
         consonants.setMusicPlayer(musicPlayer);
+
+        ButtonActions.setCursorForButtons(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR), returnButton, nextButton);
     }
 
     /**

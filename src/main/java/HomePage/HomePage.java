@@ -4,10 +4,12 @@
  */
 package HomePage;
 
+import Core.Actions.ButtonActions;
 import Core.Assessment;
 import Core.ReadNLearn;
 import com.core.readease.StartingPage;
-import java.awt.Color;
+
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JButton;
@@ -29,19 +31,21 @@ public class HomePage extends javax.swing.JFrame {
         backButton.setBorderPainted(false);
         backButton.setBackground(new Color(0, 0, 0, 0));
         
-        ReadNLearn.setOpaque(false);
-        ReadNLearn.setContentAreaFilled(false);
-        ReadNLearn.setBorderPainted(false);
-        ReadNLearn.setBackground(new Color(0, 0, 0, 0));
+        readNLearnButton.setOpaque(false);
+        readNLearnButton.setContentAreaFilled(false);
+        readNLearnButton.setBorderPainted(false);
+        readNLearnButton.setBackground(new Color(0, 0, 0, 0));
         
         assessmentButton.setOpaque(false);
         assessmentButton.setContentAreaFilled(false);
         assessmentButton.setBorderPainted(false);
         assessmentButton.setBackground(new Color(0, 0, 0, 0));
+
+        ButtonActions.setCursorForButtons(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR), backButton, assessmentButton, readNLearnButton);
     }
     private void separateButtonsAnimation() {
         int initialX1 = assessmentButton.getX();
-        int initialX2 = ReadNLearn.getX();
+        int initialX2 = readNLearnButton.getX();
 
         Timer timer = new Timer(10, new ActionListener() {
             int distanceMoved = 0;
@@ -52,7 +56,7 @@ public class HomePage extends javax.swing.JFrame {
                 if (distanceMoved < separationDistance) {
                     // Move the buttons apart
                     assessmentButton.setLocation(assessmentButton.getX() - 1, assessmentButton.getY());
-                    ReadNLearn.setLocation(ReadNLearn.getX() + 1, ReadNLearn.getY());
+                    readNLearnButton.setLocation(readNLearnButton.getX() + 1, readNLearnButton.getY());
                     distanceMoved++;
                 } else {
                     ((Timer) e.getSource()).stop(); // Stop the timer
@@ -71,7 +75,7 @@ public class HomePage extends javax.swing.JFrame {
         private void initComponents() {
                 java.awt.GridBagConstraints gridBagConstraints;
 
-                ReadNLearn = new javax.swing.JButton();
+                readNLearnButton = new javax.swing.JButton();
                 assessmentButton = new javax.swing.JButton();
                 backButton = new javax.swing.JButton();
                 jLabel1 = new javax.swing.JLabel();
@@ -80,17 +84,17 @@ public class HomePage extends javax.swing.JFrame {
                 setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
                 getContentPane().setLayout(new java.awt.GridBagLayout());
 
-                ReadNLearn.setFont(new java.awt.Font("Dialog", 0, 36)); // NOI18N
-                ReadNLearn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Read&Learn_Button(650x400).png"))); // NOI18N
-                ReadNLearn.setPreferredSize(new java.awt.Dimension(200, 25));
-                ReadNLearn.addMouseListener(new java.awt.event.MouseAdapter() {
+                readNLearnButton.setFont(new java.awt.Font("Dialog", 0, 36)); // NOI18N
+                readNLearnButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Read&Learn_Button(650x400).png"))); // NOI18N
+                readNLearnButton.setPreferredSize(new java.awt.Dimension(200, 25));
+                readNLearnButton.addMouseListener(new java.awt.event.MouseAdapter() {
                         public void mouseClicked(java.awt.event.MouseEvent evt) {
-                                ReadNLearnMouseClicked(evt);
+                                readNLearnButtonMouseClicked(evt);
                         }
                 });
-                ReadNLearn.addActionListener(new java.awt.event.ActionListener() {
+                readNLearnButton.addActionListener(new java.awt.event.ActionListener() {
                         public void actionPerformed(java.awt.event.ActionEvent evt) {
-                                ReadNLearnActionPerformed(evt);
+                                readNLearnButtonActionPerformed(evt);
                         }
                 });
                 gridBagConstraints = new java.awt.GridBagConstraints();
@@ -101,7 +105,7 @@ public class HomePage extends javax.swing.JFrame {
                 gridBagConstraints.ipady = 30;
                 gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
                 gridBagConstraints.insets = new java.awt.Insets(230, 1097, 0, 0);
-                getContentPane().add(ReadNLearn, gridBagConstraints);
+                getContentPane().add(readNLearnButton, gridBagConstraints);
 
                 assessmentButton.setFont(new java.awt.Font("Dialog", 0, 36)); // NOI18N
                 assessmentButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Assessment_Button( 650x400).png"))); // NOI18N
@@ -177,16 +181,16 @@ public class HomePage extends javax.swing.JFrame {
                         this.dispose();
     }//GEN-LAST:event_backButtonActionPerformed
 
-    private void ReadNLearnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ReadNLearnActionPerformed
+    private void readNLearnButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_readNLearnButtonActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_ReadNLearnActionPerformed
+    }//GEN-LAST:event_readNLearnButtonActionPerformed
 
-    private void ReadNLearnMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_ReadNLearnMouseClicked
+    private void readNLearnButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_readNLearnButtonMouseClicked
         // TODO add your handling code here:
         ReadNLearn readNLearn = new ReadNLearn();
         readNLearn.setVisible(true);
         this.dispose();
-    }//GEN-LAST:event_ReadNLearnMouseClicked
+    }//GEN-LAST:event_readNLearnButtonMouseClicked
 
     private void assessmentButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_assessmentButtonActionPerformed
         // TODO add your handling code here:
@@ -236,11 +240,11 @@ public class HomePage extends javax.swing.JFrame {
     }
 
         // Variables declaration - do not modify//GEN-BEGIN:variables
-        private javax.swing.JButton ReadNLearn;
         private javax.swing.JButton assessmentButton;
         private javax.swing.JButton backButton;
         private javax.swing.JLabel jLabel1;
         private javax.swing.JLabel jLabel2;
+        private javax.swing.JButton readNLearnButton;
         // End of variables declaration//GEN-END:variables
 
 }

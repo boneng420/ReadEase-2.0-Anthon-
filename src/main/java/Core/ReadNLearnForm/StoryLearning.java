@@ -9,6 +9,7 @@ import Core.ReadNLearn;
 import Utilities.MusicPlayer;
 
 import javax.swing.*;
+import java.awt.*;
 
 /**
  * @author Marc
@@ -16,6 +17,12 @@ import javax.swing.*;
 public class StoryLearning extends javax.swing.JFrame {
 
     private MusicPlayer musicPlayer;
+
+    private void addToButtonGroup(ButtonGroup group, JRadioButton... buttons) {
+        for (JRadioButton button : buttons) {
+            group.add(button);
+        }
+    }
 
     /**
      * Creates new form StoryLearning
@@ -25,127 +32,38 @@ public class StoryLearning extends javax.swing.JFrame {
 
         musicPlayer = MusicPlayer.getInstance();
 
-        ButtonGroup groupQ1T1 = new ButtonGroup();
-        groupQ1T1.add(ARadioButtonQ1T1);
-        groupQ1T1.add(BRadioButtonQ1T1);
-        groupQ1T1.add(CRadioButtonQ1T1);
-        groupQ1T1.add(DRadioButtonQ1T1);
+        addToButtonGroup(new ButtonGroup(), ARadioButtonQ1T1, BRadioButtonQ1T1, CRadioButtonQ1T1, DRadioButtonQ1T1);
+        addToButtonGroup(new ButtonGroup(), ARadioButtonQ2T1, BRadioButtonQ2T1, CRadioButtonQ2T1, DRadioButtonQ2T1);
+        addToButtonGroup(new ButtonGroup(), ARadioButtonQ3T1, BRadioButtonQ3T1, CRadioButtonQ3T1, DRadioButtonQ3T1);
+        addToButtonGroup(new ButtonGroup(), ARadioButtonQ4T1, BRadioButtonQ4T1, CRadioButtonQ4T1, DRadioButtonQ4T1);
 
-        ButtonGroup groupQ2T1 = new ButtonGroup();
-        groupQ2T1.add(ARadioButtonQ2T1);
-        groupQ2T1.add(BRadioButtonQ2T1);
-        groupQ2T1.add(CRadioButtonQ2T1);
-        groupQ2T1.add(DRadioButtonQ2T1);
+        addToButtonGroup(new ButtonGroup(), ARadioButtonQ1T2, BRadioButtonQ1T2, CRadioButtonQ1T2, DRadioButtonQ1T2);
+        addToButtonGroup(new ButtonGroup(), ARadioButtonQ2T2, BRadioButtonQ2T2, CRadioButtonQ2T2, DRadioButtonQ2T2);
+        addToButtonGroup(new ButtonGroup(), ARadioButtonQ3T2, BRadioButtonQ3T2, CRadioButtonQ3T2, DRadioButtonQ3T2);
+        addToButtonGroup(new ButtonGroup(), ARadioButtonQ4T2, BRadioButtonQ4T2, CRadioButtonQ4T2, DRadioButtonQ4T2);
 
-        ButtonGroup groupQ3T1 = new ButtonGroup();
-        groupQ3T1.add(ARadioButtonQ3T1);
-        groupQ3T1.add(BRadioButtonQ3T1);
-        groupQ3T1.add(CRadioButtonQ3T1);
-        groupQ3T1.add(DRadioButtonQ3T1);
+        addToButtonGroup(new ButtonGroup(), ARadioButtonQ1T3, BRadioButtonQ1T3, CRadioButtonQ1T3, DRadioButtonQ1T3);
+        addToButtonGroup(new ButtonGroup(), ARadioButtonQ2T3, BRadioButtonQ2T3, CRadioButtonQ2T3, DRadioButtonQ2T3);
+        addToButtonGroup(new ButtonGroup(), ARadioButtonQ3T3, BRadioButtonQ3T3, CRadioButtonQ3T3, DRadioButtonQ3T3);
+        addToButtonGroup(new ButtonGroup(), ARadioButtonQ4T3, BRadioButtonQ4T3, CRadioButtonQ4T3, DRadioButtonQ4T3);
 
-        ButtonGroup groupQ4T1 = new ButtonGroup();
-        groupQ4T1.add(ARadioButtonQ4T1);
-        groupQ4T1.add(BRadioButtonQ4T1);
-        groupQ4T1.add(CRadioButtonQ4T1);
-        groupQ4T1.add(DRadioButtonQ4T1);
+        addToButtonGroup(new ButtonGroup(), ARadioButtonQ1T4, BRadioButtonQ1T4, CRadioButtonQ1T4, DRadioButtonQ1T4);
+        addToButtonGroup(new ButtonGroup(), ARadioButtonQ2T4, BRadioButtonQ2T4, CRadioButtonQ2T4, DRadioButtonQ2T4);
+        addToButtonGroup(new ButtonGroup(), ARadioButtonQ3T4, BRadioButtonQ3T4, CRadioButtonQ3T4, DRadioButtonQ3T4);
+        addToButtonGroup(new ButtonGroup(), ARadioButtonQ4T4, BRadioButtonQ4T4, CRadioButtonQ4T4, DRadioButtonQ4T4);
 
-//        TAB 2
+        addToButtonGroup(new ButtonGroup(), ARadioButtonQ1T5, BRadioButtonQ1T5, CRadioButtonQ1T5, DRadioButtonQ1T5);
+        addToButtonGroup(new ButtonGroup(), ARadioButtonQ2T5, BRadioButtonQ2T5, CRadioButtonQ2T5, DButtonQ2T5);
+        addToButtonGroup(new ButtonGroup(), ARadioButtonQ3T5, BRadioButtonQ3T5, CRadioButtonQ3T5, DRadioButtonQ3T5);
+        addToButtonGroup(new ButtonGroup(), ARadioButtonQ4T5, BRadioButtonQ4T5, CRadioButtonQ4T5, DRadioButtonQ4T5);
 
-        ButtonGroup groupQ1T2 = new ButtonGroup();
-        groupQ1T2.add(ARadioButtonQ1T2);
-        groupQ1T2.add(BRadioButtonQ1T2);
-        groupQ1T2.add(CRadioButtonQ1T2);
-        groupQ1T2.add(DRadioButtonQ1T2);
-
-        ButtonGroup groupQ2T2 = new ButtonGroup();
-        groupQ2T2.add(ARadioButtonQ2T2);
-        groupQ2T2.add(BRadioButtonQ2T2);
-        groupQ2T2.add(CRadioButtonQ2T2);
-        groupQ2T2.add(DRadioButtonQ2T2);
-
-        ButtonGroup groupQ3T2 = new ButtonGroup();
-        groupQ3T2.add(ARadioButtonQ3T2);
-        groupQ3T2.add(BRadioButtonQ3T2);
-        groupQ3T2.add(CRadioButtonQ3T2);
-        groupQ3T2.add(DRadioButtonQ3T2);
-
-        ButtonGroup groupQ4T2 = new ButtonGroup();
-        groupQ4T2.add(ARadioButtonQ4T2);
-        groupQ4T2.add(BRadioButtonQ4T2);
-        groupQ4T2.add(CRadioButtonQ4T2);
-        groupQ4T2.add(DRadioButtonQ4T2);
-
-        ButtonGroup groupQ1T3 = new ButtonGroup();
-        groupQ1T3.add(ARadioButtonQ1T3);
-        groupQ1T3.add(BRadioButtonQ1T3);
-        groupQ1T3.add(CRadioButtonQ1T3);
-        groupQ1T3.add(DRadioButtonQ1T3);
-
-        ButtonGroup groupQ2T3 = new ButtonGroup();
-        groupQ2T3.add(ARadioButtonQ2T3);
-        groupQ2T3.add(BRadioButtonQ2T3);
-        groupQ2T3.add(CRadioButtonQ2T3);
-        groupQ2T3.add(DRadioButtonQ2T3);
-
-        ButtonGroup groupQ3T3 = new ButtonGroup();
-        groupQ3T3.add(ARadioButtonQ3T3);
-        groupQ3T3.add(BRadioButtonQ3T3);
-        groupQ3T3.add(CRadioButtonQ3T3);
-        groupQ3T3.add(DRadioButtonQ3T3);
-
-        ButtonGroup groupQ4T3 = new ButtonGroup();
-        groupQ4T3.add(ARadioButtonQ4T3);
-        groupQ4T3.add(BRadioButtonQ4T3);
-        groupQ4T3.add(CRadioButtonQ4T3);
-        groupQ4T3.add(DRadioButtonQ4T3);
-
-        ButtonGroup groupQ1T4 = new ButtonGroup();
-        groupQ1T4.add(ARadioButtonQ1T4);
-        groupQ1T4.add(BRadioButtonQ1T4);
-        groupQ1T4.add(CRadioButtonQ1T4);
-        groupQ1T4.add(DRadioButtonQ1T4);
-
-        ButtonGroup groupQ2T4 = new ButtonGroup();
-        groupQ2T4.add(ARadioButtonQ2T4);
-        groupQ2T4.add(BRadioButtonQ2T4);
-        groupQ2T4.add(CRadioButtonQ2T4);
-        groupQ2T4.add(DRadioButtonQ2T4);
-
-        ButtonGroup groupQ3T4 = new ButtonGroup();
-        groupQ3T4.add(ARadioButtonQ3T4);
-        groupQ3T4.add(BRadioButtonQ3T4);
-        groupQ3T4.add(CRadioButtonQ3T4);
-        groupQ3T4.add(DRadioButtonQ3T4);
-
-        ButtonGroup groupQ4T4 = new ButtonGroup();
-        groupQ4T4.add(ARadioButtonQ4T4);
-        groupQ4T4.add(BRadioButtonQ4T4);
-        groupQ4T4.add(CRadioButtonQ4T4);
-        groupQ4T4.add(DRadioButtonQ4T4);
-
-        ButtonGroup groupQ1T5 = new ButtonGroup();
-        groupQ1T5.add(ARadioButtonQ1T5);
-        groupQ1T5.add(BRadioButtonQ1T5);
-        groupQ1T5.add(CRadioButtonQ1T5);
-        groupQ1T5.add(DRadioButtonQ1T5);
-
-        ButtonGroup groupQ2T5 = new ButtonGroup();
-        groupQ2T5.add(ARadioButtonQ2T5);
-        groupQ2T5.add(BRadioButtonQ2T5);
-        groupQ2T5.add(CRadioButtonQ2T5);
-        groupQ2T5.add(DRadioButtonQ3T5);
-
-        ButtonGroup groupQ3T5 = new ButtonGroup();
-        groupQ3T5.add(ARadioButtonQ3T5);
-        groupQ3T5.add(BRadioButtonQ3T5);
-        groupQ3T5.add(CRadioButtonQ3T5);
-        groupQ3T5.add(DRadioButtonQ3T5);
-
-        ButtonGroup groupQ4T5 = new ButtonGroup();
-        groupQ4T5.add(ARadioButtonQ4T5);
-        groupQ4T5.add(BRadioButtonQ4T5);
-        groupQ4T5.add(CRadioButtonQ4T5);
-        groupQ4T5.add(DRadioButtonQ4T5);
+        ButtonActions.setCursorForButtons(Cursor.getPredefinedCursor(Cursor.HAND_CURSOR),
+                returnButton0, nextButtonT1, readButtonT1,
+                readButtonT2, nextButtonT2,
+                readButtonT3, nextButtonT3,
+                readButtonT4, nextButtonT4,
+                readButtonT5, exitButton5
+        );
     }
 
     /**

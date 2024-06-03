@@ -274,9 +274,9 @@ public class ButtonActions {
         }
     }
 
-    public static void setCursorForButtons(Cursor cursor, JLabel... buttons) {
-        for (JLabel button : buttons) {
-            button.setCursor(cursor);
+    public static void setCursorForButtons(Cursor cursor, Component... components) {
+        for (Component component : components) {
+            component.setCursor(cursor);
         }
     }
 }
