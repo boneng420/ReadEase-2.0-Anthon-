@@ -63,4 +63,23 @@ public class MusicPlayer {
             System.out.println("Cannot resume music: mediaPlayer is null");
         }
     }
+
+    public void buttonClickSound() {
+        // Get the URL of the audio file
+        URL musicUrl = getClass().getClassLoader().getResource("sound/buttons/button_click.mp3");
+        if (musicUrl == null) {
+            System.err.println("Cannot find audio file: " + "sound/buttons/button_click.mp3");
+            return;
+        }
+
+        // Create a Media object
+        String musicUrlStr = musicUrl.toExternalForm();
+        Media media = new Media(musicUrlStr);
+
+        // Create a MediaPlayer object and pass the Media object
+        MediaPlayer buttonClickPlayer = new MediaPlayer(media);
+
+        // Play the audio
+        buttonClickPlayer.play();
+    }
 }
