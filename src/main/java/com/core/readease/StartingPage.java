@@ -78,8 +78,7 @@ public class StartingPage extends javax.swing.JFrame {
 
     private void contButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_contButtonActionPerformed
         // TODO add your handling code here:
-        MusicPlayer musicPlayer = MusicPlayer.getInstance();
-        musicPlayer.buttonClickedSound("sound/buttons/button_click.mp3");
+        MusicPlayer.getInstance().buttonClickedSound("click");
 
         this.dispose();
         java.awt.EventQueue.invokeLater(() -> {

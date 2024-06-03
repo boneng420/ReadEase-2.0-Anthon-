@@ -158,6 +158,7 @@ public class ButtonActions {
         String correctAnswer = String.join(delimiter, correctWords);
 
         if (userAnswer.equalsIgnoreCase(correctAnswer)) {
+            MusicPlayer.getInstance().buttonClickedSound("correct");
             JOptionPane.showMessageDialog(null, "Correct!");
             int selectedIndex = tabbedPane.getSelectedIndex();
 
@@ -166,6 +167,7 @@ public class ButtonActions {
                 textArea.setText("");
             }
         } else {
+            MusicPlayer.getInstance().buttonClickedSound("wrong");
             JOptionPane.showMessageDialog(null, "Incorrect!");
             textArea.setText("");
         }

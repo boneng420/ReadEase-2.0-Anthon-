@@ -21,6 +21,7 @@ import java.awt.event.ActionListener;
 public class ReadNLearn extends javax.swing.JFrame {
 
     private MusicPlayer musicPlayer;
+
     /**
      * Creates new form ReadNLearn
      */
@@ -123,6 +124,8 @@ public class ReadNLearn extends javax.swing.JFrame {
 
     private void sLearningButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sLearningButtonActionPerformed
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
+
         StoryLearning storyLearning = new StoryLearning();
         storyLearning.setVisible(true);
         this.dispose();
@@ -130,6 +133,8 @@ public class ReadNLearn extends javax.swing.JFrame {
 
     private void vLessonButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_vLessonButtonActionPerformed
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
+
         VideoLearning videoLearning = new VideoLearning();
         videoLearning.setVisible(true);
         this.dispose();
@@ -137,6 +142,8 @@ public class ReadNLearn extends javax.swing.JFrame {
 
     private void backButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backButtonActionPerformed
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
+
         HomePage homepage = new HomePage();
         homepage.setVisible(true);
         this.dispose();

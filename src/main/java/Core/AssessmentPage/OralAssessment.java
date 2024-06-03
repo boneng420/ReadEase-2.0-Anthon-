@@ -1002,11 +1002,13 @@ public class OralAssessment extends javax.swing.JFrame {
 
     private void clearButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButton2ActionPerformed
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ButtonActions.clearTextArea(textArea2);
     }//GEN-LAST:event_clearButton2ActionPerformed
 
     private void ReadButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ReadButton2ActionPerformed
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ButtonActions.readText(textArea2, musicPlayer);
     }//GEN-LAST:event_ReadButton2ActionPerformed
 
@@ -1064,6 +1066,7 @@ public class OralAssessment extends javax.swing.JFrame {
 
     private void ReadButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ReadButton3ActionPerformed
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ButtonActions.readText(textArea3, musicPlayer);
     }//GEN-LAST:event_ReadButton3ActionPerformed
 
@@ -1110,6 +1113,7 @@ public class OralAssessment extends javax.swing.JFrame {
 
     private void clearButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButton4ActionPerformed
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ButtonActions.clearTextArea(textArea4);
     }//GEN-LAST:event_clearButton4ActionPerformed
 
@@ -1155,6 +1159,7 @@ public class OralAssessment extends javax.swing.JFrame {
 
     private void clearButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButton5ActionPerformed
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ButtonActions.clearTextArea(textArea5);
     }//GEN-LAST:event_clearButton5ActionPerformed
 
@@ -1212,56 +1217,60 @@ public class OralAssessment extends javax.swing.JFrame {
 
     private void returnButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_returnButton1ActionPerformed
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         Assessment assessment = new Assessment();
         assessment.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_returnButton1ActionPerformed
 
-        private void returnButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_returnButtonActionPerformed
-                // TODO add your handling code here:
-                Assessment assessment = new Assessment();
-                assessment.setVisible(true);
-                this.dispose();
-        }//GEN-LAST:event_returnButtonActionPerformed
+    private void returnButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_returnButtonActionPerformed
+        // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
+        Assessment assessment = new Assessment();
+        assessment.setVisible(true);
+        this.dispose();
+    }//GEN-LAST:event_returnButtonActionPerformed
 
-        private void textToSpeechToggleButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textToSpeechToggleButton1ActionPerformed
-                // TODO add your handling code here:
-                ButtonActions.toggleTextToSpeech(textToSpeechToggleButton1);
-        }//GEN-LAST:event_textToSpeechToggleButton1ActionPerformed
+    private void textToSpeechToggleButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textToSpeechToggleButton1ActionPerformed
+        // TODO add your handling code here:
+        ButtonActions.toggleTextToSpeech(textToSpeechToggleButton1);
+    }//GEN-LAST:event_textToSpeechToggleButton1ActionPerformed
 
-        private void nextButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nextButton1ActionPerformed
-                // TODO add your handling code here:String correctAnswer = "The net is wet";
-                String userAnswer = textArea1.getText().trim();
-                ButtonActions.checkAnswerAndNext(q1Words, userAnswer, assessmentTabbedPane, textArea1, true);
-        }//GEN-LAST:event_nextButton1ActionPerformed
+    private void nextButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nextButton1ActionPerformed
+        // TODO add your handling code here:String correctAnswer = "The net is wet";
+        String userAnswer = textArea1.getText().trim();
+        ButtonActions.checkAnswerAndNext(q1Words, userAnswer, assessmentTabbedPane, textArea1, true);
+    }//GEN-LAST:event_nextButton1ActionPerformed
 
-        private void isWordButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_isWordButton1ActionPerformed
-                // TODO add your handling code here:
-                textArea1.append(q1Words[2] + " ");
-                ButtonActions.speak(q1Words[2] + " ", textToSpeechToggleButton1);
-        }//GEN-LAST:event_isWordButton1ActionPerformed
+    private void isWordButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_isWordButton1ActionPerformed
+        // TODO add your handling code here:
+        textArea1.append(q1Words[2] + " ");
+        ButtonActions.speak(q1Words[2] + " ", textToSpeechToggleButton1);
+    }//GEN-LAST:event_isWordButton1ActionPerformed
 
-        private void wetWordButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_wetWordButton1ActionPerformed
-                // TODO add your handling code here:
-                textArea1.append(q1Words[3] + " ");
-                ButtonActions.speak(q1Words[3] + " ", textToSpeechToggleButton1);
-        }//GEN-LAST:event_wetWordButton1ActionPerformed
+    private void wetWordButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_wetWordButton1ActionPerformed
+        // TODO add your handling code here:
+        textArea1.append(q1Words[3] + " ");
+        ButtonActions.speak(q1Words[3] + " ", textToSpeechToggleButton1);
+    }//GEN-LAST:event_wetWordButton1ActionPerformed
 
-        private void netWordButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_netWordButton1ActionPerformed
-                // TODO add your handling code here:
-                textArea1.append(q1Words[1] + " ");
-                ButtonActions.speak(q1Words[1] + " ", textToSpeechToggleButton1);
-        }//GEN-LAST:event_netWordButton1ActionPerformed
+    private void netWordButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_netWordButton1ActionPerformed
+        // TODO add your handling code here:
+        textArea1.append(q1Words[1] + " ");
+        ButtonActions.speak(q1Words[1] + " ", textToSpeechToggleButton1);
+    }//GEN-LAST:event_netWordButton1ActionPerformed
 
-        private void readButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_readButton1ActionPerformed
-                // TODO add your handling code here:
-                ButtonActions.readText(textArea1, musicPlayer);
-        }//GEN-LAST:event_readButton1ActionPerformed
+    private void readButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_readButton1ActionPerformed
+        // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
+        ButtonActions.readText(textArea1, musicPlayer);
+    }//GEN-LAST:event_readButton1ActionPerformed
 
-        private void clearButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButton1ActionPerformed
-                // TODO add your handling code here:
-                ButtonActions.clearTextArea(textArea1);
-        }//GEN-LAST:event_clearButton1ActionPerformed
+    private void clearButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_clearButton1ActionPerformed
+        // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
+        ButtonActions.clearTextArea(textArea1);
+    }//GEN-LAST:event_clearButton1ActionPerformed
 
     /**
      * @param args the command line arguments

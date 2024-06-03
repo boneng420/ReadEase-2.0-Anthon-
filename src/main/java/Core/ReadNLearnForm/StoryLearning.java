@@ -957,6 +957,7 @@ public class StoryLearning extends javax.swing.JFrame {
 
     private void nextButtonT1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_nextButtonT1MouseClicked
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         JRadioButton[] radioButtons = {DRadioButtonQ1T1, ARadioButtonQ2T1, ARadioButtonQ3T1, BRadioButtonQ4T1};
         String[] correctAnswers = {DRadioButtonQ1T1.getText(), ARadioButtonQ2T1.getText(), ARadioButtonQ3T1.getText(), BRadioButtonQ4T1.getText()};
         ButtonActions.checkAnswerAndNextMultipleChoice(jTabbedPane1, radioButtons, correctAnswers);
@@ -964,6 +965,8 @@ public class StoryLearning extends javax.swing.JFrame {
 
     private void returnButton0MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_returnButton0MouseClicked
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
+
         ReadNLearn readNLearn = new ReadNLearn();
         readNLearn.setVisible(true);
         this.dispose();
@@ -971,11 +974,14 @@ public class StoryLearning extends javax.swing.JFrame {
 
     private void readButtonT1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_readButtonT1MouseClicked
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ButtonActions.readText(textAreaT1, musicPlayer);
     }//GEN-LAST:event_readButtonT1MouseClicked
 
     private void nextButtonT2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_nextButtonT2MouseClicked
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
+
         JRadioButton[] radioButtons = {BRadioButtonQ1T2, ARadioButtonQ2T2, ARadioButtonQ3T2, ARadioButtonQ4T2};
         String[] correctAnswers = {BRadioButtonQ1T2.getText(), ARadioButtonQ2T2.getText(), ARadioButtonQ3T2.getText(), ARadioButtonQ4T2.getText()};
 
@@ -992,16 +998,19 @@ public class StoryLearning extends javax.swing.JFrame {
 
     private void readButtonT2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_readButtonT2MouseClicked
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ButtonActions.readText(textAreaT2, musicPlayer);
     }//GEN-LAST:event_readButtonT2MouseClicked
 
     private void readButtonT3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_readButtonT3MouseClicked
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ButtonActions.readText(textAreaT3, musicPlayer);
     }//GEN-LAST:event_readButtonT3MouseClicked
 
     private void nextButtonT3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_nextButtonT3MouseClicked
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         JRadioButton[] radioButtons = {ARadioButtonQ1T3, ARadioButtonQ2T3, BRadioButtonQ3T3, DRadioButtonQ4T3};
         String[] correctAnswers = {ARadioButtonQ1T3.getText(), ARadioButtonQ2T3.getText(), BRadioButtonQ3T3.getText(), DRadioButtonQ4T3.getText()};
 
@@ -1010,11 +1019,13 @@ public class StoryLearning extends javax.swing.JFrame {
 
     private void readButtonT4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_readButtonT4MouseClicked
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ButtonActions.readText(textAreaT4, musicPlayer);
     }//GEN-LAST:event_readButtonT4MouseClicked
 
     private void nextButtonT4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_nextButtonT4MouseClicked
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         JRadioButton[] radioButtons = {BRadioButtonQ1T4, ARadioButtonQ2T4, ARadioButtonQ3T4, ARadioButtonQ4T4};
         String[] correctAnswers = {BRadioButtonQ1T4.getText(), ARadioButtonQ2T4.getText(), ARadioButtonQ3T4.getText(), ARadioButtonQ4T4.getText()};
 
@@ -1023,11 +1034,13 @@ public class StoryLearning extends javax.swing.JFrame {
 
     private void readButtonT5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_readButtonT5MouseClicked
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ButtonActions.readText(textAreaT5, musicPlayer);
     }//GEN-LAST:event_readButtonT5MouseClicked
 
     private void exitButton5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_exitButton5MouseClicked
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ReadNLearn readNLearn = new ReadNLearn();
         readNLearn.setVisible(true);
         this.dispose();
@@ -1035,6 +1048,7 @@ public class StoryLearning extends javax.swing.JFrame {
 
     private void readButtonT2ActionPerformed(java.awt.event.ActionEvent evt) {
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         ButtonActions.readText(textAreaT2, musicPlayer);
     }
 

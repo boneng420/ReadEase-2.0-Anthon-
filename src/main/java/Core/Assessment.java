@@ -11,6 +11,8 @@ import Core.AssessmentPage.TakeChallengeAssessment;
 import java.awt.*;
 
 import HomePage.HomePage;
+import Utilities.MusicPlayer;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.Timer;
@@ -117,6 +119,7 @@ public class Assessment extends javax.swing.JFrame {
 
     private void oralAssessmentButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_oralAssessmentButtonActionPerformed
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         OralAssessment oralAssessment = new OralAssessment();
         oralAssessment.setVisible(true);
         this.dispose();
@@ -124,6 +127,7 @@ public class Assessment extends javax.swing.JFrame {
 
     private void takeChallengeButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_takeChallengeButtonActionPerformed
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         TakeChallengeAssessment takeChallengeAssessment = new TakeChallengeAssessment();
         takeChallengeAssessment.setVisible(true);
         this.dispose();
@@ -131,6 +135,7 @@ public class Assessment extends javax.swing.JFrame {
 
         private void backButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backButtonActionPerformed
                 // TODO add your handling code here:
+            MusicPlayer.getInstance().buttonClickedSound("click");
 		HomePage homePage = new HomePage();
 		homePage.setVisible(true);
 		this.dispose();

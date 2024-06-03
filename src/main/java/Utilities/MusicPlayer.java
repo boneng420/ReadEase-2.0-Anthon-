@@ -64,7 +64,24 @@ public class MusicPlayer {
         }
     }
 
-    public void buttonClickedSound(String soundFile) {
+    public void buttonClickedSound(String typeOfSound) {
+        String soundFile;
+
+        // Determine the sound file based on the type of sound
+        switch (typeOfSound) {
+            case "correct":
+                soundFile = "sound/buttons/button_correct.mp3";
+                break;
+            case "wrong":
+                soundFile = "sound/buttons/button_wrong.mp3";
+                break;
+            case "click":
+                soundFile = "sound/buttons/button_click.mp3";
+                break;
+            default:
+                return;
+        }
+
         // Get the URL of the audio file
         URL soundUrl = getClass().getClassLoader().getResource(soundFile);
         if (soundUrl == null) {

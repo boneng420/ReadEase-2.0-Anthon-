@@ -8,6 +8,7 @@ import Core.Assessment;
 import Core.AssessmentPage.TakeChallengeModeOfDifficulty.EasyTakeChallenge;
 import Core.AssessmentPage.TakeChallengeModeOfDifficulty.HardTakeChallenge;
 import Core.AssessmentPage.TakeChallengeModeOfDifficulty.IntermediateTakeChallenge;
+import Utilities.MusicPlayer;
 
 import java.awt.*;
 
@@ -157,6 +158,7 @@ public class TakeChallengeAssessment extends javax.swing.JFrame {
 
     private void takeChallengeEasyButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_takeChallengeEasyButtonMouseClicked
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         EasyTakeChallenge easyTakeChallenge = new EasyTakeChallenge();
         easyTakeChallenge.setVisible(true);
         this.dispose();
@@ -165,6 +167,7 @@ public class TakeChallengeAssessment extends javax.swing.JFrame {
 
     private void takeChallengeIntermediateButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_takeChallengeIntermediateButtonMouseClicked
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         IntermediateTakeChallenge intermediateTakeChallenge = new IntermediateTakeChallenge();
         intermediateTakeChallenge.setVisible(true);
         this.dispose();
@@ -173,6 +176,7 @@ public class TakeChallengeAssessment extends javax.swing.JFrame {
 
     private void takeChallengeHardButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_takeChallengeHardButtonMouseClicked
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         HardTakeChallenge hardTakeChallenge = new HardTakeChallenge();
         hardTakeChallenge.setVisible(true);
         this.dispose();

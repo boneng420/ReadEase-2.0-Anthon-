@@ -106,6 +106,7 @@ public class VideoLearning extends javax.swing.JFrame {
 
     private void nextButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_nextButtonMouseClicked
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         int selectedIndex = letterSoundTabbedPane.getSelectedIndex();
         if (selectedIndex < letterSoundTabbedPane.getTabCount() - 1) {
             letterSoundTabbedPane.setSelectedIndex(selectedIndex + 1);
@@ -116,6 +117,7 @@ public class VideoLearning extends javax.swing.JFrame {
 
     private void returnButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_returnButtonMouseClicked
         // TODO add your handling code here:
+        MusicPlayer.getInstance().buttonClickedSound("click");
         int selectedIndex = letterSoundTabbedPane.getSelectedIndex();
         if (selectedIndex > 0) {
             letterSoundTabbedPane.setSelectedIndex(selectedIndex - 1);
