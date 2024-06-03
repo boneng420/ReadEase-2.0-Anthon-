@@ -79,7 +79,6 @@ public class StoryLearning extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         textAreaT1 = new javax.swing.JTextArea();
-        jPanelT1 = new javax.swing.JPanel();
         questionLabel = new javax.swing.JLabel();
         q1Label = new javax.swing.JLabel();
         q2Label = new javax.swing.JLabel();
@@ -101,6 +100,7 @@ public class StoryLearning extends javax.swing.JFrame {
         DRadioButtonQ4T1 = new javax.swing.JRadioButton();
         ARadioButtonQ4T1 = new javax.swing.JRadioButton();
         BRadioButtonQ4T1 = new javax.swing.JRadioButton();
+        board = new javax.swing.JLabel();
         returnButton0 = new javax.swing.JLabel();
         nextButtonT1 = new javax.swing.JLabel();
         readButtonT1 = new javax.swing.JLabel();
@@ -108,7 +108,6 @@ public class StoryLearning extends javax.swing.JFrame {
         jPanel2 = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
         textAreaT2 = new javax.swing.JTextArea();
-        jPanelT2 = new javax.swing.JPanel();
         questionLabel1 = new javax.swing.JLabel();
         q1Label1 = new javax.swing.JLabel();
         q2Label1 = new javax.swing.JLabel();
@@ -130,13 +129,13 @@ public class StoryLearning extends javax.swing.JFrame {
         ARadioButtonQ4T2 = new javax.swing.JRadioButton();
         BRadioButtonQ4T2 = new javax.swing.JRadioButton();
         ARadioButtonQ1T2 = new javax.swing.JRadioButton();
+        board2 = new javax.swing.JLabel();
         nextButtonT2 = new javax.swing.JLabel();
         readButtonT2 = new javax.swing.JLabel();
         background1 = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
         jScrollPane3 = new javax.swing.JScrollPane();
         textAreaT3 = new javax.swing.JTextArea();
-        jPanelT3 = new javax.swing.JPanel();
         questionLabel2 = new javax.swing.JLabel();
         q1Label2 = new javax.swing.JLabel();
         q2Label2 = new javax.swing.JLabel();
@@ -158,13 +157,13 @@ public class StoryLearning extends javax.swing.JFrame {
         DRadioButtonQ4T3 = new javax.swing.JRadioButton();
         ARadioButtonQ4T3 = new javax.swing.JRadioButton();
         BRadioButtonQ4T3 = new javax.swing.JRadioButton();
+        board3 = new javax.swing.JLabel();
         nextButtonT3 = new javax.swing.JLabel();
         readButtonT3 = new javax.swing.JLabel();
         background2 = new javax.swing.JLabel();
         jPanel4 = new javax.swing.JPanel();
         jScrollPane4 = new javax.swing.JScrollPane();
         textAreaT4 = new javax.swing.JTextArea();
-        jPanelT4 = new javax.swing.JPanel();
         questionLabel3 = new javax.swing.JLabel();
         q1Label3 = new javax.swing.JLabel();
         q2Label3 = new javax.swing.JLabel();
@@ -186,13 +185,13 @@ public class StoryLearning extends javax.swing.JFrame {
         DRadioButtonQ4T4 = new javax.swing.JRadioButton();
         ARadioButtonQ4T4 = new javax.swing.JRadioButton();
         BRadioButtonQ4T4 = new javax.swing.JRadioButton();
+        board4 = new javax.swing.JLabel();
         nextButtonT4 = new javax.swing.JLabel();
         readButtonT4 = new javax.swing.JLabel();
         background3 = new javax.swing.JLabel();
         jPanel5 = new javax.swing.JPanel();
         jScrollPane5 = new javax.swing.JScrollPane();
         textAreaT5 = new javax.swing.JTextArea();
-        jPanelT5 = new javax.swing.JPanel();
         questionLabel4 = new javax.swing.JLabel();
         q1Label4 = new javax.swing.JLabel();
         q2Label4 = new javax.swing.JLabel();
@@ -214,6 +213,7 @@ public class StoryLearning extends javax.swing.JFrame {
         DRadioButtonQ4T5 = new javax.swing.JRadioButton();
         ARadioButtonQ4T5 = new javax.swing.JRadioButton();
         BRadioButtonQ4T5 = new javax.swing.JRadioButton();
+        board5 = new javax.swing.JLabel();
         exitButton5 = new javax.swing.JLabel();
         readButtonT5 = new javax.swing.JLabel();
         background4 = new javax.swing.JLabel();
@@ -236,103 +236,144 @@ public class StoryLearning extends javax.swing.JFrame {
 
         jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(42, 25, 270, 420));
 
-        jPanelT1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
+        questionLabel.setBackground(new java.awt.Color(210, 191, 150));
         questionLabel.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
+        questionLabel.setForeground(new java.awt.Color(0, 0, 0));
         questionLabel.setText("Questions");
-        jPanelT1.add(questionLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 12, -1, -1));
+        jPanel1.add(questionLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 50, -1, -1));
 
+        q1Label.setBackground(new java.awt.Color(210, 191, 150));
         q1Label.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
+        q1Label.setForeground(new java.awt.Color(0, 0, 0));
         q1Label.setText("1. What Color is the Bicycle?");
-        jPanelT1.add(q1Label, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 43, -1, -1));
+        jPanel1.add(q1Label, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 80, -1, -1));
 
+        q2Label.setBackground(new java.awt.Color(210, 191, 150));
         q2Label.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
+        q2Label.setForeground(new java.awt.Color(0, 0, 0));
         q2Label.setText("2. Who was it gift from?");
-        jPanelT1.add(q2Label, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 126, -1, -1));
+        jPanel1.add(q2Label, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 170, -1, -1));
 
+        q3label.setBackground(new java.awt.Color(210, 191, 150));
         q3label.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
+        q3label.setForeground(new java.awt.Color(0, 0, 0));
         q3label.setText("3. Where was it hidden?");
-        jPanelT1.add(q3label, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 216, -1, -1));
+        jPanel1.add(q3label, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 260, -1, -1));
 
+        q4Label.setBackground(new java.awt.Color(210, 191, 150));
         q4Label.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
+        q4Label.setForeground(new java.awt.Color(0, 0, 0));
         q4Label.setText("4. When Emma saw the bicycle, what did she do?");
-        jPanelT1.add(q4Label, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 305, -1, -1));
+        jPanel1.add(q4Label, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 340, -1, -1));
 
+        DRadioButtonQ1T1.setBackground(new java.awt.Color(210, 191, 150));
         DRadioButtonQ1T1.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        DRadioButtonQ1T1.setForeground(new java.awt.Color(0, 0, 0));
         DRadioButtonQ1T1.setText("Pink");
-        jPanelT1.add(DRadioButtonQ1T1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 100, 91, -1));
+        jPanel1.add(DRadioButtonQ1T1, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 140, 91, -1));
 
+        ARadioButtonQ1T1.setBackground(new java.awt.Color(210, 191, 150));
         ARadioButtonQ1T1.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        ARadioButtonQ1T1.setForeground(new java.awt.Color(0, 0, 0));
         ARadioButtonQ1T1.setText("Red");
-        jPanelT1.add(ARadioButtonQ1T1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 70, 91, -1));
+        jPanel1.add(ARadioButtonQ1T1, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 110, 91, -1));
 
+        BRadioButtonQ1T1.setBackground(new java.awt.Color(210, 191, 150));
         BRadioButtonQ1T1.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        BRadioButtonQ1T1.setForeground(new java.awt.Color(0, 0, 0));
         BRadioButtonQ1T1.setText("Green");
-        jPanelT1.add(BRadioButtonQ1T1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 70, 91, -1));
+        jPanel1.add(BRadioButtonQ1T1, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 110, 91, -1));
 
+        DRadioButtonQ2T1.setBackground(new java.awt.Color(210, 191, 150));
         DRadioButtonQ2T1.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        DRadioButtonQ2T1.setForeground(new java.awt.Color(0, 0, 0));
         DRadioButtonQ2T1.setText("Aunt");
-        jPanelT1.add(DRadioButtonQ2T1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 180, 91, -1));
+        jPanel1.add(DRadioButtonQ2T1, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 220, 91, -1));
 
+        CRadioButtonQ1T1.setBackground(new java.awt.Color(210, 191, 150));
         CRadioButtonQ1T1.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        CRadioButtonQ1T1.setForeground(new java.awt.Color(0, 0, 0));
         CRadioButtonQ1T1.setText("Black");
-        jPanelT1.add(CRadioButtonQ1T1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 100, 91, -1));
+        jPanel1.add(CRadioButtonQ1T1, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 140, 91, -1));
 
+        ARadioButtonQ2T1.setBackground(new java.awt.Color(210, 191, 150));
         ARadioButtonQ2T1.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        ARadioButtonQ2T1.setForeground(new java.awt.Color(0, 0, 0));
         ARadioButtonQ2T1.setText("Uncle");
-        jPanelT1.add(ARadioButtonQ2T1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 150, 91, -1));
+        jPanel1.add(ARadioButtonQ2T1, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 190, 91, -1));
 
+        CRadioButtonQ3T1.setBackground(new java.awt.Color(210, 191, 150));
         CRadioButtonQ3T1.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        CRadioButtonQ3T1.setForeground(new java.awt.Color(0, 0, 0));
         CRadioButtonQ3T1.setText("On the table");
-        jPanelT1.add(CRadioButtonQ3T1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 270, 100, -1));
+        jPanel1.add(CRadioButtonQ3T1, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 310, 100, -1));
 
+        BRadioButtonQ2T1.setBackground(new java.awt.Color(210, 191, 150));
         BRadioButtonQ2T1.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        BRadioButtonQ2T1.setForeground(new java.awt.Color(0, 0, 0));
         BRadioButtonQ2T1.setText("Father");
-        jPanelT1.add(BRadioButtonQ2T1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 150, 91, -1));
+        jPanel1.add(BRadioButtonQ2T1, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 190, 91, -1));
 
+        CRadioButtonQ2T1.setBackground(new java.awt.Color(210, 191, 150));
         CRadioButtonQ2T1.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        CRadioButtonQ2T1.setForeground(new java.awt.Color(0, 0, 0));
         CRadioButtonQ2T1.setText("Mother");
-        jPanelT1.add(CRadioButtonQ2T1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 180, 91, -1));
+        jPanel1.add(CRadioButtonQ2T1, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 220, 91, -1));
 
+        DRadioButtonQ3T1.setBackground(new java.awt.Color(210, 191, 150));
         DRadioButtonQ3T1.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        DRadioButtonQ3T1.setForeground(new java.awt.Color(0, 0, 0));
         DRadioButtonQ3T1.setText("On the yard");
-        jPanelT1.add(DRadioButtonQ3T1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 270, 120, -1));
+        jPanel1.add(DRadioButtonQ3T1, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 310, 120, -1));
 
+        BRadioButtonQ3T1.setBackground(new java.awt.Color(210, 191, 150));
         BRadioButtonQ3T1.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        BRadioButtonQ3T1.setForeground(new java.awt.Color(0, 0, 0));
         BRadioButtonQ3T1.setText("Behind the trunk");
-        jPanelT1.add(BRadioButtonQ3T1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 240, 120, -1));
+        jPanel1.add(BRadioButtonQ3T1, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 280, 120, -1));
 
+        ARadioButtonQ3T1.setBackground(new java.awt.Color(210, 191, 150));
         ARadioButtonQ3T1.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        ARadioButtonQ3T1.setForeground(new java.awt.Color(0, 0, 0));
         ARadioButtonQ3T1.setText("Behind a bush");
-        jPanelT1.add(ARadioButtonQ3T1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 240, 100, -1));
+        jPanel1.add(ARadioButtonQ3T1, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 280, 100, -1));
 
+        CRadioButtonQ4T1.setBackground(new java.awt.Color(210, 191, 150));
         CRadioButtonQ4T1.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        CRadioButtonQ4T1.setForeground(new java.awt.Color(0, 0, 0));
         CRadioButtonQ4T1.setText("Cry");
         CRadioButtonQ4T1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 CRadioButtonQ4T1ActionPerformed(evt);
             }
         });
-        jPanelT1.add(CRadioButtonQ4T1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 360, 70, -1));
+        jPanel1.add(CRadioButtonQ4T1, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 400, 70, -1));
 
+        DRadioButtonQ4T1.setBackground(new java.awt.Color(210, 191, 150));
         DRadioButtonQ4T1.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        DRadioButtonQ4T1.setForeground(new java.awt.Color(0, 0, 0));
         DRadioButtonQ4T1.setText("Run away");
         DRadioButtonQ4T1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 DRadioButtonQ4T1ActionPerformed(evt);
             }
         });
-        jPanelT1.add(DRadioButtonQ4T1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 360, 90, -1));
+        jPanel1.add(DRadioButtonQ4T1, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 400, 90, -1));
 
+        ARadioButtonQ4T1.setBackground(new java.awt.Color(210, 191, 150));
         ARadioButtonQ4T1.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        ARadioButtonQ4T1.setForeground(new java.awt.Color(0, 0, 0));
         ARadioButtonQ4T1.setText("Laugh");
-        jPanelT1.add(ARadioButtonQ4T1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 330, 60, -1));
+        jPanel1.add(ARadioButtonQ4T1, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 370, 60, -1));
 
+        BRadioButtonQ4T1.setBackground(new java.awt.Color(210, 191, 150));
         BRadioButtonQ4T1.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        BRadioButtonQ4T1.setForeground(new java.awt.Color(0, 0, 0));
         BRadioButtonQ4T1.setText("Jump for Joy");
-        jPanelT1.add(BRadioButtonQ4T1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 330, 130, -1));
+        jPanel1.add(BRadioButtonQ4T1, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 370, 130, -1));
 
-        jPanel1.add(jPanelT1, new org.netbeans.lib.awtextra.AbsoluteConstraints(325, 25, 340, 403));
+        board.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Button_Letters/BOARD 2.png"))); // NOI18N
+        jPanel1.add(board, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 20, -1, -1));
 
         returnButton0.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Button_Letters/back button.png"))); // NOI18N
         returnButton0.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -378,103 +419,144 @@ public class StoryLearning extends javax.swing.JFrame {
 
         jPanel2.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(42, 25, 249, 383));
 
-        jPanelT2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
+        questionLabel1.setBackground(new java.awt.Color(210, 191, 150));
         questionLabel1.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
+        questionLabel1.setForeground(new java.awt.Color(0, 0, 0));
         questionLabel1.setText("Questions");
-        jPanelT2.add(questionLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 12, -1, -1));
+        jPanel2.add(questionLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 60, -1, -1));
 
+        q1Label1.setBackground(new java.awt.Color(210, 191, 150));
         q1Label1.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
+        q1Label1.setForeground(new java.awt.Color(0, 0, 0));
         q1Label1.setText("1. What do Luke, Jake and Connor look at? ");
-        jPanelT2.add(q1Label1, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 43, -1, -1));
+        jPanel2.add(q1Label1, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 90, -1, -1));
 
+        q2Label1.setBackground(new java.awt.Color(210, 191, 150));
         q2Label1.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
+        q2Label1.setForeground(new java.awt.Color(0, 0, 0));
         q2Label1.setText("2. What does Luke point to in the sky?  ");
-        jPanelT2.add(q2Label1, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 126, -1, -1));
+        jPanel2.add(q2Label1, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 180, -1, -1));
 
+        q3label1.setBackground(new java.awt.Color(210, 191, 150));
         q3label1.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
+        q3label1.setForeground(new java.awt.Color(0, 0, 0));
         q3label1.setText("3. What do the boys collect in a jar? ");
-        jPanelT2.add(q3label1, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 216, -1, -1));
+        jPanel2.add(q3label1, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 270, -1, -1));
 
+        q4Label1.setBackground(new java.awt.Color(210, 191, 150));
         q4Label1.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
+        q4Label1.setForeground(new java.awt.Color(0, 0, 0));
         q4Label1.setText("4. Where do the boys sleep?");
-        jPanelT2.add(q4Label1, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 305, -1, -1));
+        jPanel2.add(q4Label1, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 350, -1, -1));
 
+        DRadioButtonQ1T2.setBackground(new java.awt.Color(210, 191, 150));
         DRadioButtonQ1T2.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        DRadioButtonQ1T2.setForeground(new java.awt.Color(0, 0, 0));
         DRadioButtonQ1T2.setText("The Sun");
-        jPanelT2.add(DRadioButtonQ1T2, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 100, 91, -1));
+        jPanel2.add(DRadioButtonQ1T2, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 150, 91, -1));
 
+        CRadioButtonQ1T2.setBackground(new java.awt.Color(210, 191, 150));
         CRadioButtonQ1T2.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        CRadioButtonQ1T2.setForeground(new java.awt.Color(0, 0, 0));
         CRadioButtonQ1T2.setText("A Bird");
-        jPanelT2.add(CRadioButtonQ1T2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 100, 91, -1));
+        jPanel2.add(CRadioButtonQ1T2, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 150, 91, -1));
 
+        BRadioButtonQ1T2.setBackground(new java.awt.Color(210, 191, 150));
         BRadioButtonQ1T2.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        BRadioButtonQ1T2.setForeground(new java.awt.Color(0, 0, 0));
         BRadioButtonQ1T2.setText("The Sky");
         BRadioButtonQ1T2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BRadioButtonQ1T2ActionPerformed(evt);
             }
         });
-        jPanelT2.add(BRadioButtonQ1T2, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 70, 91, -1));
+        jPanel2.add(BRadioButtonQ1T2, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 120, 91, -1));
 
+        DRadioButtonQ2T2.setBackground(new java.awt.Color(210, 191, 150));
         DRadioButtonQ2T2.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        DRadioButtonQ2T2.setForeground(new java.awt.Color(0, 0, 0));
         DRadioButtonQ2T2.setText("The Plane");
-        jPanelT2.add(DRadioButtonQ2T2, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 180, 91, -1));
+        jPanel2.add(DRadioButtonQ2T2, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 230, 91, -1));
 
+        ARadioButtonQ2T2.setBackground(new java.awt.Color(210, 191, 150));
         ARadioButtonQ2T2.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        ARadioButtonQ2T2.setForeground(new java.awt.Color(0, 0, 0));
         ARadioButtonQ2T2.setText("The Clouds");
-        jPanelT2.add(ARadioButtonQ2T2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 150, 91, -1));
+        jPanel2.add(ARadioButtonQ2T2, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 200, 91, -1));
 
+        CRadioButtonQ3T2.setBackground(new java.awt.Color(210, 191, 150));
         CRadioButtonQ3T2.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        CRadioButtonQ3T2.setForeground(new java.awt.Color(0, 0, 0));
         CRadioButtonQ3T2.setText("Ants");
-        jPanelT2.add(CRadioButtonQ3T2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 270, 100, -1));
+        jPanel2.add(CRadioButtonQ3T2, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 320, 100, -1));
 
+        BRadioButtonQ2T2.setBackground(new java.awt.Color(210, 191, 150));
         BRadioButtonQ2T2.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        BRadioButtonQ2T2.setForeground(new java.awt.Color(0, 0, 0));
         BRadioButtonQ2T2.setText("The Stars");
         BRadioButtonQ2T2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BRadioButtonQ2T2ActionPerformed(evt);
             }
         });
-        jPanelT2.add(BRadioButtonQ2T2, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 150, 91, -1));
+        jPanel2.add(BRadioButtonQ2T2, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 200, 91, -1));
 
+        CRadioButtonQ2T2.setBackground(new java.awt.Color(210, 191, 150));
         CRadioButtonQ2T2.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        CRadioButtonQ2T2.setForeground(new java.awt.Color(0, 0, 0));
         CRadioButtonQ2T2.setText("The Moon");
-        jPanelT2.add(CRadioButtonQ2T2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 180, 91, -1));
+        jPanel2.add(CRadioButtonQ2T2, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 230, 91, -1));
 
+        DRadioButtonQ3T2.setBackground(new java.awt.Color(210, 191, 150));
         DRadioButtonQ3T2.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        DRadioButtonQ3T2.setForeground(new java.awt.Color(0, 0, 0));
         DRadioButtonQ3T2.setText("Leaves");
-        jPanelT2.add(DRadioButtonQ3T2, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 270, 120, -1));
+        jPanel2.add(DRadioButtonQ3T2, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 320, 120, -1));
 
+        BRadioButtonQ3T2.setBackground(new java.awt.Color(210, 191, 150));
         BRadioButtonQ3T2.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        BRadioButtonQ3T2.setForeground(new java.awt.Color(0, 0, 0));
         BRadioButtonQ3T2.setText("Worms");
-        jPanelT2.add(BRadioButtonQ3T2, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 240, 120, -1));
+        jPanel2.add(BRadioButtonQ3T2, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 290, 120, -1));
 
+        ARadioButtonQ3T2.setBackground(new java.awt.Color(210, 191, 150));
         ARadioButtonQ3T2.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        ARadioButtonQ3T2.setForeground(new java.awt.Color(0, 0, 0));
         ARadioButtonQ3T2.setText("Fireflies");
-        jPanelT2.add(ARadioButtonQ3T2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 240, 100, -1));
+        jPanel2.add(ARadioButtonQ3T2, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 290, 100, -1));
 
+        CRadioButtonQ4T2.setBackground(new java.awt.Color(210, 191, 150));
         CRadioButtonQ4T2.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        CRadioButtonQ4T2.setForeground(new java.awt.Color(0, 0, 0));
         CRadioButtonQ4T2.setText("In a tent");
-        jPanelT2.add(CRadioButtonQ4T2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 360, 70, -1));
+        jPanel2.add(CRadioButtonQ4T2, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 410, 70, -1));
 
+        DRadioButtonQ4T2.setBackground(new java.awt.Color(210, 191, 150));
         DRadioButtonQ4T2.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        DRadioButtonQ4T2.setForeground(new java.awt.Color(0, 0, 0));
         DRadioButtonQ4T2.setText("On the grass");
-        jPanelT2.add(DRadioButtonQ4T2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 360, 110, -1));
+        jPanel2.add(DRadioButtonQ4T2, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 410, 110, -1));
 
+        ARadioButtonQ4T2.setBackground(new java.awt.Color(210, 191, 150));
         ARadioButtonQ4T2.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        ARadioButtonQ4T2.setForeground(new java.awt.Color(0, 0, 0));
         ARadioButtonQ4T2.setText("In bed");
-        jPanelT2.add(ARadioButtonQ4T2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 330, 60, -1));
+        jPanel2.add(ARadioButtonQ4T2, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 380, 60, -1));
 
+        BRadioButtonQ4T2.setBackground(new java.awt.Color(210, 191, 150));
         BRadioButtonQ4T2.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        BRadioButtonQ4T2.setForeground(new java.awt.Color(0, 0, 0));
         BRadioButtonQ4T2.setText("On a cot");
-        jPanelT2.add(BRadioButtonQ4T2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 330, 90, -1));
+        jPanel2.add(BRadioButtonQ4T2, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 380, 90, -1));
 
+        ARadioButtonQ1T2.setBackground(new java.awt.Color(210, 191, 150));
         ARadioButtonQ1T2.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        ARadioButtonQ1T2.setForeground(new java.awt.Color(0, 0, 0));
         ARadioButtonQ1T2.setText("The Night");
-        jPanelT2.add(ARadioButtonQ1T2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 70, 91, -1));
+        jPanel2.add(ARadioButtonQ1T2, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 120, 91, -1));
 
-        jPanel2.add(jPanelT2, new org.netbeans.lib.awtextra.AbsoluteConstraints(325, 25, 310, 403));
+        board2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Button_Letters/BOARD 2.png"))); // NOI18N
+        jPanel2.add(board2, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 20, -1, -1));
 
         nextButtonT2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Button_Letters/next button.png"))); // NOI18N
         nextButtonT2.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -512,103 +594,144 @@ public class StoryLearning extends javax.swing.JFrame {
 
         jPanel3.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(42, 25, 249, 383));
 
-        jPanelT3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
+        questionLabel2.setBackground(new java.awt.Color(210, 191, 150));
         questionLabel2.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
+        questionLabel2.setForeground(new java.awt.Color(0, 0, 0));
         questionLabel2.setText("Questions");
-        jPanelT3.add(questionLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 12, -1, -1));
+        jPanel3.add(questionLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 70, -1, -1));
 
+        q1Label2.setBackground(new java.awt.Color(210, 191, 150));
         q1Label2.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
+        q1Label2.setForeground(new java.awt.Color(0, 0, 0));
         q1Label2.setText("1. What animals did they adopt?");
-        jPanelT3.add(q1Label2, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 43, -1, -1));
+        jPanel3.add(q1Label2, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 100, -1, -1));
 
+        q2Label2.setBackground(new java.awt.Color(210, 191, 150));
         q2Label2.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
+        q2Label2.setForeground(new java.awt.Color(0, 0, 0));
         q2Label2.setText("2. What does the kitten like to do?");
-        jPanelT3.add(q2Label2, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 126, -1, -1));
+        jPanel3.add(q2Label2, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 180, -1, -1));
 
+        q3label2.setBackground(new java.awt.Color(210, 191, 150));
         q3label2.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
+        q3label2.setForeground(new java.awt.Color(0, 0, 0));
         q3label2.setText("3. What is the puppy’s name going to be?");
-        jPanelT3.add(q3label2, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 216, -1, -1));
+        jPanel3.add(q3label2, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 270, -1, -1));
 
+        q4Label2.setBackground(new java.awt.Color(210, 191, 150));
         q4Label2.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
+        q4Label2.setForeground(new java.awt.Color(0, 0, 0));
         q4Label2.setText("4. Who thought the names were perfect?");
-        jPanelT3.add(q4Label2, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 305, -1, -1));
+        jPanel3.add(q4Label2, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 360, -1, -1));
 
+        DRadioButtonQ1T3.setBackground(new java.awt.Color(210, 191, 150));
         DRadioButtonQ1T3.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        DRadioButtonQ1T3.setForeground(new java.awt.Color(0, 0, 0));
         DRadioButtonQ1T3.setText("Snake and Pig");
-        jPanelT3.add(DRadioButtonQ1T3, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 100, 110, -1));
+        jPanel3.add(DRadioButtonQ1T3, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 160, 110, -1));
 
+        ARadioButtonQ1T3.setBackground(new java.awt.Color(210, 191, 150));
         ARadioButtonQ1T3.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        ARadioButtonQ1T3.setForeground(new java.awt.Color(0, 0, 0));
         ARadioButtonQ1T3.setText("Puppy and Kitten");
-        jPanelT3.add(ARadioButtonQ1T3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 70, 120, -1));
+        jPanel3.add(ARadioButtonQ1T3, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 130, 120, -1));
 
+        BRadioButtonQ1T3.setBackground(new java.awt.Color(210, 191, 150));
         BRadioButtonQ1T3.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        BRadioButtonQ1T3.setForeground(new java.awt.Color(0, 0, 0));
         BRadioButtonQ1T3.setText("Fish and Rabbit");
         BRadioButtonQ1T3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BRadioButtonQ1T3ActionPerformed(evt);
             }
         });
-        jPanelT3.add(BRadioButtonQ1T3, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 70, 110, -1));
+        jPanel3.add(BRadioButtonQ1T3, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 130, 110, -1));
 
+        DRadioButtonQ2T3.setBackground(new java.awt.Color(210, 191, 150));
         DRadioButtonQ2T3.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        DRadioButtonQ2T3.setForeground(new java.awt.Color(0, 0, 0));
         DRadioButtonQ2T3.setText("Play");
-        jPanelT3.add(DRadioButtonQ2T3, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 180, 91, -1));
+        jPanel3.add(DRadioButtonQ2T3, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 240, 91, -1));
 
+        CRadioButtonQ1T3.setBackground(new java.awt.Color(210, 191, 150));
         CRadioButtonQ1T3.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        CRadioButtonQ1T3.setForeground(new java.awt.Color(0, 0, 0));
         CRadioButtonQ1T3.setText("Parrot and Hamster");
-        jPanelT3.add(CRadioButtonQ1T3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 100, 130, -1));
+        jPanel3.add(CRadioButtonQ1T3, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 160, 130, -1));
 
+        ARadioButtonQ2T3.setBackground(new java.awt.Color(210, 191, 150));
         ARadioButtonQ2T3.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        ARadioButtonQ2T3.setForeground(new java.awt.Color(0, 0, 0));
         ARadioButtonQ2T3.setText("Curl");
-        jPanelT3.add(ARadioButtonQ2T3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 150, 91, -1));
+        jPanel3.add(ARadioButtonQ2T3, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 210, 91, -1));
 
+        CRadioButtonQ3T3.setBackground(new java.awt.Color(210, 191, 150));
         CRadioButtonQ3T3.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        CRadioButtonQ3T3.setForeground(new java.awt.Color(0, 0, 0));
         CRadioButtonQ3T3.setText("Fluffy");
-        jPanelT3.add(CRadioButtonQ3T3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 270, 100, -1));
+        jPanel3.add(CRadioButtonQ3T3, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 330, 100, -1));
 
+        BRadioButtonQ2T3.setBackground(new java.awt.Color(210, 191, 150));
         BRadioButtonQ2T3.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        BRadioButtonQ2T3.setForeground(new java.awt.Color(0, 0, 0));
         BRadioButtonQ2T3.setText("Jump");
         BRadioButtonQ2T3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BRadioButtonQ2T3ActionPerformed(evt);
             }
         });
-        jPanelT3.add(BRadioButtonQ2T3, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 150, 91, -1));
+        jPanel3.add(BRadioButtonQ2T3, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 210, 91, -1));
 
+        CRadioButtonQ2T3.setBackground(new java.awt.Color(210, 191, 150));
         CRadioButtonQ2T3.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        CRadioButtonQ2T3.setForeground(new java.awt.Color(0, 0, 0));
         CRadioButtonQ2T3.setText("Run");
-        jPanelT3.add(CRadioButtonQ2T3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 180, 91, -1));
+        jPanel3.add(CRadioButtonQ2T3, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 240, 91, -1));
 
+        DRadioButtonQ3T3.setBackground(new java.awt.Color(210, 191, 150));
         DRadioButtonQ3T3.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        DRadioButtonQ3T3.setForeground(new java.awt.Color(0, 0, 0));
         DRadioButtonQ3T3.setText("Sparky");
-        jPanelT3.add(DRadioButtonQ3T3, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 270, 120, -1));
+        jPanel3.add(DRadioButtonQ3T3, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 330, 120, -1));
 
+        BRadioButtonQ3T3.setBackground(new java.awt.Color(210, 191, 150));
         BRadioButtonQ3T3.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        BRadioButtonQ3T3.setForeground(new java.awt.Color(0, 0, 0));
         BRadioButtonQ3T3.setText("Pounce");
-        jPanelT3.add(BRadioButtonQ3T3, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 240, 120, -1));
+        jPanel3.add(BRadioButtonQ3T3, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 300, 120, -1));
 
+        ARadioButtonQ3T3.setBackground(new java.awt.Color(210, 191, 150));
         ARadioButtonQ3T3.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        ARadioButtonQ3T3.setForeground(new java.awt.Color(0, 0, 0));
         ARadioButtonQ3T3.setText("Rover");
-        jPanelT3.add(ARadioButtonQ3T3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 240, 100, -1));
+        jPanel3.add(ARadioButtonQ3T3, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 300, 100, -1));
 
+        CRadioButtonQ4T3.setBackground(new java.awt.Color(210, 191, 150));
         CRadioButtonQ4T3.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        CRadioButtonQ4T3.setForeground(new java.awt.Color(0, 0, 0));
         CRadioButtonQ4T3.setText("Children");
-        jPanelT3.add(CRadioButtonQ4T3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 360, 70, -1));
+        jPanel3.add(CRadioButtonQ4T3, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 420, 70, -1));
 
+        DRadioButtonQ4T3.setBackground(new java.awt.Color(210, 191, 150));
         DRadioButtonQ4T3.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        DRadioButtonQ4T3.setForeground(new java.awt.Color(0, 0, 0));
         DRadioButtonQ4T3.setText("All");
-        jPanelT3.add(DRadioButtonQ4T3, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 360, 110, -1));
+        jPanel3.add(DRadioButtonQ4T3, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 420, 110, -1));
 
+        ARadioButtonQ4T3.setBackground(new java.awt.Color(210, 191, 150));
         ARadioButtonQ4T3.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        ARadioButtonQ4T3.setForeground(new java.awt.Color(0, 0, 0));
         ARadioButtonQ4T3.setText("Emma");
-        jPanelT3.add(ARadioButtonQ4T3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 330, 60, -1));
+        jPanel3.add(ARadioButtonQ4T3, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 390, 60, -1));
 
+        BRadioButtonQ4T3.setBackground(new java.awt.Color(210, 191, 150));
         BRadioButtonQ4T3.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        BRadioButtonQ4T3.setForeground(new java.awt.Color(0, 0, 0));
         BRadioButtonQ4T3.setText("Parents");
-        jPanelT3.add(BRadioButtonQ4T3, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 330, 90, -1));
+        jPanel3.add(BRadioButtonQ4T3, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 390, 90, -1));
 
-        jPanel3.add(jPanelT3, new org.netbeans.lib.awtextra.AbsoluteConstraints(325, 25, 310, 403));
+        board3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Button_Letters/BOARD 2.png"))); // NOI18N
+        jPanel3.add(board3, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 30, -1, -1));
 
         nextButtonT3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Button_Letters/next button.png"))); // NOI18N
         nextButtonT3.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -646,108 +769,149 @@ public class StoryLearning extends javax.swing.JFrame {
 
         jPanel4.add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(42, 25, 249, 383));
 
-        jPanelT4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
+        questionLabel3.setBackground(new java.awt.Color(210, 191, 150));
         questionLabel3.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
+        questionLabel3.setForeground(new java.awt.Color(0, 0, 0));
         questionLabel3.setText("Questions");
-        jPanelT4.add(questionLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 12, -1, -1));
+        jPanel4.add(questionLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 60, -1, -1));
 
+        q1Label3.setBackground(new java.awt.Color(210, 191, 150));
         q1Label3.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
+        q1Label3.setForeground(new java.awt.Color(0, 0, 0));
         q1Label3.setText("1. Do all bears live in warm places?");
-        jPanelT4.add(q1Label3, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 43, -1, -1));
+        jPanel4.add(q1Label3, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 90, -1, -1));
 
+        q2Label3.setBackground(new java.awt.Color(210, 191, 150));
         q2Label3.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
+        q2Label3.setForeground(new java.awt.Color(0, 0, 0));
         q2Label3.setText("2. Where do bears sleep during the winter?");
-        jPanelT4.add(q2Label3, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 126, -1, -1));
+        jPanel4.add(q2Label3, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 170, -1, -1));
 
+        q3label3.setBackground(new java.awt.Color(210, 191, 150));
         q3label3.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
+        q3label3.setForeground(new java.awt.Color(0, 0, 0));
         q3label3.setText("3. What does hibernating mean? ");
-        jPanelT4.add(q3label3, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 216, -1, -1));
+        jPanel4.add(q3label3, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 260, -1, -1));
 
+        q4Label3.setBackground(new java.awt.Color(210, 191, 150));
         q4Label3.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
+        q4Label3.setForeground(new java.awt.Color(0, 0, 0));
         q4Label3.setText("4. What is a baby bear called?");
-        jPanelT4.add(q4Label3, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 305, -1, -1));
+        jPanel4.add(q4Label3, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 350, -1, -1));
 
+        DRadioButtonQ1T4.setBackground(new java.awt.Color(210, 191, 150));
         DRadioButtonQ1T4.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        DRadioButtonQ1T4.setForeground(new java.awt.Color(0, 0, 0));
         DRadioButtonQ1T4.setText("Sometimes");
-        jPanelT4.add(DRadioButtonQ1T4, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 100, 91, -1));
+        jPanel4.add(DRadioButtonQ1T4, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 150, 91, -1));
 
+        ARadioButtonQ1T4.setBackground(new java.awt.Color(210, 191, 150));
         ARadioButtonQ1T4.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        ARadioButtonQ1T4.setForeground(new java.awt.Color(0, 0, 0));
         ARadioButtonQ1T4.setText("Maybe");
-        jPanelT4.add(ARadioButtonQ1T4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 70, 120, -1));
+        jPanel4.add(ARadioButtonQ1T4, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 120, 120, -1));
 
+        BRadioButtonQ1T4.setBackground(new java.awt.Color(210, 191, 150));
         BRadioButtonQ1T4.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        BRadioButtonQ1T4.setForeground(new java.awt.Color(0, 0, 0));
         BRadioButtonQ1T4.setText("No");
         BRadioButtonQ1T4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BRadioButtonQ1T4ActionPerformed(evt);
             }
         });
-        jPanelT4.add(BRadioButtonQ1T4, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 70, 110, -1));
+        jPanel4.add(BRadioButtonQ1T4, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 120, 110, -1));
 
+        DRadioButtonQ2T4.setBackground(new java.awt.Color(210, 191, 150));
         DRadioButtonQ2T4.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        DRadioButtonQ2T4.setForeground(new java.awt.Color(0, 0, 0));
         DRadioButtonQ2T4.setText("Holes");
         DRadioButtonQ2T4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 DRadioButtonQ2T4ActionPerformed(evt);
             }
         });
-        jPanelT4.add(DRadioButtonQ2T4, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 180, 91, -1));
+        jPanel4.add(DRadioButtonQ2T4, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 230, 91, -1));
 
+        CRadioButtonQ1T4.setBackground(new java.awt.Color(210, 191, 150));
         CRadioButtonQ1T4.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        CRadioButtonQ1T4.setForeground(new java.awt.Color(0, 0, 0));
         CRadioButtonQ1T4.setText("Yes");
-        jPanelT4.add(CRadioButtonQ1T4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 100, 130, -1));
+        jPanel4.add(CRadioButtonQ1T4, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 150, 130, -1));
 
+        ARadioButtonQ2T4.setBackground(new java.awt.Color(210, 191, 150));
         ARadioButtonQ2T4.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        ARadioButtonQ2T4.setForeground(new java.awt.Color(0, 0, 0));
         ARadioButtonQ2T4.setText("Dens");
-        jPanelT4.add(ARadioButtonQ2T4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 150, 91, -1));
+        jPanel4.add(ARadioButtonQ2T4, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 200, 91, -1));
 
+        CRadioButtonQ3T4.setBackground(new java.awt.Color(210, 191, 150));
         CRadioButtonQ3T4.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        CRadioButtonQ3T4.setForeground(new java.awt.Color(0, 0, 0));
         CRadioButtonQ3T4.setText("Sleeping");
-        jPanelT4.add(CRadioButtonQ3T4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 270, 100, -1));
+        jPanel4.add(CRadioButtonQ3T4, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 320, 100, -1));
 
+        BRadioButtonQ2T4.setBackground(new java.awt.Color(210, 191, 150));
         BRadioButtonQ2T4.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        BRadioButtonQ2T4.setForeground(new java.awt.Color(0, 0, 0));
         BRadioButtonQ2T4.setText("Burrows");
         BRadioButtonQ2T4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BRadioButtonQ2T4ActionPerformed(evt);
             }
         });
-        jPanelT4.add(BRadioButtonQ2T4, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 150, 91, -1));
+        jPanel4.add(BRadioButtonQ2T4, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 200, 91, -1));
 
+        CRadioButtonQ2T4.setBackground(new java.awt.Color(210, 191, 150));
         CRadioButtonQ2T4.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        CRadioButtonQ2T4.setForeground(new java.awt.Color(0, 0, 0));
         CRadioButtonQ2T4.setText("Nests");
-        jPanelT4.add(CRadioButtonQ2T4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 180, 91, -1));
+        jPanel4.add(CRadioButtonQ2T4, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 230, 91, -1));
 
+        DRadioButtonQ3T4.setBackground(new java.awt.Color(210, 191, 150));
         DRadioButtonQ3T4.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        DRadioButtonQ3T4.setForeground(new java.awt.Color(0, 0, 0));
         DRadioButtonQ3T4.setText("Playing");
-        jPanelT4.add(DRadioButtonQ3T4, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 270, 120, -1));
+        jPanel4.add(DRadioButtonQ3T4, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 320, 120, -1));
 
+        BRadioButtonQ3T4.setBackground(new java.awt.Color(210, 191, 150));
         BRadioButtonQ3T4.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        BRadioButtonQ3T4.setForeground(new java.awt.Color(0, 0, 0));
         BRadioButtonQ3T4.setText("Running");
-        jPanelT4.add(BRadioButtonQ3T4, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 240, 120, -1));
+        jPanel4.add(BRadioButtonQ3T4, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 290, 120, -1));
 
+        ARadioButtonQ3T4.setBackground(new java.awt.Color(210, 191, 150));
         ARadioButtonQ3T4.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        ARadioButtonQ3T4.setForeground(new java.awt.Color(0, 0, 0));
         ARadioButtonQ3T4.setText("Eating");
-        jPanelT4.add(ARadioButtonQ3T4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 240, 100, -1));
+        jPanel4.add(ARadioButtonQ3T4, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 290, 100, -1));
 
+        CRadioButtonQ4T4.setBackground(new java.awt.Color(210, 191, 150));
         CRadioButtonQ4T4.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        CRadioButtonQ4T4.setForeground(new java.awt.Color(0, 0, 0));
         CRadioButtonQ4T4.setText("Calf");
-        jPanelT4.add(CRadioButtonQ4T4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 360, 70, -1));
+        jPanel4.add(CRadioButtonQ4T4, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 410, 70, -1));
 
+        DRadioButtonQ4T4.setBackground(new java.awt.Color(210, 191, 150));
         DRadioButtonQ4T4.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        DRadioButtonQ4T4.setForeground(new java.awt.Color(0, 0, 0));
         DRadioButtonQ4T4.setText("Joey");
-        jPanelT4.add(DRadioButtonQ4T4, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 360, 110, -1));
+        jPanel4.add(DRadioButtonQ4T4, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 410, 110, -1));
 
+        ARadioButtonQ4T4.setBackground(new java.awt.Color(210, 191, 150));
         ARadioButtonQ4T4.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        ARadioButtonQ4T4.setForeground(new java.awt.Color(0, 0, 0));
         ARadioButtonQ4T4.setText("Cub");
-        jPanelT4.add(ARadioButtonQ4T4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 330, 60, -1));
+        jPanel4.add(ARadioButtonQ4T4, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 380, 60, -1));
 
+        BRadioButtonQ4T4.setBackground(new java.awt.Color(210, 191, 150));
         BRadioButtonQ4T4.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        BRadioButtonQ4T4.setForeground(new java.awt.Color(0, 0, 0));
         BRadioButtonQ4T4.setText("Kid");
-        jPanelT4.add(BRadioButtonQ4T4, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 330, 90, -1));
+        jPanel4.add(BRadioButtonQ4T4, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 380, 90, -1));
 
-        jPanel4.add(jPanelT4, new org.netbeans.lib.awtextra.AbsoluteConstraints(325, 25, 330, 403));
+        board4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Button_Letters/BOARD 2.png"))); // NOI18N
+        jPanel4.add(board4, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 20, -1, -1));
 
         nextButtonT4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Button_Letters/next button.png"))); // NOI18N
         nextButtonT4.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -785,108 +949,149 @@ public class StoryLearning extends javax.swing.JFrame {
 
         jPanel5.add(jScrollPane5, new org.netbeans.lib.awtextra.AbsoluteConstraints(42, 25, 249, 383));
 
-        jPanelT5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
+        questionLabel4.setBackground(new java.awt.Color(210, 191, 150));
         questionLabel4.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
+        questionLabel4.setForeground(new java.awt.Color(0, 0, 0));
         questionLabel4.setText("Questions");
-        jPanelT5.add(questionLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 12, -1, -1));
+        jPanel5.add(questionLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 60, -1, -1));
 
+        q1Label4.setBackground(new java.awt.Color(210, 191, 150));
         q1Label4.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
+        q1Label4.setForeground(new java.awt.Color(0, 0, 0));
         q1Label4.setText("1. What scared Pete?");
-        jPanelT5.add(q1Label4, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 43, -1, -1));
+        jPanel5.add(q1Label4, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 90, -1, -1));
 
+        q2Label4.setBackground(new java.awt.Color(210, 191, 150));
         q2Label4.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
+        q2Label4.setForeground(new java.awt.Color(0, 0, 0));
         q2Label4.setText("2. Where did Pete search for his courage?");
-        jPanelT5.add(q2Label4, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 126, -1, -1));
+        jPanel5.add(q2Label4, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 170, -1, -1));
 
+        q3label4.setBackground(new java.awt.Color(210, 191, 150));
         q3label4.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
+        q3label4.setForeground(new java.awt.Color(0, 0, 0));
         q3label4.setText("3. Who asked Pete about his courage?");
-        jPanelT5.add(q3label4, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 216, -1, -1));
+        jPanel5.add(q3label4, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 260, -1, -1));
 
+        q4Label4.setBackground(new java.awt.Color(210, 191, 150));
         q4Label4.setFont(new java.awt.Font("Comic Sans MS", 0, 14)); // NOI18N
+        q4Label4.setForeground(new java.awt.Color(0, 0, 0));
         q4Label4.setText("4. What did Pete forget to be afraid of?");
-        jPanelT5.add(q4Label4, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 305, -1, -1));
+        jPanel5.add(q4Label4, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 350, -1, -1));
 
+        DRadioButtonQ1T5.setBackground(new java.awt.Color(210, 191, 150));
         DRadioButtonQ1T5.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        DRadioButtonQ1T5.setForeground(new java.awt.Color(0, 0, 0));
         DRadioButtonQ1T5.setText("Dogs");
-        jPanelT5.add(DRadioButtonQ1T5, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 100, 91, -1));
+        jPanel5.add(DRadioButtonQ1T5, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 150, 91, -1));
 
+        ARadioButtonQ1T5.setBackground(new java.awt.Color(210, 191, 150));
         ARadioButtonQ1T5.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        ARadioButtonQ1T5.setForeground(new java.awt.Color(0, 0, 0));
         ARadioButtonQ1T5.setText("Rains");
-        jPanelT5.add(ARadioButtonQ1T5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 70, 120, -1));
+        jPanel5.add(ARadioButtonQ1T5, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 120, 120, -1));
 
+        BRadioButtonQ1T5.setBackground(new java.awt.Color(210, 191, 150));
         BRadioButtonQ1T5.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        BRadioButtonQ1T5.setForeground(new java.awt.Color(0, 0, 0));
         BRadioButtonQ1T5.setText("Birds");
         BRadioButtonQ1T5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BRadioButtonQ1T5ActionPerformed(evt);
             }
         });
-        jPanelT5.add(BRadioButtonQ1T5, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 70, 110, -1));
+        jPanel5.add(BRadioButtonQ1T5, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 120, 110, -1));
 
+        DButtonQ2T5.setBackground(new java.awt.Color(210, 191, 150));
         DButtonQ2T5.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        DButtonQ2T5.setForeground(new java.awt.Color(0, 0, 0));
         DButtonQ2T5.setText("Beach");
         DButtonQ2T5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 DButtonQ2T5ActionPerformed(evt);
             }
         });
-        jPanelT5.add(DButtonQ2T5, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 180, 91, -1));
+        jPanel5.add(DButtonQ2T5, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 230, 91, -1));
 
+        CRadioButtonQ1T5.setBackground(new java.awt.Color(210, 191, 150));
         CRadioButtonQ1T5.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        CRadioButtonQ1T5.setForeground(new java.awt.Color(0, 0, 0));
         CRadioButtonQ1T5.setText("Storms");
-        jPanelT5.add(CRadioButtonQ1T5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 100, 130, -1));
+        jPanel5.add(CRadioButtonQ1T5, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 150, 130, -1));
 
+        ARadioButtonQ2T5.setBackground(new java.awt.Color(210, 191, 150));
         ARadioButtonQ2T5.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        ARadioButtonQ2T5.setForeground(new java.awt.Color(0, 0, 0));
         ARadioButtonQ2T5.setText("School");
-        jPanelT5.add(ARadioButtonQ2T5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 150, 91, -1));
+        jPanel5.add(ARadioButtonQ2T5, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 200, 91, -1));
 
+        CRadioButtonQ3T5.setBackground(new java.awt.Color(210, 191, 150));
         CRadioButtonQ3T5.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        CRadioButtonQ3T5.setForeground(new java.awt.Color(0, 0, 0));
         CRadioButtonQ3T5.setText("Mom");
-        jPanelT5.add(CRadioButtonQ3T5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 270, 100, -1));
+        jPanel5.add(CRadioButtonQ3T5, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 320, 100, -1));
 
+        BRadioButtonQ2T5.setBackground(new java.awt.Color(210, 191, 150));
         BRadioButtonQ2T5.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        BRadioButtonQ2T5.setForeground(new java.awt.Color(0, 0, 0));
         BRadioButtonQ2T5.setText("House");
         BRadioButtonQ2T5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BRadioButtonQ2T5ActionPerformed(evt);
             }
         });
-        jPanelT5.add(BRadioButtonQ2T5, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 150, 91, -1));
+        jPanel5.add(BRadioButtonQ2T5, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 200, 91, -1));
 
+        CRadioButtonQ2T5.setBackground(new java.awt.Color(210, 191, 150));
         CRadioButtonQ2T5.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        CRadioButtonQ2T5.setForeground(new java.awt.Color(0, 0, 0));
         CRadioButtonQ2T5.setText("Park");
-        jPanelT5.add(CRadioButtonQ2T5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 180, 91, -1));
+        jPanel5.add(CRadioButtonQ2T5, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 230, 91, -1));
 
+        DRadioButtonQ3T5.setBackground(new java.awt.Color(210, 191, 150));
         DRadioButtonQ3T5.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        DRadioButtonQ3T5.setForeground(new java.awt.Color(0, 0, 0));
         DRadioButtonQ3T5.setText("Sister");
-        jPanelT5.add(DRadioButtonQ3T5, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 270, 120, -1));
+        jPanel5.add(DRadioButtonQ3T5, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 320, 120, -1));
 
+        BRadioButtonQ3T5.setBackground(new java.awt.Color(210, 191, 150));
         BRadioButtonQ3T5.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        BRadioButtonQ3T5.setForeground(new java.awt.Color(0, 0, 0));
         BRadioButtonQ3T5.setText("Dad");
-        jPanelT5.add(BRadioButtonQ3T5, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 240, 120, -1));
+        jPanel5.add(BRadioButtonQ3T5, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 290, 120, -1));
 
+        ARadioButtonQ3T5.setBackground(new java.awt.Color(210, 191, 150));
         ARadioButtonQ3T5.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        ARadioButtonQ3T5.setForeground(new java.awt.Color(0, 0, 0));
         ARadioButtonQ3T5.setText("Granddad");
-        jPanelT5.add(ARadioButtonQ3T5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 240, 100, -1));
+        jPanel5.add(ARadioButtonQ3T5, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 290, 100, -1));
 
+        CRadioButtonQ4T5.setBackground(new java.awt.Color(210, 191, 150));
         CRadioButtonQ4T5.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        CRadioButtonQ4T5.setForeground(new java.awt.Color(0, 0, 0));
         CRadioButtonQ4T5.setText("Thunder");
-        jPanelT5.add(CRadioButtonQ4T5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 360, 70, -1));
+        jPanel5.add(CRadioButtonQ4T5, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 410, 70, -1));
 
+        DRadioButtonQ4T5.setBackground(new java.awt.Color(210, 191, 150));
         DRadioButtonQ4T5.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        DRadioButtonQ4T5.setForeground(new java.awt.Color(0, 0, 0));
         DRadioButtonQ4T5.setText("Storm");
-        jPanelT5.add(DRadioButtonQ4T5, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 360, 110, -1));
+        jPanel5.add(DRadioButtonQ4T5, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 410, 110, -1));
 
+        ARadioButtonQ4T5.setBackground(new java.awt.Color(210, 191, 150));
         ARadioButtonQ4T5.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        ARadioButtonQ4T5.setForeground(new java.awt.Color(0, 0, 0));
         ARadioButtonQ4T5.setText("Lightning");
-        jPanelT5.add(ARadioButtonQ4T5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 330, 80, -1));
+        jPanel5.add(ARadioButtonQ4T5, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 380, 80, -1));
 
+        BRadioButtonQ4T5.setBackground(new java.awt.Color(210, 191, 150));
         BRadioButtonQ4T5.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
+        BRadioButtonQ4T5.setForeground(new java.awt.Color(0, 0, 0));
         BRadioButtonQ4T5.setText("Wind");
-        jPanelT5.add(BRadioButtonQ4T5, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 330, 90, -1));
+        jPanel5.add(BRadioButtonQ4T5, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 380, 90, -1));
 
-        jPanel5.add(jPanelT5, new org.netbeans.lib.awtextra.AbsoluteConstraints(325, 25, 310, 403));
+        board5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Button_Letters/BOARD 2.png"))); // NOI18N
+        jPanel5.add(board5, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 20, -1, -1));
 
         exitButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Button_Letters/next button.png"))); // NOI18N
         exitButton5.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -1173,17 +1378,17 @@ public class StoryLearning extends javax.swing.JFrame {
     private javax.swing.JLabel background2;
     private javax.swing.JLabel background3;
     private javax.swing.JLabel background4;
+    private javax.swing.JLabel board;
+    private javax.swing.JLabel board2;
+    private javax.swing.JLabel board3;
+    private javax.swing.JLabel board4;
+    private javax.swing.JLabel board5;
     private javax.swing.JLabel exitButton5;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
-    private javax.swing.JPanel jPanelT1;
-    private javax.swing.JPanel jPanelT2;
-    private javax.swing.JPanel jPanelT3;
-    private javax.swing.JPanel jPanelT4;
-    private javax.swing.JPanel jPanelT5;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
