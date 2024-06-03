@@ -160,7 +160,7 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
         TCtabbedPane1I.setBackground(new java.awt.Color(204, 204, 204));
         TCtabbedPane1I.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        instructionLabelTC1.setFont(new java.awt.Font("Dialog", 0, 48)); // NOI18N
+        instructionLabelTC1.setFont(new java.awt.Font("Comic Sans MS", 0, 50)); // NOI18N
         instructionLabelTC1.setForeground(new java.awt.Color(0, 0, 0));
         instructionLabelTC1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         instructionLabelTC1.setText("Guess the Word");
@@ -169,16 +169,17 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
-                jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGap(0, 0, Short.MAX_VALUE)
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
         );
         jPanel1Layout.setVerticalGroup(
-                jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGap(0, 0, Short.MAX_VALUE)
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
         );
 
         TCtabbedPane1I.add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 129, -1, -1));
 
+        readButtonI1.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
         readButtonI1.setText("Read");
         readButtonI1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -187,6 +188,7 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
         });
         TCtabbedPane1I.add(readButtonI1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 420, 73, -1));
 
+        clearButtonI1.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
         clearButtonI1.setText("Clear");
         clearButtonI1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -195,6 +197,7 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
         });
         TCtabbedPane1I.add(clearButtonI1, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 420, 73, -1));
 
+        hintButtonI1.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
         hintButtonI1.setText("Hint");
         hintButtonI1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -245,7 +248,7 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
 
         textAreaI1.setEditable(false);
         textAreaI1.setColumns(20);
-        textAreaI1.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        textAreaI1.setFont(new java.awt.Font("Comic Sans MS", 1, 36)); // NOI18N
         textAreaI1.setRows(5);
         TCtabbedPane1I.add(textAreaI1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 330, 320, 70));
 
@@ -285,7 +288,7 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
         TCtabbedPane2I.setBackground(new java.awt.Color(204, 204, 204));
         TCtabbedPane2I.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        instructionLabelTC2.setFont(new java.awt.Font("Dialog", 0, 48)); // NOI18N
+        instructionLabelTC2.setFont(new java.awt.Font("Comic Sans MS", 0, 50)); // NOI18N
         instructionLabelTC2.setForeground(new java.awt.Color(0, 0, 0));
         instructionLabelTC2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         instructionLabelTC2.setText("Guess the Word");
@@ -294,16 +297,17 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
-                jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGap(0, 0, Short.MAX_VALUE)
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
         );
         jPanel2Layout.setVerticalGroup(
-                jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGap(0, 0, Short.MAX_VALUE)
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
         );
 
         TCtabbedPane2I.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 129, -1, -1));
 
+        readButtonI2.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
         readButtonI2.setText("Read");
         readButtonI2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -312,6 +316,7 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
         });
         TCtabbedPane2I.add(readButtonI2, new org.netbeans.lib.awtextra.AbsoluteConstraints(184, 435, 73, -1));
 
+        clearButtonI2.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
         clearButtonI2.setText("Clear");
         clearButtonI2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -320,6 +325,7 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
         });
         TCtabbedPane2I.add(clearButtonI2, new org.netbeans.lib.awtextra.AbsoluteConstraints(268, 435, 73, -1));
 
+        hintButtonI2.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
         hintButtonI2.setText("Hint");
         hintButtonI2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -338,7 +344,7 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
 
         textAreaI2.setEditable(false);
         textAreaI2.setColumns(20);
-        textAreaI2.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        textAreaI2.setFont(new java.awt.Font("Comic Sans MS", 1, 36)); // NOI18N
         textAreaI2.setRows(5);
         TCtabbedPane2I.add(textAreaI2, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 340, 320, 80));
 
@@ -426,7 +432,7 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
         TCtabbedPane3I.setBackground(new java.awt.Color(204, 204, 204));
         TCtabbedPane3I.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        instructionLabelTC6.setFont(new java.awt.Font("Dialog", 0, 48)); // NOI18N
+        instructionLabelTC6.setFont(new java.awt.Font("Comic Sans MS", 0, 50)); // NOI18N
         instructionLabelTC6.setForeground(new java.awt.Color(0, 0, 0));
         instructionLabelTC6.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         instructionLabelTC6.setText("Guess the Word");
@@ -435,16 +441,17 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel11Layout = new javax.swing.GroupLayout(jPanel11);
         jPanel11.setLayout(jPanel11Layout);
         jPanel11Layout.setHorizontalGroup(
-                jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGap(0, 0, Short.MAX_VALUE)
+            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
         );
         jPanel11Layout.setVerticalGroup(
-                jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGap(0, 0, Short.MAX_VALUE)
+            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
         );
 
         TCtabbedPane3I.add(jPanel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 129, -1, -1));
 
+        readButtonI3.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
         readButtonI3.setText("Read");
         readButtonI3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -453,6 +460,7 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
         });
         TCtabbedPane3I.add(readButtonI3, new org.netbeans.lib.awtextra.AbsoluteConstraints(184, 435, 73, -1));
 
+        clearButtonI3.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
         clearButtonI3.setText("Clear");
         clearButtonI3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -461,6 +469,7 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
         });
         TCtabbedPane3I.add(clearButtonI3, new org.netbeans.lib.awtextra.AbsoluteConstraints(268, 435, 73, -1));
 
+        hintButtonI3.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
         hintButtonI3.setText("Hint");
         hintButtonI3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -479,7 +488,7 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
 
         textAreaI3.setEditable(false);
         textAreaI3.setColumns(20);
-        textAreaI3.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        textAreaI3.setFont(new java.awt.Font("Comic Sans MS", 1, 36)); // NOI18N
         textAreaI3.setRows(5);
         TCtabbedPane3I.add(textAreaI3, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 340, 320, 80));
 
@@ -551,7 +560,7 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
         TCtabbedPane4I.setBackground(new java.awt.Color(204, 204, 204));
         TCtabbedPane4I.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        instructionLabelTC7.setFont(new java.awt.Font("Dialog", 0, 48)); // NOI18N
+        instructionLabelTC7.setFont(new java.awt.Font("Comic Sans MS", 0, 50)); // NOI18N
         instructionLabelTC7.setForeground(new java.awt.Color(0, 0, 0));
         instructionLabelTC7.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         instructionLabelTC7.setText("Guess the Word");
@@ -560,16 +569,17 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel13Layout = new javax.swing.GroupLayout(jPanel13);
         jPanel13.setLayout(jPanel13Layout);
         jPanel13Layout.setHorizontalGroup(
-                jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGap(0, 0, Short.MAX_VALUE)
+            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
         );
         jPanel13Layout.setVerticalGroup(
-                jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGap(0, 0, Short.MAX_VALUE)
+            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
         );
 
         TCtabbedPane4I.add(jPanel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 129, -1, -1));
 
+        readButtonI4.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
         readButtonI4.setText("Read");
         readButtonI4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -578,6 +588,7 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
         });
         TCtabbedPane4I.add(readButtonI4, new org.netbeans.lib.awtextra.AbsoluteConstraints(184, 435, 73, -1));
 
+        clearButtonI4.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
         clearButtonI4.setText("Clear");
         clearButtonI4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -586,6 +597,7 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
         });
         TCtabbedPane4I.add(clearButtonI4, new org.netbeans.lib.awtextra.AbsoluteConstraints(268, 435, 73, -1));
 
+        hintButtonI4.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
         hintButtonI4.setText("Hint");
         hintButtonI4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -604,7 +616,7 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
 
         textAreaI4.setEditable(false);
         textAreaI4.setColumns(20);
-        textAreaI4.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        textAreaI4.setFont(new java.awt.Font("Comic Sans MS", 1, 36)); // NOI18N
         textAreaI4.setRows(5);
         TCtabbedPane4I.add(textAreaI4, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 340, 320, 80));
 
@@ -676,7 +688,7 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
         TCtabbedPane5I.setBackground(new java.awt.Color(204, 204, 204));
         TCtabbedPane5I.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        instructionLabelTC8.setFont(new java.awt.Font("Dialog", 0, 48)); // NOI18N
+        instructionLabelTC8.setFont(new java.awt.Font("Comic Sans MS", 0, 50)); // NOI18N
         instructionLabelTC8.setForeground(new java.awt.Color(0, 0, 0));
         instructionLabelTC8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         instructionLabelTC8.setText("Guess the Word");
@@ -685,16 +697,17 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
         javax.swing.GroupLayout jPanel15Layout = new javax.swing.GroupLayout(jPanel15);
         jPanel15.setLayout(jPanel15Layout);
         jPanel15Layout.setHorizontalGroup(
-                jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGap(0, 0, Short.MAX_VALUE)
+            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
         );
         jPanel15Layout.setVerticalGroup(
-                jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGap(0, 0, Short.MAX_VALUE)
+            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
         );
 
         TCtabbedPane5I.add(jPanel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 129, -1, -1));
 
+        readButtonI5.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
         readButtonI5.setText("Read");
         readButtonI5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -703,6 +716,7 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
         });
         TCtabbedPane5I.add(readButtonI5, new org.netbeans.lib.awtextra.AbsoluteConstraints(184, 435, 73, -1));
 
+        clearButtonI5.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
         clearButtonI5.setText("Clear");
         clearButtonI5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -711,6 +725,7 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
         });
         TCtabbedPane5I.add(clearButtonI5, new org.netbeans.lib.awtextra.AbsoluteConstraints(268, 435, 73, -1));
 
+        hintButtonI5.setFont(new java.awt.Font("Comic Sans MS", 0, 11)); // NOI18N
         hintButtonI5.setText("Hint");
         hintButtonI5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -721,7 +736,7 @@ public class IntermediateTakeChallenge extends javax.swing.JFrame {
 
         textAreaI5.setEditable(false);
         textAreaI5.setColumns(20);
-        textAreaI5.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
+        textAreaI5.setFont(new java.awt.Font("Comic Sans MS", 1, 36)); // NOI18N
         textAreaI5.setRows(5);
         TCtabbedPane5I.add(textAreaI5, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 340, 320, 80));
 
