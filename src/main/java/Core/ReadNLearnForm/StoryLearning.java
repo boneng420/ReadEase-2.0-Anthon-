@@ -356,7 +356,7 @@ public class StoryLearning extends javax.swing.JFrame {
                 readButtonT1MouseClicked(evt);
             }
         });
-        jPanel1.add(readButtonT1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 450, -1, 60));
+        jPanel1.add(readButtonT1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 450, -1, 60));
 
         background.setIcon(new javax.swing.ImageIcon(getClass().getResource("/bgbgbg.gif"))); // NOI18N
         jPanel1.add(background, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -20, 800, 600));
