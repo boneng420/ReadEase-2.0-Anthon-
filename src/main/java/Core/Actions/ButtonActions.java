@@ -205,38 +205,65 @@ public class ButtonActions {
         }
     }
 
+    private static JFrame currentVideoPlayer;
+    private static int videoCount = 0;
+
     public static void playVideoLesson(int durationInSeconds, String lessonFileName, boolean isVowel, MusicPlayer musicPlayer) {
         musicPlayer.pauseMusic();
 
-        JFrame frame = new JFrame("Video Player");
-        frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-        frame.setSize(800, 600);
+        // If the video player is visible, stop the video & dispose it
+        if (currentVideoPlayer != null && currentVideoPlayer.isVisible()) {
+            EmbeddedMediaPlayerComponent oldMediaPlayerComponent = (EmbeddedMediaPlayerComponent) currentVideoPlayer.getContentPane().getComponent(0);
+            oldMediaPlayerComponent.mediaPlayer().controls().stop();
+            currentVideoPlayer.dispose();
+        }
+
+        // Create a new video player
+        currentVideoPlayer = new JFrame();
+
+        String title = (isVowel ? "Vowel" : "Consonant");
+        title += " Lesson: " + lessonFileName;
+
+        currentVideoPlayer.setTitle(title);
+        currentVideoPlayer.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        currentVideoPlayer.setSize(800, 600);
 
         EmbeddedMediaPlayerComponent mediaPlayerComponent = new EmbeddedMediaPlayerComponent();
-        frame.add(mediaPlayerComponent, BorderLayout.CENTER);
+        currentVideoPlayer.add(mediaPlayerComponent, BorderLayout.CENTER);
 
-        frame.setLocationRelativeTo(null);
-        frame.setVisible(true);
+        currentVideoPlayer.setLocationRelativeTo(null);
+        currentVideoPlayer.setVisible(true);
 
         try {
             Path currentDirectory = Paths.get(System.getProperty("user.dir"));
             Path videoFilePath = currentDirectory.resolve(Paths.get("src", "main", "resources", "Video_Lessons", (isVowel ? "Vowels" : "Consonants"), lessonFileName + ".mp4"));
             mediaPlayerComponent.mediaPlayer().media().play(videoFilePath.toString());
 
+            // Add a flag to check if the window is closing
+            final boolean[] isWindowClosing = {false};
+
+            videoCount++;
+
             // Schedule a task to stop the video after the durationInSeconds of the video
             new Timer().schedule(new TimerTask() {
                 @Override
                 public void run() {
-                    mediaPlayerComponent.mediaPlayer().controls().stop();  // Stop the video
-                    frame.dispose();  // Close the window
-                    musicPlayer.resumeMusic();
+                    if (!isWindowClosing[0] && mediaPlayerComponent.mediaPlayer().status().isPlaying()) {
+                        mediaPlayerComponent.mediaPlayer().controls().stop();  // Stop the video
+                        currentVideoPlayer.dispose();  // Close the window
+                    }
+                    videoCount--;
+                    if (videoCount == 0) {
+                        musicPlayer.resumeMusic();
+                    }
                 }
             }, durationInSeconds * 1000L);
 
             // Add a window listener to release the media player when the JFrame is closed
-            frame.addWindowListener(new WindowAdapter() {
+            currentVideoPlayer.addWindowListener(new WindowAdapter() {
                 @Override
                 public void windowClosing(WindowEvent e) {
+                    isWindowClosing[0] = true;
                     mediaPlayerComponent.mediaPlayer().release();
                     musicPlayer.resumeMusic();
                 }

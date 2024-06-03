@@ -33,8 +33,7 @@ public class VideoLearning extends javax.swing.JFrame {
         nextButton.setBorderPainted(false);
         nextButton.setBackground(new Color(0, 0, 0, 0));
 
-        musicPlayer = new MusicPlayer();
-        musicPlayer.playMusic("Audio/Background Music/POU FREE-FALL.mp3");
+        musicPlayer = MusicPlayer.getInstance();
 
         vowels1.setMusicPlayer(musicPlayer);
         consonants.setMusicPlayer(musicPlayer);

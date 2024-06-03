@@ -24,8 +24,7 @@ public class HardTakeChallenge extends javax.swing.JFrame {
     public HardTakeChallenge() {
         initComponents();
 
-        musicPlayer = new MusicPlayer();
-        musicPlayer.playMusic("Audio/Background Music/POU FREE-FALL.mp3");
+        musicPlayer = MusicPlayer.getInstance();
 
         ImageIcon originalIcon = new ImageIcon(getClass().getResource("/Assessment/Take Challenge/ELEPHANT.png"));
         ImageIcon icon = new ImageIcon(originalIcon.getImage().getScaledInstance(iconT1.getWidth(), iconT1.getHeight(), java.awt.Image.SCALE_SMOOTH));

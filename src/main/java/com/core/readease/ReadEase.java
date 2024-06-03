@@ -11,8 +11,9 @@ import Utilities.MusicPlayer;
  */
 public class ReadEase {
     public static void main(String[] args) {
-        MusicPlayer musicPlayer = new MusicPlayer();
-        musicPlayer.playMusic("Audio/Background Music/POU FREE-FALL.mp3");
+        MusicPlayer musicPlayer = MusicPlayer.getInstance();
+//        musicPlayer.playMusic("Audio/Background Music/POU FREE-FALL.mp3");
+        musicPlayer.playMusic("Audio/Bach.mp3");
         new StartingPage().setVisible(true);
     }
 }

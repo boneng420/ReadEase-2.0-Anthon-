@@ -23,8 +23,7 @@ public class StoryLearning extends javax.swing.JFrame {
     public StoryLearning() {
         initComponents();
 
-        musicPlayer = new MusicPlayer();
-        musicPlayer.playMusic("Audio/Background Music/POU FREE-FALL.mp3");
+        musicPlayer = MusicPlayer.getInstance();
 
         ButtonGroup groupQ1T1 = new ButtonGroup();
         groupQ1T1.add(ARadioButtonQ1T1);

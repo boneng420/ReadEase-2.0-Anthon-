@@ -21,8 +21,7 @@ public class OralAssessment extends javax.swing.JFrame {
     public OralAssessment() {
         initComponents();
 
-        musicPlayer = new MusicPlayer();
-        musicPlayer.playMusic("Audio/Background Music/POU FREE-FALL.mp3");
+        musicPlayer = MusicPlayer.getInstance();
 
         clearButton5.setOpaque(false);
         clearButton5.setContentAreaFilled(false);
